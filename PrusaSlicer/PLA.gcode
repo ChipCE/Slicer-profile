@@ -1,0 +1,1 @@
+{if printer_model=~/.*CUSTOM.*/}M900 K0.041{elsif printer_model=~/.*MK3.*/}M900 K30{else}M900 K0{endif} ; Linear advance

@@ -5,9 +5,9 @@ M83 ; extruder relative mode
 
 M117 Parking extruder
 G28 ; Home
-G1 X0 Y85 F2500 ; XY parking
+G0 X0 Y75 F2500 ; XY parking
 M400 ;
-G1 Z50 F420 ; Z parking
+G0 Z50 F420 ; Z parking
 M400 ;
 
 ; then preheat (PRUSA SLICER ONLY)
@@ -16,18 +16,17 @@ M140 S[first_layer_bed_temperature] ; set bed temp
 M190 S[first_layer_bed_temperature] ; wait for bed temp
 M109 S[first_layer_temperature] ; wait for extruder temp
 
-M400 ; wait for complete
-M300 S440 P500 ; play sound
-M0 S30 Wait for clean nozzle ; wait for user to clean nozzle
-M400 ;
-
 G28 ; home
 G29 ; mesh bed leveling
 
-M211 S0 ; Disable software endtop to allow nozzel move to y=-1
-G1 X180 Y-1 F2500.0 ; go outside print area
+M211 S0 ; Disable software endtop to allow nozzle move to y=-1
+G0 X180 Y-1 F2500.0 ; go outside print area
+G0 Z30 F420 ; raise nozzle
+M300 S440 P500 ; play sound
+M0 S30 Wait for cleanning ; wait for user to clean nozzle and bed
 M400 ;
-G1 Z0.3 F420.0 ; Lower Z
+
+G0 Z0.3 F420.0 ; Lower Z
 M400 ;
 G92 E0.0 ; reset extruder distance position
 G1 X130.0 E9.0 F1000.0 ; intro line
@@ -49,7 +48,7 @@ M107 ; turn off fan
 M400 ;
 {if layer_z < max_print_height}G1 Z{z_offset+min(layer_z+30, max_print_height)}{endif} F420; Move print head up
 M400 ;
-G1 X0 Y170 F3000 ; home X axis
+G0 X0 Y170 F3000 ; home X axis
 M300 S440 P300 ; play sound
 M300 S0 P100 ; mute
 M300 S440 P300 ; play sound

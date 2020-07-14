@@ -7,9 +7,9 @@ M83 ; extruder relative mode
 M117 Parking extruder
 G28 W ; home all without mesh bed level
 M400 ;
-G1 Z50 F1000 ; Z parking
+G0 Z50 F1000 ; Z parking
 M400 ;
-G1 X0 Y100 F2500 ; XY parking
+G0 X0 Y100 F2500 ; XY parking
 M400 ;
 
 
@@ -27,7 +27,7 @@ M400 ;
 G28 W ; home all without mesh bed level
 G80 ; mesh bed leveling
 
-G1 Y-3.0 F1000.0 ; go outside print area
+G0 Y-3.0 F1000.0 ; go outside print area
 G92 E0.0
 G1 X60.0 E9.0 F1000.0 ; intro line
 G1 X100.0 E12.5 F1000.0 ; intro line
@@ -44,7 +44,7 @@ M104 S0 ; turn off temperature
 M140 S0 ; turn off heatbed
 M107 ; turn off fan
 {if layer_z < max_print_height}G1 Z{z_offset+min(layer_z+30, max_print_height)}{endif} ; Move print head up
-G1 X0 Y200 F2500 ; home X axis
+G0 X0 Y200 F2500 ; home X axis
 M300 S440 P300 ; play sound
 M300 S0 P100 ; mute
 M300 S440 P300 ; play sound

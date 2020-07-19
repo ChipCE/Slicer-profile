@@ -5,7 +5,7 @@ M83 ; extruder relative mode
 
 M117 Parking extruder
 G28 ; Home
-G0 X0 Y75 F2500 ; XY parking
+G0 X0 Y85 F2500 ; XY parking
 M400 ;
 G0 Z50 F420 ; Z parking
 M400 ;
@@ -21,7 +21,7 @@ G29 ; mesh bed leveling
 
 
 G0 Z50 F420 ; raise nozzle
-G0 X180 Y170 F2500.0 ; push the bed out
+G0 X170 Y180 F2500.0 ; push the bed out
 M400 ;
 M300 S440 P500 ; play sound
 M0 S30 Wait for cleanning ; wait for user to clean nozzle and bed
@@ -32,11 +32,11 @@ G0 Z0.3 F420.0 ; Lower Z
 M400 ;
 M221 S95 ; flow rate
 G92 E0.0 ; reset extruder distance position
-G1 X130.0 E9.0 F1000.0 ; intro line
-G1 X90.0 E21.5 F1000.0 ; intro line
+G1 X120.0 E9.0 F1000.0 ; intro line
+G1 X80.0 E21.5 F1000.0 ; intro line
 
 M400 ;
-G1 Z2.0 F420 ; lift the extruder a bit
+G0 Z2.0 F420 ; lift the extruder a bit
 M400 ;
 G1 Y0 ; move to Y0
 M211 S1 ; re-enable software endstop

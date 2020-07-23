@@ -1,1 +1,1 @@
-{if printer_model=~/.*WEIRDBEAR.*/}M900 K0.041{elsif printer_model=~/.*MK3.*/}M900 K30{elsif printer_model=~/.*LOLIBEAR.*/}M900 K0.2{else}M900 K0{endif} ; Linear advance
+{if printer_model=~/.*WEIRDBEAR.*/}M900 K0.041{elsif printer_model=~/.*MK3.*/}M900 K30{elsif printer_model=~/.*LOLIBEAR.*/}M900 K0.041{else}M900 K0{endif} ; Linear advance

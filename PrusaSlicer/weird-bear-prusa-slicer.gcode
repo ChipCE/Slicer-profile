@@ -24,7 +24,6 @@ M400 ;
 G28 ; home
 G29 ; mesh bed leveling
 
-M211 S0 ; Disable software endtop to allow nozzel move to y=-1
 G0 Y-1 F2500.0 ; go outside print area
 M400 ;
 G0 Z0.3 F420.0 ; Lower Z
@@ -37,7 +36,6 @@ M400 ;
 G0 Z2.0 F420 ; lift the extruder a bit
 M400 ;
 G0 Y0 ; move to Y0
-M211 S1 ; re-enable software endstop
 G92 E0.0 ; reset extruder distance position
 
 

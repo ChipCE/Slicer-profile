@@ -26,7 +26,6 @@ M400 ;
 M300 S440 P500 ; play sound
 M0 S30 Wait for cleanning ; wait for user to clean nozzle and bed
 
-M211 S0 ; Disable software endtop to allow nozzle move to y=-1
 G0 X175 Y-1 F2500.0 ; go outside print area
 G0 Z0.3 F1000.0 ; Lower Z
 M400 ;
@@ -39,7 +38,6 @@ M400 ;
 G0 Z2.0 F1000 ; lift the extruder a bit
 M400 ;
 G1 Y0 ; move to Y0
-M211 S1 ; re-enable software endstop
 G92 E0.0 ; reset extruder distance position
 
 ; ------------------- STOP GCODE -------------------

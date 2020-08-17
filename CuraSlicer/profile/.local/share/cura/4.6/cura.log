@@ -1,0 +1,814 @@
+2020-08-17 21:21:59,355 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FileLogger
+2020-08-17 21:21:59,368 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdateChecker
+2020-08-17 21:21:59,381 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdater
+2020-08-17 21:21:59,388 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzReader
+2020-08-17 21:21:59,396 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzWriter
+2020-08-17 21:21:59,405 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeProfileReader
+2020-08-17 21:21:59,432 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeReader
+2020-08-17 21:21:59,444 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeWriter
+2020-08-17 21:21:59,456 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ImageReader
+2020-08-17 21:21:59,465 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LegacyProfileReader
+2020-08-17 21:21:59,477 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalContainerProvider
+2020-08-17 21:21:59,493 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalFileOutputDevice
+2020-08-17 21:21:59,504 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MachineSettingsAction
+2020-08-17 21:21:59,512 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ModelChecker
+2020-08-17 21:21:59,526 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MonitorStage
+2020-08-17 21:21:59,545 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PerObjectSettingsTool
+2020-08-17 21:21:59,560 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PostProcessingPlugin
+2020-08-17 21:21:59,568 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PrepareStage
+2020-08-17 21:21:59,576 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PreviewStage
+2020-08-17 21:21:59,588 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RemovableDriveOutputDevice
+2020-08-17 21:21:59,596 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SentryLogger
+2020-08-17 21:21:59,673 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimulationView
+2020-08-17 21:21:59,688 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SliceInfoPlugin
+2020-08-17 21:21:59,703 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SolidView
+2020-08-17 21:21:59,716 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SupportEraser
+2020-08-17 21:21:59,760 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-08-17 21:21:59,764 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-08-17 21:21:59,768 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-08-17 21:21:59,771 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-08-17 21:21:59,774 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-08-17 21:21:59,777 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-08-17 21:21:59,780 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-08-17 21:21:59,783 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-08-17 21:21:59,790 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin Toolbox
+2020-08-17 21:21:59,803 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CameraTool
+2020-08-17 21:21:59,814 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MirrorTool
+2020-08-17 21:21:59,830 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RotateTool
+2020-08-17 21:21:59,847 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ScaleTool
+2020-08-17 21:21:59,858 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SelectionTool
+2020-08-17 21:21:59,872 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TranslateTool
+2020-08-17 21:21:59,881 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TrimeshReader
+2020-08-17 21:21:59,897 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPReader
+2020-08-17 21:21:59,911 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPWriter
+2020-08-17 21:22:00,047 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UM3NetworkPrinting
+2020-08-17 21:22:00,087 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin USBPrinting
+2020-08-17 21:22:00,099 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UltimakerMachineActions
+2020-08-17 21:22:00,112 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UpdateChecker
+2020-08-17 21:22:00,114 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [40]: Checking for new version of cura
+2020-08-17 21:22:00,144 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade21to22
+2020-08-17 21:22:00,155 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade22to24
+2020-08-17 21:22:00,169 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade25to26
+2020-08-17 21:22:00,177 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade26to27
+2020-08-17 21:22:00,186 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade27to30
+2020-08-17 21:22:00,194 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade30to31
+2020-08-17 21:22:00,203 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade32to33
+2020-08-17 21:22:00,213 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade33to34
+2020-08-17 21:22:00,224 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade34to35
+2020-08-17 21:22:00,235 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade35to40
+2020-08-17 21:22:00,244 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade40to41
+2020-08-17 21:22:00,256 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade41to42
+2020-08-17 21:22:00,270 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade42to43
+2020-08-17 21:22:00,280 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade43to44
+2020-08-17 21:22:00,290 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade44to45
+2020-08-17 21:22:00,299 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade45to46
+2020-08-17 21:22:00,309 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade460to462
+2020-08-17 21:22:00,321 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimpleView
+2020-08-17 21:22:00,343 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin X3DReader
+2020-08-17 21:22:00,352 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XRayView
+2020-08-17 21:22:00,377 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XmlMaterialProfile
+2020-08-17 21:22:00,385 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [374]: Loading all plugins took 1.3706109523773193 seconds
+2020-08-17 21:22:00,395 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [160]: Looking for old configuration files to upgrade.
+2020-08-17 21:22:00,406 - INFO - [MainThread] UM.Qt.QtApplication.startSplashWindowPhase [226]: The preferences file cannot be found or it is corrupted, so we will use default values
+2020-08-17 21:22:00,411 - INFO - [MainThread] UM.Qt.QtApplication.startSplashWindowPhase [235]: The preferences file 'None' cannot be found, will use default values
+2020-08-17 21:22:04,641 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [360]: Loading metadata into container registry took 4.205105543136597 seconds
+2020-08-17 21:22:05,009 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [111]: Select build plate: 0
+2020-08-17 21:22:05,014 - INFO - [MainThread] cura.CuraApplication.run [751]: Initializing machine error checker
+2020-08-17 21:22:05,019 - INFO - [MainThread] cura.CuraApplication.run [756]: Initializing machine manager
+2020-08-17 21:22:05,025 - INFO - [MainThread] cura.CuraApplication.run [761]: Initializing container manager
+2020-08-17 21:22:05,339 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition fdmprinter failed to pickle.
+2020-08-17 21:22:05,366 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2020-08-17 21:22:05,421 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [158]: Loading theme file: /tmp/.mount_UltimaSBsGcb/usr/bin/resources/themes/cura-light/theme.json
+2020-08-17 21:22:06,537 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [231]: Loaded theme /tmp/.mount_UltimaSBsGcb/usr/bin/resources/themes/cura-light
+2020-08-17 21:22:09,065 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [311]: Creating post processing plugin view.
+2020-08-17 21:22:09,071 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: BQ_PauseAtHeight
+2020-08-17 21:22:09,076 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ChangeAtZ
+2020-08-17 21:22:09,079 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ColorMix
+2020-08-17 21:22:09,081 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2020-08-17 21:22:09,083 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayRemainingTimeOnLCD
+2020-08-17 21:22:09,084 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: FilamentChange
+2020-08-17 21:22:09,086 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: InsertAtLayerChange
+2020-08-17 21:22:09,090 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeight
+2020-08-17 21:22:09,091 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightRepRapFirmwareDuet
+2020-08-17 21:22:09,094 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightforRepetier
+2020-08-17 21:22:09,096 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: RetractContinue
+2020-08-17 21:22:09,097 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: SearchAndReplace
+2020-08-17 21:22:09,105 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: Stretch
+2020-08-17 21:22:09,107 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: TimeLapse
+2020-08-17 21:22:09,109 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: UsePreviousProbeMeasurements
+2020-08-17 21:22:09,506 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [321]: Post processing view created.
+2020-08-17 21:22:10,102 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-08-17 21:22:10,106 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-08-17 21:22:10,110 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-08-17 21:22:10,966 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Dialogs/WorkspaceSummaryDialog.qml:146: TypeError: Cannot read property 'extruderList' of null
+2020-08-17 21:22:10,970 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/PrintSetupSelector/Custom/CustomPrintSetup.qml:76:29: Unable to assign null to double
+2020-08-17 21:22:10,983 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2020-08-17 21:22:11,237 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:22:11,242 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Menus/ConfigurationMenu/ConfigurationMenu.qml:143: TypeError: Cannot read property 'hasRemoteConnection' of null
+2020-08-17 21:22:11,268 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Menus/ConfigurationMenu/ConfigurationMenu.qml:47: TypeError: Cannot read property 'hasMaterials' of null
+2020-08-17 21:22:11,272 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Menus/ConfigurationMenu/ConfigurationMenu.qml:118: TypeError: Cannot read property 'hasMaterials' of null
+2020-08-17 21:22:11,275 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-08-17 21:22:11,279 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-08-17 21:22:11,282 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Menus/ConfigurationMenu/CustomConfiguration.qml:247: TypeError: Cannot read property 'hasMaterials' of null
+2020-08-17 21:22:11,286 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Menus/ConfigurationMenu/CustomConfiguration.qml:308: TypeError: Cannot read property 'hasVariants' of null
+2020-08-17 21:22:11,289 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Menus/ConfigurationMenu/ConfigurationMenu.qml:35: TypeError: Cannot read property 'hasMaterials' of null
+2020-08-17 21:22:11,448 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2020-08-17 21:22:11,450 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [111]: Creating model checker view.
+2020-08-17 21:22:11,469 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [120]: Model checker view created.
+2020-08-17 21:22:11,470 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [71]: Creating dialog [MoreInfoWindow.qml]
+2020-08-17 21:22:11,511 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [542]: Requesting [updates] metadata from server.
+2020-08-17 21:22:11,517 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [112]: No auth data to retrieve the access_token from
+2020-08-17 21:22:11,521 - WARNING - [MainThread] UM.Logger.warning [128]: Cannot add authorization to Cloud Api request
+2020-08-17 21:22:11,530 - DEBUG - [MainThread] cura.CuraApplication.run [799]: Booting Cura took 18.165989637374878 seconds
+2020-08-17 21:22:11,542 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._processRequest [346]: Request [964512b484c443588ee6389a590e8547] started
+2020-08-17 21:22:11,545 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-08-17 21:22:11,555 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:22:11,558 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [39]: No active GlobalStack, set CustomQualityProfilesDropDownMenuModel as empty.
+2020-08-17 21:22:11,562 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:22:11,565 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [75]: No active GlobalStack, set quality profile model as empty.
+2020-08-17 21:22:11,775 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [207]: Support for Vertex Array Objects: True
+2020-08-17 21:22:11,790 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
+2020-08-17 21:22:11,794 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.5 (Core Profile) Mesa 20.1.5
+2020-08-17 21:22:11,800 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   Intel Open Source Technology Center
+2020-08-17 21:22:11,804 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: Mesa DRI Intel(R) HD Graphics 4400 (HSW GT2)
+2020-08-17 21:22:11,807 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    4.50.0
+2020-08-17 21:22:11,815 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/default.shader]...
+2020-08-17 21:22:11,825 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/selection.shader]...
+2020-08-17 21:22:11,836 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/select_face.shader]...
+2020-08-17 21:22:11,844 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/default.shader]...
+2020-08-17 21:22:11,853 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/composite.shader]...
+2020-08-17 21:22:11,871 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/overhang.shader]...
+2020-08-17 21:22:11,889 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/striped.shader]...
+2020-08-17 21:22:11,907 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/transparent_object.shader]...
+2020-08-17 21:22:11,921 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/striped.shader]...
+2020-08-17 21:22:11,926 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/xray.shader]...
+2020-08-17 21:22:11,934 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/xray_composite.shader]...
+2020-08-17 21:22:11,957 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/platform.shader]...
+2020-08-17 21:22:11,974 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/xray.shader]...
+2020-08-17 21:22:12,683 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [408]: Request [964512b484c443588ee6389a590e8547] finished.
+2020-08-17 21:22:12,691 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-08-17 21:22:18,350 - INFO - [MainThread] cura.CuraApplication.writeToLog [570]: User accepted the User-Agreement.
+2020-08-17 21:22:28,029 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:23:05,176 - INFO - [MainThread] cura.Settings.MachineManager.addMachine [358]: Trying to add a machine with the definition id [prusa_i3_mk3]
+2020-08-17 21:23:05,464 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition prusa_i3_mk3 failed to pickle.
+2020-08-17 21:23:05,728 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [106]: Adding container tree for prusa_i3_mk3 took 0.2573888301849365 seconds.
+2020-08-17 21:23:05,989 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [102]: Could not find preferred nozzle . Falling back to empty.
+2020-08-17 21:23:06,042 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [184]: Extruder[prusa_i3_mk3_extruder_0 #2] added to [Fake Bear] at position [0]
+2020-08-17 21:23:06,047 - WARNING - [MainThread] UM.Decorators.deprecated_function [23]: <function GlobalStack.extruders at 0x4518d98> is deprecated (since 4.4): Please use extruderList instead.
+2020-08-17 21:23:06,051 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [72]: Default machine actions added for machine definition [prusa_i3_mk3]
+2020-08-17 21:23:06,059 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [179]: Extruder [prusa_i3_mk3_extruder_0 #2] has already been added to this stack [Fake Bear]
+2020-08-17 21:23:06,063 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #2] has already been registered on machine [Fake Bear], not doing anything
+2020-08-17 21:23:06,067 - INFO - [MainThread] UM.Logger.info [122]: Initializing Active Machine...
+2020-08-17 21:23:06,091 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:23:06,170 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:23:06,174 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:23:06,184 - INFO - [Thread-3] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+2020-08-17 21:23:06,319 - DEBUG - [Thread-3] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.0044209957122802734 seconds
+2020-08-17 21:23:06,320 - DEBUG - [Thread-3] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
+2020-08-17 21:23:06,327 - DEBUG - [MainThread] cura.UI.WelcomePagesModel.goToNextPage [132]: Page [machine_actions] should not be displayed, look for the next page.
+2020-08-17 21:23:06,382 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [74]: No machine with name Prusa i3 Mk3/Mk3s in list of firmware to check.
+2020-08-17 21:23:06,435 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:23:06,705 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:23:06,714 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:23:07,042 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/default.shader]...
+2020-08-17 21:23:07,048 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaSBsGcb/usr/bin/resources/shaders/grid.shader]...
+2020-08-17 21:23:07,100 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:23:07,105 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:23:07,852 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 1.4s
+2020-08-17 21:23:16,030 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:41:01,418 - INFO - [MainThread] cura.Settings.MachineManager.addMachine [358]: Trying to add a machine with the definition id [prusa_i3_mk3]
+2020-08-17 21:41:01,456 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [102]: Could not find preferred nozzle . Falling back to empty.
+2020-08-17 21:41:01,496 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [184]: Extruder[prusa_i3_mk3_extruder_0 #3] added to [Weird Bear] at position [0]
+2020-08-17 21:41:01,503 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [56]: Default machine actions have been added for machine definition [prusa_i3_mk3], do nothing.
+2020-08-17 21:41:01,511 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [179]: Extruder [prusa_i3_mk3_extruder_0 #3] has already been added to this stack [Weird Bear]
+2020-08-17 21:41:01,515 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #3] has already been registered on machine [Weird Bear], not doing anything
+2020-08-17 21:41:01,519 - INFO - [MainThread] UM.Logger.info [122]: Initializing Active Machine...
+2020-08-17 21:41:01,529 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:41:01,609 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:41:01,613 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:41:01,629 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:41:01,642 - INFO - [Thread-4] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+2020-08-17 21:41:01,769 - DEBUG - [Thread-4] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.0020711421966552734 seconds
+2020-08-17 21:41:01,770 - DEBUG - [Thread-4] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
+2020-08-17 21:41:01,778 - DEBUG - [MainThread] cura.UI.WelcomePagesModel.goToNextPage [132]: Page [machine_actions] should not be displayed, look for the next page.
+2020-08-17 21:41:01,869 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:41:01,895 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:41:01,907 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:41:02,939 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 1.1s
+2020-08-17 21:41:12,031 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:41:20,174 - INFO - [MainThread] cura.Settings.MachineManager.addMachine [358]: Trying to add a machine with the definition id [prusa_i3_mk3]
+2020-08-17 21:41:20,209 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [102]: Could not find preferred nozzle . Falling back to empty.
+2020-08-17 21:41:20,249 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [184]: Extruder[prusa_i3_mk3_extruder_0 #4] added to [Loli Bear] at position [0]
+2020-08-17 21:41:20,256 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [56]: Default machine actions have been added for machine definition [prusa_i3_mk3], do nothing.
+2020-08-17 21:41:20,265 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [179]: Extruder [prusa_i3_mk3_extruder_0 #4] has already been added to this stack [Loli Bear]
+2020-08-17 21:41:20,268 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #4] has already been registered on machine [Loli Bear], not doing anything
+2020-08-17 21:41:20,272 - INFO - [MainThread] UM.Logger.info [122]: Initializing Active Machine...
+2020-08-17 21:41:20,283 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:41:20,351 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:41:20,355 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:41:20,372 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:41:20,385 - INFO - [Thread-1] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+2020-08-17 21:41:20,502 - DEBUG - [Thread-1] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.002326488494873047 seconds
+2020-08-17 21:41:20,503 - DEBUG - [Thread-1] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
+2020-08-17 21:41:20,512 - DEBUG - [MainThread] cura.UI.WelcomePagesModel.goToNextPage [132]: Page [machine_actions] should not be displayed, look for the next page.
+2020-08-17 21:41:20,615 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:41:20,637 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:41:20,648 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:41:21,686 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 1.1s
+2020-08-17 21:41:30,032 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:41:53,482 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [56]: Default machine actions have been added for machine definition [prusa_i3_mk3], do nothing.
+2020-08-17 21:41:53,490 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [179]: Extruder [prusa_i3_mk3_extruder_0 #2] has already been added to this stack [Fake Bear]
+2020-08-17 21:41:53,494 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #2] has already been registered on machine [Fake Bear], not doing anything
+2020-08-17 21:41:53,498 - INFO - [MainThread] UM.Logger.info [122]: Initializing Active Machine...
+2020-08-17 21:41:53,509 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:41:53,575 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:41:53,579 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:41:53,596 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:41:53,609 - INFO - [Thread-2] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+2020-08-17 21:41:53,725 - DEBUG - [Thread-2] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.0021719932556152344 seconds
+2020-08-17 21:41:53,728 - DEBUG - [Thread-2] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
+2020-08-17 21:41:53,774 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:41:53,839 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:41:53,849 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:41:54,890 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 1.1s
+2020-08-17 21:42:01,699 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:42:02,288 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:42:12,032 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:42:28,494 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:42:28,982 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:42:38,032 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:42:43,734 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:42:43,801 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:42:43,805 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:42:43,826 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:42:43,958 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:42:43,963 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:42:44,268 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:42:45,226 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 1.0s
+2020-08-17 21:42:54,032 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:43:13,011 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [56]: Default machine actions have been added for machine definition [prusa_i3_mk3], do nothing.
+2020-08-17 21:43:13,019 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [179]: Extruder [prusa_i3_mk3_extruder_0 #4] has already been added to this stack [Loli Bear]
+2020-08-17 21:43:13,022 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #4] has already been registered on machine [Loli Bear], not doing anything
+2020-08-17 21:43:13,028 - INFO - [MainThread] UM.Logger.info [122]: Initializing Active Machine...
+2020-08-17 21:43:13,039 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:43:13,112 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:43:13,117 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:43:13,134 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:43:13,148 - INFO - [Thread-3] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+2020-08-17 21:43:13,284 - DEBUG - [Thread-3] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.0020570755004882812 seconds
+2020-08-17 21:43:13,286 - DEBUG - [Thread-3] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
+2020-08-17 21:43:13,345 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:43:13,397 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:43:13,402 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:43:14,417 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 1.1s
+2020-08-17 21:43:23,030 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:43:57,090 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:43:57,608 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:44:07,032 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:44:17,231 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:44:17,691 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:44:27,030 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:45:11,481 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:11,550 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:11,554 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:11,580 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:11,658 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:45:11,663 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:45:11,974 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:45:12,614 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:45:13,420 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:13,488 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:13,493 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:13,518 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:13,611 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:45:13,615 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:45:13,931 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:45:14,563 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:45:19,853 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:19,922 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:19,926 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:19,953 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:20,056 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:45:20,061 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:45:20,421 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:45:21,016 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:45:30,032 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:45:36,744 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [56]: Default machine actions have been added for machine definition [prusa_i3_mk3], do nothing.
+2020-08-17 21:45:36,755 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [179]: Extruder [prusa_i3_mk3_extruder_0 #3] has already been added to this stack [Weird Bear]
+2020-08-17 21:45:36,759 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #3] has already been registered on machine [Weird Bear], not doing anything
+2020-08-17 21:45:36,764 - INFO - [MainThread] UM.Logger.info [122]: Initializing Active Machine...
+2020-08-17 21:45:36,775 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:36,849 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:36,854 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:36,874 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:45:36,888 - INFO - [Thread-4] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+2020-08-17 21:45:37,012 - DEBUG - [Thread-4] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.0017228126525878906 seconds
+2020-08-17 21:45:37,014 - DEBUG - [Thread-4] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
+2020-08-17 21:45:37,076 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:45:37,126 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:45:37,131 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:45:38,187 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 1.1s
+2020-08-17 21:45:47,029 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:45:55,715 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:45:56,199 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:46:04,557 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:46:04,985 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.4s
+2020-08-17 21:46:14,032 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:46:30,564 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:46:30,634 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:46:30,639 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:46:30,663 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:46:30,748 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:46:30,752 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:46:31,087 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:46:31,708 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:46:41,032 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:47:12,385 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:47:12,465 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:47:12,471 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:47:12,500 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:47:12,603 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:47:12,608 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:47:12,988 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:47:13,619 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:47:14,132 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [56]: Default machine actions have been added for machine definition [prusa_i3_mk3], do nothing.
+2020-08-17 21:47:14,137 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [179]: Extruder [prusa_i3_mk3_extruder_0 #4] has already been added to this stack [Loli Bear]
+2020-08-17 21:47:14,141 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #4] has already been registered on machine [Loli Bear], not doing anything
+2020-08-17 21:47:14,147 - INFO - [MainThread] UM.Logger.info [122]: Initializing Active Machine...
+2020-08-17 21:47:14,158 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:47:14,233 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:47:14,239 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:47:14,259 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:47:14,277 - INFO - [Thread-1] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+2020-08-17 21:47:14,395 - DEBUG - [Thread-1] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.0019307136535644531 seconds
+2020-08-17 21:47:14,396 - DEBUG - [Thread-1] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
+2020-08-17 21:47:14,462 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:47:14,511 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:47:14,517 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:47:15,597 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 1.1s
+2020-08-17 21:47:21,402 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:47:21,480 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:47:21,485 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:47:21,520 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-17 21:47:21,629 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:47:21,635 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:47:22,006 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:47:22,632 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:47:26,565 - WARNING - [MainThread] UM.PluginRegistry._populateMetaData [686]: Could not find plugin global_stack
+2020-08-17 21:47:26,569 - WARNING - [MainThread] UM.PluginRegistry._populateMetaData [686]: Could not find plugin extruder_stack
+2020-08-17 21:47:26,575 - WARNING - [MainThread] cura.Settings.ContainerManager.getContainerMetaDataEntry [58]: Could not get metadata of container Unknown because it was not found.
+2020-08-17 21:47:26,784 - WARNING - [MainThread] cura.Settings.ContainerManager.getContainerMetaDataEntry [58]: Could not get metadata of container Unknown because it was not found.
+2020-08-17 21:47:26,813 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Preferences/Materials/MaterialsDetailsPanel.qml:91: TypeError: Cannot read property 'container_node' of null
+2020-08-17 21:47:26,830 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Preferences/Materials/MaterialsPage.qml:272:13: QML MaterialsList: Binding loop detected for property "height"
+2020-08-17 21:47:26,835 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Preferences/Materials/MaterialsList.qml:136:5: QML Column: Binding loop detected for property "height"
+2020-08-17 21:47:27,209 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Preferences/Materials/MaterialsBrandSection.qml:94:5: QML Column: Binding loop detected for property "height"
+2020-08-17 21:47:35,423 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Preferences/Materials/MaterialsBrandSection.qml:94:5: QML Column: Binding loop detected for property "height"
+2020-08-17 21:47:35,428 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Preferences/Materials/MaterialsTypeSection.qml:108:5: QML Column: Binding loop detected for property "height"
+2020-08-17 21:47:35,444 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
+2020-08-17 21:47:35,448 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [normal]
+2020-08-17 21:47:35,452 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [normal] is available, applying changes.
+2020-08-17 21:47:35,461 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 21:47:35,654 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:47:35,661 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:47:35,680 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:47:37,749 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:47:37,754 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:47:38,212 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 2.5s
+2020-08-17 21:47:45,031 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:47:45,421 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition creality_ender4 failed to pickle.
+2020-08-17 21:47:45,901 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition creality_cr10mini failed to pickle.
+2020-08-17 21:47:46,194 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition alyanx3dp failed to pickle.
+2020-08-17 21:47:46,499 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition imade3d_jellybox failed to pickle.
+2020-08-17 21:47:46,855 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition creality_base failed to pickle.
+2020-08-17 21:47:47,273 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition alya3dp failed to pickle.
+2020-08-17 21:47:47,658 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition creality_ender5 failed to pickle.
+2020-08-17 21:47:47,962 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition cartesio failed to pickle.
+2020-08-17 21:47:48,443 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition kupido failed to pickle.
+2020-08-17 21:47:48,838 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition creality_ender3 failed to pickle.
+2020-08-17 21:47:49,238 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition creality_ender2 failed to pickle.
+2020-08-17 21:47:49,649 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition creality_cr10spro failed to pickle.
+2020-08-17 21:47:50,036 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition creality_cr10s5 failed to pickle.
+2020-08-17 21:47:50,617 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition creality_cr10s4 failed to pickle.
+2020-08-17 21:47:51,030 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition creality_cr10s failed to pickle.
+2020-08-17 21:47:51,437 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition creality_cr20pro failed to pickle.
+2020-08-17 21:47:51,827 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition creality_cr10 failed to pickle.
+2020-08-17 21:47:52,216 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition creality_cr20 failed to pickle.
+2020-08-17 21:47:52,616 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:47:52,625 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:48:25,990 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Preferences/Materials/MaterialsTypeSection.qml:108:5: QML Column: Binding loop detected for property "height"
+2020-08-17 21:48:37,685 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:49:03,751 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:49:04,173 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.4s
+2020-08-17 21:49:09,228 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:49:09,678 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:49:15,472 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:49:15,938 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:49:48,632 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:49:49,068 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.4s
+2020-08-17 21:50:05,271 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:50:05,761 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:50:23,507 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:50:23,989 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:50:27,916 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:50:29,592 - WARNING - [MainThread] cura.Settings.ContainerManager.getContainerMetaDataEntry [58]: Could not get metadata of container Unknown because it was not found.
+2020-08-17 21:50:29,828 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Preferences/Materials/MaterialsPage.qml:272:13: QML MaterialsList: Binding loop detected for property "height"
+2020-08-17 21:50:29,834 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Preferences/Materials/MaterialsList.qml:136:5: QML Column: Binding loop detected for property "height"
+2020-08-17 21:50:46,949 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
+2020-08-17 21:50:46,953 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [normal]
+2020-08-17 21:50:46,957 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [normal] is available, applying changes.
+2020-08-17 21:50:46,966 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 21:50:47,707 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:50:47,713 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:50:47,721 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:50:47,740 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:50:51,013 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:50:51,019 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:50:51,894 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 4.2s
+2020-08-17 21:50:57,031 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:52:05,819 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 21:52:05,823 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 21:52:05,884 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 21:52:12,037 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:52:31,713 - DEBUG - [MainThread] cura.Settings.CuraContainerRegistry.importProfile [174]: Attempting to import profile /home/chip/Data/Code/Slicer-profile/CuraSlicer/Weird-bear-PETG.curaprofile
+2020-08-17 21:52:31,828 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:52:31,841 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:52:31,854 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:52:31,860 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:52:37,599 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 21:52:42,031 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:52:42,157 - WARNING - [MainThread] UM.Settings.InstanceContainer.setProperty [372]: Tried to set value of setting material_linear_advance_factor that has no instance in container Weird-bear-PETG or its definition FDM Printer Base Description
+2020-08-17 21:53:06,778 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:53:06,791 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:53:06,801 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 21:53:06,906 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:53:06,912 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:53:11,033 - INFO - [MainThread] cura.Machines.Models.QualityManagementModel.removeQualityChangesGroup [82]: Removing quality changes group Weird-bear-PETG
+2020-08-17 21:53:11,033 - INFO - [MainThread] LocalContainerProvider.LocalContainerProvider.removeContainer [213]: Deleting file /home/chip/.local/share/cura/4.6/quality_changes/prusa_i3_mk3_weird-bear-petg.inst.cfg.
+2020-08-17 21:53:11,038 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:53:11,047 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:53:11,058 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [460]: Removed container prusa_i3_mk3_weird-bear-petg
+2020-08-17 21:53:11,059 - INFO - [MainThread] LocalContainerProvider.LocalContainerProvider.removeContainer [213]: Deleting file /home/chip/.local/share/cura/4.6/quality_changes/prusa_i3_mk3_extruder_0_weird-bear-petg.inst.cfg.
+2020-08-17 21:53:11,064 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:53:11,078 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:53:11,088 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 21:53:11,099 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [460]: Removed container prusa_i3_mk3_extruder_0_weird-bear-petg
+2020-08-17 21:53:12,617 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 21:53:27,531 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:53:27,537 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:53:27,545 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:53:27,564 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:53:31,176 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:53:31,182 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:53:32,018 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 4.5s
+2020-08-17 21:53:37,687 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:53:38,320 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:53:41,031 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:53:43,154 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
+2020-08-17 21:53:43,158 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [draft]
+2020-08-17 21:53:43,162 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [draft] is available, applying changes.
+2020-08-17 21:53:43,171 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 21:53:43,272 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:53:43,278 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:53:43,286 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:53:43,418 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:53:47,709 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:53:47,715 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:53:47,799 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-17 21:53:47,918 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:53:48,469 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:53:49,513 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:53:50,039 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:53:53,032 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:54:08,424 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:54:08,992 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:54:09,909 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:54:10,481 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:54:12,104 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:54:12,627 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:54:18,037 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:54:22,137 - INFO - [MainThread] cura.Settings.MachineManager.clearUserSettingAllCurrentStacks [429]: Clearing the setting [material_bed_temperature_layer_0] from all stacks
+2020-08-17 21:54:22,249 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:54:22,770 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:54:41,027 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:56:23,036 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:56:42,638 - INFO - [MainThread] cura.Settings.IntentManager.selectIntent [143]: Attempting to set intent_category to [default] and quality type to [draft]
+2020-08-17 21:56:42,652 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 21:56:42,753 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:56:42,758 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:56:42,766 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:56:42,817 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:56:47,135 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:56:47,140 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:56:47,641 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 4.8s
+2020-08-17 21:56:49,472 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:56:49,926 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:56:53,034 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:56:59,241 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:56:59,659 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.4s
+2020-08-17 21:57:04,815 - INFO - [MainThread] cura.Settings.IntentManager.selectIntent [143]: Attempting to set intent_category to [default] and quality type to [draft]
+2020-08-17 21:57:04,825 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 21:57:04,932 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:57:04,937 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:57:04,946 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:57:06,661 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:57:07,079 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.4s
+2020-08-17 21:57:14,429 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
+2020-08-17 21:57:14,433 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [draft]
+2020-08-17 21:57:14,437 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [draft] is available, applying changes.
+2020-08-17 21:57:14,446 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 21:57:14,546 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:57:14,552 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:57:14,559 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:57:14,604 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:57:19,661 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:57:19,667 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:57:20,122 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 5.5s
+2020-08-17 21:57:31,028 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:57:33,637 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:57:33,644 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:57:33,651 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:57:33,696 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:57:38,863 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:57:38,870 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:57:39,414 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 5.7s
+2020-08-17 21:57:44,031 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:57:47,046 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
+2020-08-17 21:57:47,050 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [draft]
+2020-08-17 21:57:47,054 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [draft] is available, applying changes.
+2020-08-17 21:57:47,063 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 21:57:47,160 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:57:47,167 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:57:47,175 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:57:47,220 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:57:53,198 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:57:53,204 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:57:53,818 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 6.6s
+2020-08-17 21:58:11,031 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:58:24,230 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
+2020-08-17 21:58:24,235 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [draft]
+2020-08-17 21:58:24,239 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [draft] is available, applying changes.
+2020-08-17 21:58:24,248 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 21:58:24,346 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:58:24,353 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:58:24,361 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:58:24,449 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:58:31,007 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:58:31,013 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:58:31,108 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-17 21:58:31,221 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:58:31,739 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:58:31,857 - INFO - [MainThread] cura.Settings.MachineManager.clearUserSettingAllCurrentStacks [429]: Clearing the setting [material_print_temperature_layer_0] from all stacks
+2020-08-17 21:58:31,988 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:58:32,569 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:58:34,030 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:58:34,522 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:58:35,057 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 21:58:46,418 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:58:46,981 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:58:54,703 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
+2020-08-17 21:58:54,707 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [draft]
+2020-08-17 21:58:54,711 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [draft] is available, applying changes.
+2020-08-17 21:58:54,720 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 21:58:54,827 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:58:54,836 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:58:54,844 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:58:54,933 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:59:02,018 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:59:02,024 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:59:02,557 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 7.6s
+2020-08-17 21:59:05,033 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:59:18,855 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
+2020-08-17 21:59:18,860 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [draft]
+2020-08-17 21:59:18,864 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [draft] is available, applying changes.
+2020-08-17 21:59:18,873 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 21:59:18,973 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:59:18,980 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:59:18,988 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 21:59:19,077 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:59:26,881 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 21:59:26,887 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 21:59:27,452 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 8.4s
+2020-08-17 21:59:29,030 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 21:59:29,237 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:59:29,855 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:59:32,174 - INFO - [MainThread] cura.Settings.MachineManager.clearUserSettingAllCurrentStacks [429]: Clearing the setting [material_bed_temperature_layer_0] from all stacks
+2020-08-17 21:59:32,300 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 21:59:32,855 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 21:59:42,031 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:00:05,764 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:00:06,293 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 22:00:16,032 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:00:35,420 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
+2020-08-17 22:00:35,425 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [draft]
+2020-08-17 22:00:35,429 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [draft] is available, applying changes.
+2020-08-17 22:00:35,438 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 22:00:35,536 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:00:35,544 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:00:35,553 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:00:35,684 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:00:44,166 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:00:44,171 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:00:44,328 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-17 22:00:44,429 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:00:44,939 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 22:00:54,030 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:01:01,042 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:01:01,349 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-17 22:01:01,450 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:01:01,953 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 22:01:02,117 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:01:02,692 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 22:01:24,455 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:01:25,016 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 22:01:30,411 - WARNING - [MainThread] cura.Settings.ContainerManager.getContainerMetaDataEntry [58]: Could not get metadata of container Unknown because it was not found.
+2020-08-17 22:01:30,582 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Preferences/Materials/MaterialsPage.qml:272:13: QML MaterialsList: Binding loop detected for property "height"
+2020-08-17 22:01:30,588 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaSBsGcb/usr/bin/resources/qml/Preferences/Materials/MaterialsList.qml:136:5: QML Column: Binding loop detected for property "height"
+2020-08-17 22:01:31,713 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 22:01:31,717 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 22:01:31,777 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 22:01:45,266 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:01:45,281 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:01:45,290 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:01:45,299 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:01:57,361 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:01:57,377 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:01:57,387 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:01:57,394 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:01:59,772 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 22:02:02,835 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 22:02:07,130 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:02:07,140 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:02:07,147 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:02:07,196 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:02:15,744 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:02:15,751 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:02:16,329 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 9.1s
+2020-08-17 22:02:17,031 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:02:19,788 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 22:02:19,793 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 22:02:19,855 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 22:02:21,196 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 22:02:26,166 - INFO - [MainThread] cura.Machines.Models.QualityManagementModel.removeQualityChangesGroup [82]: Removing quality changes group Production 0.2mm
+2020-08-17 22:02:26,167 - INFO - [MainThread] LocalContainerProvider.LocalContainerProvider.removeContainer [213]: Deleting file /home/chip/.local/share/cura/4.6/quality_changes/prusa_i3_mk3_weird-bear-petg+%232.inst.cfg.
+2020-08-17 22:02:26,171 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:02:26,186 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:02:26,194 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [460]: Removed container prusa_i3_mk3_weird-bear-petg #2
+2020-08-17 22:02:26,194 - INFO - [MainThread] LocalContainerProvider.LocalContainerProvider.removeContainer [213]: Deleting file /home/chip/.local/share/cura/4.6/quality_changes/prusa_i3_mk3_extruder_0_weird-bear-petg+%232.inst.cfg.
+2020-08-17 22:02:26,200 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:02:26,216 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:02:26,224 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [74]: Updating QualitySettingsModel.
+2020-08-17 22:02:26,233 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [460]: Removed container prusa_i3_mk3_extruder_0_weird-bear-petg #2
+2020-08-17 22:02:39,031 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:02:39,038 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:02:39,045 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:02:39,135 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:02:47,644 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:02:47,650 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:02:48,277 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 9.2s
+2020-08-17 22:02:49,030 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:02:52,524 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
+2020-08-17 22:02:52,530 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [draft]
+2020-08-17 22:02:52,534 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [draft] is available, applying changes.
+2020-08-17 22:02:52,543 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 22:02:52,641 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:02:52,651 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:02:52,662 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:02:52,750 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:03:02,168 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:03:02,174 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:03:02,714 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 10.0s
+2020-08-17 22:03:03,027 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:03:08,306 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:03:08,622 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-17 22:03:08,724 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:03:09,225 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 22:03:18,890 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:03:19,130 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-17 22:03:19,230 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:03:19,729 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 22:03:23,967 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:03:24,577 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 22:03:32,130 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:03:32,437 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-17 22:03:32,539 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:03:32,925 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-17 22:03:33,028 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:03:33,522 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 22:03:34,028 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:03:37,593 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:03:38,122 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 22:03:52,732 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:03:52,738 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:03:52,746 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:03:52,796 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:04:02,628 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:04:02,635 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:04:03,025 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:04:03,495 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 10.7s
+2020-08-17 22:04:08,509 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
+2020-08-17 22:04:08,517 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [draft]
+2020-08-17 22:04:08,521 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [draft] is available, applying changes.
+2020-08-17 22:04:08,530 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 22:04:08,629 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:04:08,680 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:04:08,687 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:04:08,735 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:04:19,096 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:04:19,103 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:04:19,110 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:04:19,747 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 11.0s
+2020-08-17 22:05:47,466 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:05:48,102 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 22:05:50,031 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:05:51,648 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:05:52,226 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-17 22:05:52,327 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:05:52,817 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 22:06:05,723 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:06:06,308 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 22:06:21,944 - INFO - [MainThread] cura.Settings.IntentManager.selectIntent [143]: Attempting to set intent_category to [default] and quality type to [fast]
+2020-08-17 22:06:21,954 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 22:06:22,055 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:06:22,060 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:06:22,067 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:06:22,302 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:06:32,516 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:06:32,639 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:06:32,644 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:06:33,340 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 11.0s
+2020-08-17 22:06:42,844 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
+2020-08-17 22:06:42,848 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [fast]
+2020-08-17 22:06:42,852 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [fast] is available, applying changes.
+2020-08-17 22:06:42,861 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 22:06:42,961 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:06:42,967 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:06:42,975 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:06:43,202 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:06:54,290 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:06:54,724 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:06:54,730 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:06:55,531 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 12.3s
+2020-08-17 22:07:08,034 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:07:18,746 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
+2020-08-17 22:07:18,751 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [fast]
+2020-08-17 22:07:18,755 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [fast] is available, applying changes.
+2020-08-17 22:07:18,764 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
+2020-08-17 22:07:18,862 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:07:18,868 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:07:18,875 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:07:19,103 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:07:30,626 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:07:30,766 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:07:30,772 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:07:31,232 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 12.1s
+2020-08-17 22:07:33,769 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:07:33,777 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:07:33,784 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:07:33,979 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:07:45,685 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:07:45,813 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:07:45,819 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:07:46,447 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 12.5s
+2020-08-17 22:07:57,172 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:07:57,813 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 22:07:58,248 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:07:58,944 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.7s
+2020-08-17 22:07:59,328 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:07:59,944 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-17 22:08:00,047 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:08:00,588 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 22:08:06,948 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:08:07,552 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 22:08:17,033 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:08:35,838 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:08:36,098 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-17 22:08:36,208 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:08:36,694 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 22:08:37,601 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:08:38,013 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-17 22:08:38,123 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:08:38,613 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 22:08:42,374 - INFO - [MainThread] cura.Settings.MachineManager.clearUserSettingAllCurrentStacks [429]: Clearing the setting [material_bed_temperature_layer_0] from all stacks
+2020-08-17 22:08:42,499 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:08:43,049 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 22:08:44,636 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:08:45,036 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-17 22:08:45,137 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:08:45,625 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
+2020-08-17 22:08:55,029 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:08:55,753 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:08:56,311 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
+2020-08-17 22:09:06,034 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:09:42,554 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:09:42,561 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-17 22:09:42,568 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [289]: Updating QualityManagementModel.
+2020-08-17 22:09:42,762 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-17 22:09:54,861 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-17 22:09:54,966 - DEBUG - [MainThread] cura.TaskManagement.OnExitCallbackManager.triggerNextCallback [51]: No more on-app-exit callbacks to process. Tell the app to exit.
+2020-08-17 22:09:54,972 - INFO - [MainThread] cura.CuraApplication.closeApplication [577]: Close application
+2020-08-17 22:09:54,982 - DEBUG - [MainThread] UM.Qt.QtApplication.windowClosed [470]: Shutting down cura
+2020-08-17 22:09:55,101 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [304]: Attempting to kill the engine process
+2020-08-17 22:09:55,101 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [310]: Killing engine process
+2020-08-17 22:09:55,102 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [313]: Engine process is killed. Received return code -15
+2020-08-17 22:09:55,122 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-17 22:09:55,128 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.

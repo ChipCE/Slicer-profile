@@ -16,7 +16,6 @@ G92 E0.0 ; reset extruder distance position
 -------------------
 
 ; ------------------- START GCODE -------------------
-
 M201 X1000 Y1000 Z200 E6000 ; sets maximum accelerations, mm/sec^2
 M203 X100 Y100 Z10 E120 ; sets maximum feedrates, mm/sec
 M204 P1250 R1250 T1250 ; sets acceleration (P, T) and retract acceleration (R), mm/sec^2
@@ -63,9 +62,10 @@ M400 ;
 G0 Y0 ; move to Y0
 M82 ; absolute extrusion mode ; CURA
 G92 E0.0 ; reset extruder distance position
+; ------------------------------------------
 
 
-; *********** END ********************
+; *********** END GCODE ********************
 M104 S0 ; turn off extruder
 M140 S0 ; turn off heatbed
 M107 ; turn off fan
@@ -85,3 +85,4 @@ M300 S440 P300 ; play sound
 M300 S0 P100 ; mute
 M300 S440 P300 ; play sound
 M84 ; disable motors
+; ------------------------------------------

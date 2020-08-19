@@ -1,310 +1,270 @@
-2020-08-18 22:18:12,734 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ConsoleLogger
-2020-08-18 22:18:12,753 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraDrive
-2020-08-18 22:18:12,789 - INFO - [MainThread] CuraEngineBackend.CuraEngineBackend.__init__ [90]: Found CuraEngine at: /tmp/.mount_UltimaEdrfnF/usr/bin/CuraEngine
-2020-08-18 22:18:12,793 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraEngineBackend
-2020-08-18 22:18:12,807 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraProfileReader
-2020-08-18 22:18:12,810 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [184]: Socket state changed to Listening
-2020-08-18 22:18:12,831 - INFO - [MainThread] UM.Backend.Backend.startEngine [86]: Started engine process: /tmp/.mount_UltimaEdrfnF/usr/bin/CuraEngine
-2020-08-18 22:18:12,846 - DEBUG - [MainThread] UM.Backend.Backend._backendLog [106]: [Backend] Calling engine with: ['/tmp/.mount_UltimaEdrfnF/usr/bin/CuraEngine', 'connect', '127.0.0.1:49674', '']
-2020-08-18 22:18:12,871 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] 
-2020-08-18 22:18:12,874 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] Cura_SteamEngine version 4.6.2
-2020-08-18 22:18:12,877 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] Copyright (C) 2019 Ultimaker
-2020-08-18 22:18:12,880 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] 
-2020-08-18 22:18:12,883 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] This program is free software: you can redistribute it and/or modify
-2020-08-18 22:18:12,885 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] it under the terms of the GNU Affero General Public License as published by
-2020-08-18 22:18:12,888 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] the Free Software Foundation, either version 3 of the License, or
-2020-08-18 22:18:12,891 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] (at your option) any later version.
-2020-08-18 22:18:12,893 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] 
-2020-08-18 22:18:12,896 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] This program is distributed in the hope that it will be useful,
-2020-08-18 22:18:12,898 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] but WITHOUT ANY WARRANTY; without even the implied warranty of
-2020-08-18 22:18:12,901 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-2020-08-18 22:18:12,903 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] GNU Affero General Public License for more details.
-2020-08-18 22:18:12,906 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] 
-2020-08-18 22:18:12,909 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] You should have received a copy of the GNU Affero General Public License
-2020-08-18 22:18:12,911 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] along with this program.  If not, see <http://www.gnu.org/licenses/>.
-2020-08-18 22:18:12,916 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraProfileWriter
-2020-08-18 22:18:12,919 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [188]: Socket state changed to Connected
-2020-08-18 22:18:12,921 - DEBUG - [MainThread] UM.Backend.Backend._onSocketStateChanged [177]: Backend connected on port 49674
-2020-08-18 22:18:12,931 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin OBJReader
-2020-08-18 22:18:12,940 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin OBJWriter
-2020-08-18 22:18:12,945 - WARNING - [MainThread] STLReader.STLReader.<module> [30]: Not loading numpy-stl due to linux issue
-2020-08-18 22:18:12,951 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin STLReader
-2020-08-18 22:18:12,960 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin STLWriter
-2020-08-18 22:18:12,970 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FileLogger
-2020-08-18 22:18:12,983 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdateChecker
-2020-08-18 22:18:12,999 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdater
-2020-08-18 22:18:13,008 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzReader
-2020-08-18 22:18:13,017 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzWriter
-2020-08-18 22:18:13,025 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeProfileReader
-2020-08-18 22:18:13,053 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeReader
-2020-08-18 22:18:13,064 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeWriter
-2020-08-18 22:18:13,079 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ImageReader
-2020-08-18 22:18:13,091 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LegacyProfileReader
-2020-08-18 22:18:13,101 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalContainerProvider
-2020-08-18 22:18:13,115 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalFileOutputDevice
-2020-08-18 22:18:13,125 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MachineSettingsAction
-2020-08-18 22:18:13,135 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ModelChecker
-2020-08-18 22:18:13,151 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MonitorStage
-2020-08-18 22:18:13,173 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PerObjectSettingsTool
-2020-08-18 22:18:13,188 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PostProcessingPlugin
-2020-08-18 22:18:13,197 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PrepareStage
-2020-08-18 22:18:13,204 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PreviewStage
-2020-08-18 22:18:13,268 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RemovableDriveOutputDevice
-2020-08-18 22:18:13,275 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SentryLogger
-2020-08-18 22:18:13,304 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimulationView
-2020-08-18 22:18:13,316 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SliceInfoPlugin
-2020-08-18 22:18:13,330 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SolidView
-2020-08-18 22:18:13,344 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SupportEraser
-2020-08-18 22:18:13,385 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
-2020-08-18 22:18:13,388 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
-2020-08-18 22:18:13,391 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
-2020-08-18 22:18:13,394 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
-2020-08-18 22:18:13,397 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
-2020-08-18 22:18:13,400 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
-2020-08-18 22:18:13,402 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
-2020-08-18 22:18:13,405 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
-2020-08-18 22:18:13,411 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin Toolbox
-2020-08-18 22:18:13,423 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CameraTool
-2020-08-18 22:18:13,435 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MirrorTool
-2020-08-18 22:18:13,449 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RotateTool
-2020-08-18 22:18:13,463 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ScaleTool
-2020-08-18 22:18:13,472 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SelectionTool
-2020-08-18 22:18:13,486 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TranslateTool
-2020-08-18 22:18:13,493 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TrimeshReader
-2020-08-18 22:18:13,507 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPReader
-2020-08-18 22:18:13,519 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPWriter
-2020-08-18 22:18:13,647 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UM3NetworkPrinting
-2020-08-18 22:18:13,688 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin USBPrinting
-2020-08-18 22:18:13,698 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UltimakerMachineActions
-2020-08-18 22:18:13,711 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UpdateChecker
-2020-08-18 22:18:13,712 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [40]: Checking for new version of cura
-2020-08-18 22:18:13,741 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade21to22
-2020-08-18 22:18:13,751 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade22to24
-2020-08-18 22:18:13,764 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade25to26
-2020-08-18 22:18:13,774 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade26to27
-2020-08-18 22:18:13,783 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade27to30
-2020-08-18 22:18:13,791 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade30to31
-2020-08-18 22:18:13,802 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade32to33
-2020-08-18 22:18:13,811 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade33to34
-2020-08-18 22:18:13,821 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade34to35
-2020-08-18 22:18:13,829 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade35to40
-2020-08-18 22:18:13,837 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade40to41
-2020-08-18 22:18:13,847 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade41to42
-2020-08-18 22:18:13,856 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade42to43
-2020-08-18 22:18:13,866 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade43to44
-2020-08-18 22:18:13,876 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade44to45
-2020-08-18 22:18:13,884 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade45to46
-2020-08-18 22:18:13,892 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade460to462
-2020-08-18 22:18:13,901 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimpleView
-2020-08-18 22:18:13,923 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin X3DReader
-2020-08-18 22:18:13,933 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XRayView
-2020-08-18 22:18:13,958 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XmlMaterialProfile
-2020-08-18 22:18:13,968 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LinearAdvanceSettingPlugin
-2020-08-18 22:18:13,979 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MaterialSettingsPlugin
-2020-08-18 22:18:13,982 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [374]: Loading all plugins took 1.3459930419921875 seconds
-2020-08-18 22:18:13,990 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [160]: Looking for old configuration files to upgrade.
-2020-08-18 22:18:14,116 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material+%232.xml.fdm_material, skip it
-2020-08-18 22:18:14,119 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material.xml.fdm_material, skip it
-2020-08-18 22:18:14,123 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../generic_pc_175+%232.xml.fdm_material, skip it
-2020-08-18 22:18:18,349 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [360]: Loading metadata into container registry took 4.173042297363281 seconds
-2020-08-18 22:18:18,738 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [111]: Select build plate: 0
-2020-08-18 22:18:18,745 - INFO - [MainThread] cura.CuraApplication.run [751]: Initializing machine error checker
-2020-08-18 22:18:19,192 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition prusa_i3_mk3 failed to pickle.
-2020-08-18 22:18:19,214 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [72]: Default machine actions added for machine definition [prusa_i3_mk3]
-2020-08-18 22:18:19,592 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition fdmprinter failed to pickle.
-2020-08-18 22:18:19,692 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [184]: Extruder[prusa_i3_mk3_extruder_0 #4] added to [Loli Bear] at position [0]
-2020-08-18 22:18:19,695 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #4] has already been registered on machine [Loli Bear], not doing anything
-2020-08-18 22:18:19,697 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [74]: No machine with name Prusa i3 Mk3/Mk3s in list of firmware to check.
-2020-08-18 22:18:19,987 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [106]: Adding container tree for prusa_i3_mk3 took 0.2828528881072998 seconds.
-2020-08-18 22:18:19,993 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: BQ_PauseAtHeight
-2020-08-18 22:18:20,001 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ChangeAtZ
-2020-08-18 22:18:20,004 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ColorMix
-2020-08-18 22:18:20,006 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayFilenameAndLayerOnLCD
-2020-08-18 22:18:20,008 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayRemainingTimeOnLCD
-2020-08-18 22:18:20,009 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: FilamentChange
-2020-08-18 22:18:20,010 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: InsertAtLayerChange
-2020-08-18 22:18:20,016 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeight
-2020-08-18 22:18:20,018 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightRepRapFirmwareDuet
-2020-08-18 22:18:20,020 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightforRepetier
-2020-08-18 22:18:20,023 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: RetractContinue
-2020-08-18 22:18:20,024 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: SearchAndReplace
-2020-08-18 22:18:20,035 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: Stretch
-2020-08-18 22:18:20,037 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: TimeLapse
-2020-08-18 22:18:20,038 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: UsePreviousProbeMeasurements
-2020-08-18 22:18:20,056 - INFO - [MainThread] cura.CuraApplication.run [756]: Initializing machine manager
-2020-08-18 22:18:20,064 - INFO - [MainThread] cura.CuraApplication.run [761]: Initializing container manager
-2020-08-18 22:18:20,067 - INFO - [Thread-2] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
-2020-08-18 22:18:20,196 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-/tmp/.mount_UltimaEdrfnF/usr/bin/lib/python3.5/UM/Mesh/MeshData.py:540: RuntimeWarning: invalid value encountered in true_divide
-/tmp/.mount_UltimaEdrfnF/usr/bin/lib/python3.5/UM/Mesh/MeshData.py:541: RuntimeWarning: invalid value encountered in true_divide
-/tmp/.mount_UltimaEdrfnF/usr/bin/lib/python3.5/UM/Mesh/MeshData.py:542: RuntimeWarning: invalid value encountered in true_divide
-2020-08-18 22:18:20,213 - DEBUG - [Thread-2] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.022767305374145508 seconds
-2020-08-18 22:18:20,218 - DEBUG - [Thread-2] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
-2020-08-18 22:18:20,258 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
-2020-08-18 22:18:20,416 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [158]: Loading theme file: /tmp/.mount_UltimaEdrfnF/usr/bin/resources/themes/cura-light/theme.json
-2020-08-18 22:18:21,664 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [231]: Loaded theme /tmp/.mount_UltimaEdrfnF/usr/bin/resources/themes/cura-light
-2020-08-18 22:18:24,034 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [311]: Creating post processing plugin view.
-2020-08-18 22:18:24,419 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [321]: Post processing view created.
-2020-08-18 22:18:25,016 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
-2020-08-18 22:18:25,020 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
-2020-08-18 22:18:25,025 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
-2020-08-18 22:18:25,667 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
-2020-08-18 22:18:25,673 - WARNING - [MainThread] UM.Decorators.deprecated_function [23]: <function GlobalStack.extruders at 0x470de88> is deprecated (since 4.4): Please use extruderList instead.
-/tmp/.mount_UltimaEdrfnF/usr/bin/lib/python3.5/cura/Machines/Models/BaseMaterialsModel.py:175: DeprecationWarning: <function GlobalStack.extruders at 0x470de88> is deprecated (since 4.4): Please use extruderList instead.
-2020-08-18 22:18:25,918 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaEdrfnF/usr/bin/resources/qml/PrintSetupSelector/Custom/CustomPrintSetup.qml:76:29: Unable to assign null to double
-2020-08-18 22:18:25,928 - DEBUG - [MainThread] MaterialSettingsPlugin.MaterialSettingsPlugin._onEngineCreated [64]: Replacing Materials preferencepane with patched version
-2020-08-18 22:18:25,941 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
-2020-08-18 22:18:26,187 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
-2020-08-18 22:18:26,240 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaEdrfnF/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
-2020-08-18 22:18:26,244 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaEdrfnF/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
-2020-08-18 22:18:26,379 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
-2020-08-18 22:18:26,382 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [111]: Creating model checker view.
-2020-08-18 22:18:26,398 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [120]: Model checker view created.
-2020-08-18 22:18:26,399 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [71]: Creating dialog [MoreInfoWindow.qml]
-2020-08-18 22:18:26,450 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [542]: Requesting [updates] metadata from server.
-2020-08-18 22:18:26,455 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [112]: No auth data to retrieve the access_token from
-2020-08-18 22:18:26,458 - WARNING - [MainThread] UM.Logger.warning [128]: Cannot add authorization to Cloud Api request
-2020-08-18 22:18:26,511 - DEBUG - [MainThread] cura.CuraApplication.run [799]: Booting Cura took 14.432348251342773 seconds
-2020-08-18 22:18:26,535 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._processRequest [346]: Request [3b0b323e20d248e787bb0731f06f3690] started
-2020-08-18 22:18:26,539 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
-2020-08-18 22:18:26,544 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:18:26,555 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:18:26,774 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:18:26,786 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 22:18:27,478 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:18:27,484 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 22:18:27,732 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [207]: Support for Vertex Array Objects: True
-2020-08-18 22:18:27,750 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
-2020-08-18 22:18:27,754 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.5 (Core Profile) Mesa 20.1.5
-2020-08-18 22:18:27,758 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   Intel Open Source Technology Center
-2020-08-18 22:18:27,762 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: Mesa DRI Intel(R) HD Graphics 4400 (HSW GT2)
-2020-08-18 22:18:27,765 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    4.50.0
-2020-08-18 22:18:27,770 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/default.shader]...
-2020-08-18 22:18:27,781 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/selection.shader]...
-2020-08-18 22:18:27,788 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/select_face.shader]...
-2020-08-18 22:18:27,793 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/default.shader]...
-2020-08-18 22:18:27,798 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/composite.shader]...
-2020-08-18 22:18:27,806 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/overhang.shader]...
-2020-08-18 22:18:27,813 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/striped.shader]...
-2020-08-18 22:18:27,821 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/transparent_object.shader]...
-2020-08-18 22:18:27,826 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/striped.shader]...
-2020-08-18 22:18:27,832 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/xray.shader]...
-2020-08-18 22:18:27,838 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/xray_composite.shader]...
-2020-08-18 22:18:27,845 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/default.shader]...
-2020-08-18 22:18:27,850 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/grid.shader]...
-2020-08-18 22:18:27,856 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/platform.shader]...
-2020-08-18 22:18:27,880 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaEdrfnF/usr/bin/resources/shaders/xray.shader]...
-2020-08-18 22:18:28,948 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 8.8s
-2020-08-18 22:18:29,006 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [408]: Request [3b0b323e20d248e787bb0731f06f3690] finished.
-2020-08-18 22:18:29,012 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
-/tmp/.mount_UltimaEdrfnF/usr/bin/lib/python3.5/cura/Settings/MachineManager.py:1076: DeprecationWarning: <function GlobalStack.extruders at 0x470de88> is deprecated (since 4.4): Please use extruderList instead.
-2020-08-18 22:18:40,799 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:18:40,806 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 22:18:41,154 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:18:42,232 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:18:42,239 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 22:18:42,798 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 1.6s
-2020-08-18 22:18:50,845 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
-2020-08-18 22:18:50,933 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:18:51,477 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
-2020-08-18 22:18:56,585 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:18:56,592 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:18:56,614 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:18:56,621 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 22:18:56,923 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:18:58,229 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:18:58,237 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 22:18:58,731 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 1.8s
-2020-08-18 22:18:59,115 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:18:59,594 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
-2020-08-18 22:19:03,944 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:19:03,952 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 22:19:04,239 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:19:05,710 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:19:05,717 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 22:19:06,312 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 2.1s
-2020-08-18 22:19:13,633 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
-2020-08-18 22:22:43,633 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
-2020-08-18 22:22:44,933 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:22:45,551 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
-2020-08-18 22:23:05,963 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:23:06,268 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
-2020-08-18 22:23:06,373 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:23:06,704 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
-2020-08-18 22:23:06,818 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:23:07,364 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
-2020-08-18 22:23:11,644 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:23:12,226 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
-2020-08-18 22:23:54,117 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:23:54,649 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
-2020-08-18 22:24:13,746 - INFO - [MainThread] cura.Settings.MachineManager.clearUserSettingAllCurrentStacks [429]: Clearing the setting [wall_thickness] from all stacks
-2020-08-18 22:24:13,949 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:24:14,608 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.7s
-2020-08-18 22:24:21,635 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
-2020-08-18 22:24:34,356 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:24:34,917 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
-/tmp/.mount_UltimaEdrfnF/usr/bin/lib/python3.5/cura/Settings/ContainerManager.py:283: DeprecationWarning: <function GlobalStack.extruders at 0x470de88> is deprecated (since 4.4): Please use extruderList instead.
-2020-08-18 22:25:02,671 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:25:03,222 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
-2020-08-18 22:25:06,111 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:25:06,120 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 22:25:06,513 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:25:08,194 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:25:08,204 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 22:25:08,689 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 2.2s
-2020-08-18 22:25:15,631 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
-2020-08-18 22:25:19,533 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:25:19,816 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
-2020-08-18 22:25:19,926 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:25:20,228 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
-2020-08-18 22:25:20,328 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:25:20,800 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
-2020-08-18 22:25:25,470 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:25:25,966 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
-2020-08-18 22:25:31,386 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:25:31,856 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
-2020-08-18 22:25:55,171 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:25:55,626 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
-2020-08-18 22:25:57,435 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:25:57,444 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 22:25:57,798 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:25:59,707 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 22:25:59,715 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 22:26:00,245 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 2.4s
-2020-08-18 22:26:07,631 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
-2020-08-18 22:26:15,433 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:26:15,933 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
-2020-08-18 22:26:22,006 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:26:22,544 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
-2020-08-18 22:30:00,636 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
-2020-08-18 22:30:19,631 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
-2020-08-18 22:46:48,921 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 22:46:49,481 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.6s
-2020-08-18 23:01:53,958 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 23:01:54,504 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.5s
-2020-08-18 23:02:04,613 - INFO - [MainThread] cura.Settings.IntentManager.selectIntent [143]: Attempting to set intent_category to [default] and quality type to [normal]
-2020-08-18 23:02:04,627 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
-2020-08-18 23:02:04,729 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 23:02:04,736 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 23:02:05,352 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 23:02:07,526 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 23:02:07,531 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 23:02:08,071 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 2.7s
-2020-08-18 23:02:14,641 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
-2020-08-18 23:03:04,255 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1143]: Updating quality/quality_changes due to material change
-2020-08-18 23:03:04,260 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1148]: Current quality type = [normal]
-2020-08-18 23:03:04,263 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1162]: Current available quality type [normal] is available, applying changes.
-2020-08-18 23:03:04,272 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1185]: Updating intent due to quality change
-2020-08-18 23:03:04,372 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 23:03:04,382 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 23:03:04,951 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
-2020-08-18 23:03:07,696 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-08-18 23:03:07,702 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
-2020-08-18 23:03:08,140 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 3.2s
-2020-08-18 23:03:14,634 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
-2020-08-18 23:03:37,693 - DEBUG - [MainThread] cura.TaskManagement.OnExitCallbackManager.triggerNextCallback [51]: No more on-app-exit callbacks to process. Tell the app to exit.
-2020-08-18 23:03:37,697 - INFO - [MainThread] cura.CuraApplication.closeApplication [577]: Close application
-2020-08-18 23:03:37,708 - DEBUG - [MainThread] UM.Qt.QtApplication.windowClosed [470]: Shutting down cura
-2020-08-18 23:03:37,742 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [304]: Attempting to kill the engine process
-2020-08-18 23:03:37,743 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [310]: Killing engine process
-2020-08-18 23:03:37,744 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [313]: Engine process is killed. Received return code -15
+2020-08-19 23:58:04,174 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ConsoleLogger
+2020-08-19 23:58:04,186 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraDrive
+2020-08-19 23:58:04,208 - INFO - [MainThread] CuraEngineBackend.CuraEngineBackend.__init__ [90]: Found CuraEngine at: /tmp/.mount_Ultimaksf9sq/usr/bin/CuraEngine
+2020-08-19 23:58:04,210 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraEngineBackend
+2020-08-19 23:58:04,217 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraProfileReader
+2020-08-19 23:58:04,219 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [184]: Socket state changed to Listening
+2020-08-19 23:58:04,230 - INFO - [MainThread] UM.Backend.Backend.startEngine [86]: Started engine process: /tmp/.mount_Ultimaksf9sq/usr/bin/CuraEngine
+2020-08-19 23:58:04,232 - DEBUG - [MainThread] UM.Backend.Backend._backendLog [106]: [Backend] Calling engine with: ['/tmp/.mount_Ultimaksf9sq/usr/bin/CuraEngine', 'connect', '127.0.0.1:49674', '']
+2020-08-19 23:58:04,273 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] 
+2020-08-19 23:58:04,276 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] Cura_SteamEngine version 4.6.2
+2020-08-19 23:58:04,279 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] Copyright (C) 2019 Ultimaker
+2020-08-19 23:58:04,282 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] 
+2020-08-19 23:58:04,284 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] This program is free software: you can redistribute it and/or modify
+2020-08-19 23:58:04,286 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] it under the terms of the GNU Affero General Public License as published by
+2020-08-19 23:58:04,287 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] the Free Software Foundation, either version 3 of the License, or
+2020-08-19 23:58:04,289 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] (at your option) any later version.
+2020-08-19 23:58:04,290 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] 
+2020-08-19 23:58:04,292 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] This program is distributed in the hope that it will be useful,
+2020-08-19 23:58:04,293 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] but WITHOUT ANY WARRANTY; without even the implied warranty of
+2020-08-19 23:58:04,295 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+2020-08-19 23:58:04,296 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] GNU Affero General Public License for more details.
+2020-08-19 23:58:04,298 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] 
+2020-08-19 23:58:04,299 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] You should have received a copy of the GNU Affero General Public License
+2020-08-19 23:58:04,301 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [106]: [Backend] along with this program.  If not, see <http://www.gnu.org/licenses/>.
+2020-08-19 23:58:04,305 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraProfileWriter
+2020-08-19 23:58:04,308 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [188]: Socket state changed to Connected
+2020-08-19 23:58:04,311 - DEBUG - [MainThread] UM.Backend.Backend._onSocketStateChanged [177]: Backend connected on port 49674
+2020-08-19 23:58:04,320 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin OBJReader
+2020-08-19 23:58:04,327 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin OBJWriter
+2020-08-19 23:58:04,332 - WARNING - [MainThread] STLReader.STLReader.<module> [30]: Not loading numpy-stl due to linux issue
+2020-08-19 23:58:04,337 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin STLReader
+2020-08-19 23:58:04,343 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin STLWriter
+2020-08-19 23:58:04,349 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FileLogger
+2020-08-19 23:58:04,354 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdateChecker
+2020-08-19 23:58:04,363 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdater
+2020-08-19 23:58:04,367 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzReader
+2020-08-19 23:58:04,371 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzWriter
+2020-08-19 23:58:04,375 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeProfileReader
+2020-08-19 23:58:04,387 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeReader
+2020-08-19 23:58:04,392 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeWriter
+2020-08-19 23:58:04,401 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ImageReader
+2020-08-19 23:58:04,405 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LegacyProfileReader
+2020-08-19 23:58:04,409 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalContainerProvider
+2020-08-19 23:58:04,417 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalFileOutputDevice
+2020-08-19 23:58:04,422 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MachineSettingsAction
+2020-08-19 23:58:04,426 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ModelChecker
+2020-08-19 23:58:04,431 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MonitorStage
+2020-08-19 23:58:04,444 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PerObjectSettingsTool
+2020-08-19 23:58:04,483 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PostProcessingPlugin
+2020-08-19 23:58:04,487 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PrepareStage
+2020-08-19 23:58:04,490 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PreviewStage
+2020-08-19 23:58:04,497 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RemovableDriveOutputDevice
+2020-08-19 23:58:04,502 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SentryLogger
+2020-08-19 23:58:04,517 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimulationView
+2020-08-19 23:58:04,523 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SliceInfoPlugin
+2020-08-19 23:58:04,530 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SolidView
+2020-08-19 23:58:04,536 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SupportEraser
+2020-08-19 23:58:04,558 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-08-19 23:58:04,559 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-08-19 23:58:04,561 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-08-19 23:58:04,563 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-08-19 23:58:04,564 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-08-19 23:58:04,566 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-08-19 23:58:04,568 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-08-19 23:58:04,570 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-08-19 23:58:04,572 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin Toolbox
+2020-08-19 23:58:04,578 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CameraTool
+2020-08-19 23:58:04,584 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MirrorTool
+2020-08-19 23:58:04,591 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RotateTool
+2020-08-19 23:58:04,599 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ScaleTool
+2020-08-19 23:58:04,605 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SelectionTool
+2020-08-19 23:58:04,612 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TranslateTool
+2020-08-19 23:58:04,616 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TrimeshReader
+2020-08-19 23:58:04,624 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPReader
+2020-08-19 23:58:04,630 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPWriter
+2020-08-19 23:58:04,694 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UM3NetworkPrinting
+2020-08-19 23:58:04,716 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin USBPrinting
+2020-08-19 23:58:04,722 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UltimakerMachineActions
+2020-08-19 23:58:04,728 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UpdateChecker
+2020-08-19 23:58:04,729 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [40]: Checking for new version of cura
+2020-08-19 23:58:04,746 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade21to22
+2020-08-19 23:58:04,755 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade22to24
+2020-08-19 23:58:04,763 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade25to26
+2020-08-19 23:58:04,769 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade26to27
+2020-08-19 23:58:04,773 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade27to30
+2020-08-19 23:58:04,777 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade30to31
+2020-08-19 23:58:04,781 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade32to33
+2020-08-19 23:58:04,784 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade33to34
+2020-08-19 23:58:04,791 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade34to35
+2020-08-19 23:58:04,795 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade35to40
+2020-08-19 23:58:04,799 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade40to41
+2020-08-19 23:58:04,803 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade41to42
+2020-08-19 23:58:04,808 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade42to43
+2020-08-19 23:58:04,813 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade43to44
+2020-08-19 23:58:04,818 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade44to45
+2020-08-19 23:58:04,822 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade45to46
+2020-08-19 23:58:04,825 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade460to462
+2020-08-19 23:58:04,829 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimpleView
+2020-08-19 23:58:04,839 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin X3DReader
+2020-08-19 23:58:04,848 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XRayView
+2020-08-19 23:58:04,860 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XmlMaterialProfile
+2020-08-19 23:58:04,867 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MaterialSettingsPlugin
+2020-08-19 23:58:04,870 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LinearAdvanceSettingPlugin
+2020-08-19 23:58:04,872 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [374]: Loading all plugins took 0.7371816635131836 seconds
+2020-08-19 23:58:04,877 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [160]: Looking for old configuration files to upgrade.
+2020-08-19 23:58:04,957 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material+%232.xml.fdm_material, skip it
+2020-08-19 23:58:04,959 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../generic_pc_175+%232.xml.fdm_material, skip it
+2020-08-19 23:58:04,961 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material.xml.fdm_material, skip it
+2020-08-19 23:58:07,247 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [360]: Loading metadata into container registry took 2.252760171890259 seconds
+2020-08-19 23:58:07,556 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [111]: Select build plate: 0
+2020-08-19 23:58:07,559 - INFO - [MainThread] cura.CuraApplication.run [751]: Initializing machine error checker
+2020-08-19 23:58:07,929 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition prusa_i3_mk3 failed to pickle.
+2020-08-19 23:58:07,939 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [72]: Default machine actions added for machine definition [prusa_i3_mk3]
+2020-08-19 23:58:08,084 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [184]: Extruder[prusa_i3_mk3_extruder_0 #3] added to [Weird Bear] at position [0]
+2020-08-19 23:58:08,086 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #3] has already been registered on machine [Weird Bear], not doing anything
+2020-08-19 23:58:08,087 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [74]: No machine with name Prusa i3 Mk3/Mk3s in list of firmware to check.
+2020-08-19 23:58:08,218 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [106]: Adding container tree for prusa_i3_mk3 took 0.1262037754058838 seconds.
+2020-08-19 23:58:08,222 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: BQ_PauseAtHeight
+2020-08-19 23:58:08,225 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ChangeAtZ
+2020-08-19 23:58:08,227 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ColorMix
+2020-08-19 23:58:08,227 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2020-08-19 23:58:08,228 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayRemainingTimeOnLCD
+2020-08-19 23:58:08,229 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: FilamentChange
+2020-08-19 23:58:08,230 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: InsertAtLayerChange
+2020-08-19 23:58:08,232 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeight
+2020-08-19 23:58:08,233 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightRepRapFirmwareDuet
+2020-08-19 23:58:08,234 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightforRepetier
+2020-08-19 23:58:08,235 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: RetractContinue
+2020-08-19 23:58:08,236 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: SearchAndReplace
+2020-08-19 23:58:08,240 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: Stretch
+2020-08-19 23:58:08,241 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: TimeLapse
+2020-08-19 23:58:08,241 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: UsePreviousProbeMeasurements
+2020-08-19 23:58:08,333 - INFO - [MainThread] cura.CuraApplication.run [756]: Initializing machine manager
+2020-08-19 23:58:08,336 - INFO - [MainThread] cura.CuraApplication.run [761]: Initializing container manager
+2020-08-19 23:58:08,338 - INFO - [Thread-2] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+/tmp/.mount_Ultimaksf9sq/usr/bin/lib/python3.5/UM/Mesh/MeshData.py:540: RuntimeWarning: invalid value encountered in true_divide
+/tmp/.mount_Ultimaksf9sq/usr/bin/lib/python3.5/UM/Mesh/MeshData.py:541: RuntimeWarning: invalid value encountered in true_divide
+/tmp/.mount_Ultimaksf9sq/usr/bin/lib/python3.5/UM/Mesh/MeshData.py:542: RuntimeWarning: invalid value encountered in true_divide
+2020-08-19 23:58:08,423 - DEBUG - [Thread-2] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.0022580623626708984 seconds
+2020-08-19 23:58:08,425 - DEBUG - [Thread-2] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
+2020-08-19 23:58:09,483 - DEBUG - [MainThread] cura.OAuth2.AuthorizationHelpers.getAccessTokenUsingRefreshToken [53]: Refreshing the access token.
+2020-08-19 23:58:10,498 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._storeAuthData [213]: Attempting to store the auth data
+2020-08-19 23:58:10,509 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._processRequest [346]: Request [80e483a01e884d99ba1c4761039140a1] started
+2020-08-19 23:58:10,513 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-08-19 23:58:10,524 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-19 23:58:10,560 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2020-08-19 23:58:10,670 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [158]: Loading theme file: /tmp/.mount_Ultimaksf9sq/usr/bin/resources/themes/cura-light/theme.json
+2020-08-19 23:58:11,093 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [231]: Loaded theme /tmp/.mount_Ultimaksf9sq/usr/bin/resources/themes/cura-light
+2020-08-19 23:58:11,673 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [311]: Creating post processing plugin view.
+2020-08-19 23:58:11,814 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [321]: Post processing view created.
+2020-08-19 23:58:12,361 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-19 23:58:12,363 - WARNING - [MainThread] UM.Decorators.deprecated_function [23]: <function GlobalStack.extruders at 0x30b8b58> is deprecated (since 4.4): Please use extruderList instead.
+/tmp/.mount_Ultimaksf9sq/usr/bin/lib/python3.5/cura/Machines/Models/BaseMaterialsModel.py:175: DeprecationWarning: <function GlobalStack.extruders at 0x30b8b58> is deprecated (since 4.4): Please use extruderList instead.
+2020-08-19 23:58:12,461 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_Ultimaksf9sq/usr/bin/resources/qml/PrintSetupSelector/Custom/CustomPrintSetup.qml:76:29: Unable to assign null to double
+2020-08-19 23:58:12,470 - DEBUG - [MainThread] MaterialSettingsPlugin.MaterialSettingsPlugin._onEngineCreated [64]: Replacing Materials preferencepane with patched version
+2020-08-19 23:58:12,482 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2020-08-19 23:58:12,562 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-19 23:58:12,600 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_Ultimaksf9sq/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-08-19 23:58:12,602 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_Ultimaksf9sq/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-08-19 23:58:12,645 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2020-08-19 23:58:12,647 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [111]: Creating model checker view.
+2020-08-19 23:58:12,653 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [120]: Model checker view created.
+2020-08-19 23:58:12,654 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [71]: Creating dialog [MoreInfoWindow.qml]
+2020-08-19 23:58:12,671 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [542]: Requesting [updates] metadata from server.
+2020-08-19 23:58:12,677 - DEBUG - [MainThread] UM.Logger.debug [116]: Requesting subscribed packages metadata from server.
+2020-08-19 23:58:12,725 - DEBUG - [MainThread] cura.CuraApplication.run [799]: Booting Cura took 9.030548095703125 seconds
+2020-08-19 23:58:12,786 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._processRequest [346]: Request [6bcfa0f2a4aa45c8a56ff76f0f39b208] started
+2020-08-19 23:58:12,788 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._processRequest [346]: Request [37409b66b2014c75b705d5d0168d2266] started
+2020-08-19 23:58:12,790 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-08-19 23:58:12,804 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-19 23:58:12,815 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-19 23:58:13,225 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [408]: Request [80e483a01e884d99ba1c4761039140a1] finished.
+2020-08-19 23:58:13,227 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-08-19 23:58:13,349 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [408]: Request [6bcfa0f2a4aa45c8a56ff76f0f39b208] finished.
+2020-08-19 23:58:13,351 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-08-19 23:58:13,364 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-19 23:58:13,367 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-19 23:58:13,841 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [207]: Support for Vertex Array Objects: True
+2020-08-19 23:58:13,850 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
+2020-08-19 23:58:13,852 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.6 (Core Profile) Mesa 20.1.3
+2020-08-19 23:58:13,854 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   X.Org
+2020-08-19 23:58:13,856 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: Radeon RX 580 Series (POLARIS10, DRM 3.36.0, 5.6.19-2-MANJARO, LLVM 10.0.0)
+2020-08-19 23:58:13,858 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    4.60.0
+2020-08-19 23:58:13,860 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/default.shader]...
+2020-08-19 23:58:13,864 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/selection.shader]...
+2020-08-19 23:58:13,867 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/select_face.shader]...
+2020-08-19 23:58:13,872 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/default.shader]...
+2020-08-19 23:58:13,875 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/composite.shader]...
+2020-08-19 23:58:13,878 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/overhang.shader]...
+2020-08-19 23:58:13,881 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/striped.shader]...
+2020-08-19 23:58:13,884 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/transparent_object.shader]...
+2020-08-19 23:58:13,886 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/striped.shader]...
+2020-08-19 23:58:13,889 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/xray.shader]...
+2020-08-19 23:58:13,892 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/xray_composite.shader]...
+2020-08-19 23:58:13,895 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/default.shader]...
+2020-08-19 23:58:13,897 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/grid.shader]...
+2020-08-19 23:58:13,900 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/platform.shader]...
+2020-08-19 23:58:13,912 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_Ultimaksf9sq/usr/bin/resources/shaders/xray.shader]...
+2020-08-19 23:58:13,998 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [408]: Request [37409b66b2014c75b705d5d0168d2266] finished.
+2020-08-19 23:58:14,000 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-08-19 23:58:15,680 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 5.2s
+2020-08-19 23:58:23,561 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-19 23:59:26,565 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-19 23:59:38,518 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-19 23:59:38,871 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.4s
+2020-08-19 23:59:39,063 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-19 23:59:39,361 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+2020-08-19 23:59:58,657 - INFO - [MainThread] cura.Settings.MachineManager.clearUserSettingAllCurrentStacks [429]: Clearing the setting [skirt_brim_speed] from all stacks
+2020-08-19 23:59:58,767 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-19 23:59:59,129 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.4s
+2020-08-20 00:00:26,659 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:00:26,801 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-20 00:00:26,901 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:00:27,154 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+2020-08-20 00:00:36,924 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:00:37,060 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-20 00:00:37,229 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:00:37,532 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+2020-08-20 00:00:47,263 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:00:47,516 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+2020-08-20 00:01:03,431 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:01:03,601 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-20 00:01:03,700 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:01:03,955 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+2020-08-20 00:01:08,507 - INFO - [MainThread] cura.Settings.MachineManager.clearUserSettingAllCurrentStacks [429]: Clearing the setting [speed_infill] from all stacks
+2020-08-20 00:01:08,626 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:01:08,966 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+2020-08-20 00:01:26,462 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:01:26,680 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-20 00:01:26,837 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:01:27,129 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+2020-08-20 00:02:07,761 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:02:08,079 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+2020-08-20 00:02:15,784 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:02:16,119 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+2020-08-20 00:02:16,418 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:02:16,600 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-20 00:02:16,697 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:02:16,955 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+/tmp/.mount_Ultimaksf9sq/usr/bin/lib/python3.5/cura/Settings/ContainerManager.py:283: DeprecationWarning: <function GlobalStack.extruders at 0x30b8b58> is deprecated (since 4.4): Please use extruderList instead.
+2020-08-20 00:02:24,117 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:02:24,431 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+/tmp/.mount_Ultimaksf9sq/usr/bin/lib/python3.5/cura/Settings/MachineManager.py:1076: DeprecationWarning: <function GlobalStack.extruders at 0x30b8b58> is deprecated (since 4.4): Please use extruderList instead.
+2020-08-20 00:03:30,701 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-20 00:03:30,704 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-20 00:03:30,791 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-20 00:03:30,794 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-20 00:03:30,970 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:03:31,595 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-20 00:03:31,598 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-08-20 00:03:31,880 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.9s
+2020-08-20 00:03:40,561 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-08-20 00:03:56,676 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:03:56,914 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-20 00:03:57,023 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:03:57,265 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.2s
+2020-08-20 00:04:14,829 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:04:15,116 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+2020-08-20 00:04:15,473 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:04:15,659 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [139]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-08-20 00:04:15,763 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:04:16,035 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+2020-08-20 00:04:50,135 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-08-20 00:04:50,457 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
+2020-08-20 00:05:01,035 - DEBUG - [MainThread] cura.TaskManagement.OnExitCallbackManager.triggerNextCallback [51]: No more on-app-exit callbacks to process. Tell the app to exit.
+2020-08-20 00:05:01,040 - INFO - [MainThread] cura.CuraApplication.closeApplication [577]: Close application
+2020-08-20 00:05:01,045 - DEBUG - [MainThread] UM.Qt.QtApplication.windowClosed [470]: Shutting down cura
+2020-08-20 00:05:01,062 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [304]: Attempting to kill the engine process
+2020-08-20 00:05:01,063 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [310]: Killing engine process
+2020-08-20 00:05:01,064 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [313]: Engine process is killed. Received return code -15

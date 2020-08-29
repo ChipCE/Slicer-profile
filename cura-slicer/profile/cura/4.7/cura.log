@@ -1,0 +1,265 @@
+2020-08-29 11:42:29,155 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FileLogger
+2020-08-29 11:42:29,161 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdateChecker
+2020-08-29 11:42:29,168 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdater
+2020-08-29 11:42:29,172 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzReader
+2020-08-29 11:42:29,176 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzWriter
+2020-08-29 11:42:29,181 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeProfileReader
+2020-08-29 11:42:29,192 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeReader
+2020-08-29 11:42:29,197 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeWriter
+2020-08-29 11:42:29,203 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ImageReader
+2020-08-29 11:42:29,207 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LegacyProfileReader
+2020-08-29 11:42:29,213 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalContainerProvider
+2020-08-29 11:42:29,220 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalFileOutputDevice
+2020-08-29 11:42:29,224 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MachineSettingsAction
+2020-08-29 11:42:29,229 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ModelChecker
+2020-08-29 11:42:29,234 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MonitorStage
+2020-08-29 11:42:29,280 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PerObjectSettingsTool
+2020-08-29 11:42:29,286 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PostProcessingPlugin
+2020-08-29 11:42:29,290 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PrepareStage
+2020-08-29 11:42:29,294 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PreviewStage
+2020-08-29 11:42:29,299 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RemovableDriveOutputDevice
+2020-08-29 11:42:29,302 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SentryLogger
+2020-08-29 11:42:29,318 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimulationView
+2020-08-29 11:42:29,324 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SliceInfoPlugin
+2020-08-29 11:42:29,333 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SolidView
+2020-08-29 11:42:29,342 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SupportEraser
+2020-08-29 11:42:29,363 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-08-29 11:42:29,365 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-08-29 11:42:29,367 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-08-29 11:42:29,368 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-08-29 11:42:29,370 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-08-29 11:42:29,372 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-08-29 11:42:29,373 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-08-29 11:42:29,375 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-08-29 11:42:29,379 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin Toolbox
+2020-08-29 11:42:29,385 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CameraTool
+2020-08-29 11:42:29,391 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MirrorTool
+2020-08-29 11:42:29,401 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RotateTool
+2020-08-29 11:42:29,411 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ScaleTool
+2020-08-29 11:42:29,416 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SelectionTool
+2020-08-29 11:42:29,422 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TranslateTool
+2020-08-29 11:42:29,426 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TrimeshReader
+2020-08-29 11:42:29,434 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPReader
+2020-08-29 11:42:29,441 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPWriter
+2020-08-29 11:42:29,510 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UM3NetworkPrinting
+2020-08-29 11:42:29,531 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin USBPrinting
+2020-08-29 11:42:29,536 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UltimakerMachineActions
+2020-08-29 11:42:29,544 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UpdateChecker
+2020-08-29 11:42:29,545 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [40]: Checking for new version of cura
+2020-08-29 11:42:29,560 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade21to22
+2020-08-29 11:42:29,565 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade22to24
+2020-08-29 11:42:29,570 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade25to26
+2020-08-29 11:42:29,574 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade26to27
+2020-08-29 11:42:29,579 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade27to30
+2020-08-29 11:42:29,583 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade30to31
+2020-08-29 11:42:29,588 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade32to33
+2020-08-29 11:42:29,591 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade33to34
+2020-08-29 11:42:29,596 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade34to35
+2020-08-29 11:42:29,600 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade35to40
+2020-08-29 11:42:29,604 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade40to41
+2020-08-29 11:42:29,609 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade41to42
+2020-08-29 11:42:29,613 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade42to43
+2020-08-29 11:42:29,617 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade43to44
+2020-08-29 11:42:29,622 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade44to45
+2020-08-29 11:42:29,626 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade45to46
+2020-08-29 11:42:29,631 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade460to462
+2020-08-29 11:42:29,636 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade462to47
+2020-08-29 11:42:29,640 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimpleView
+2020-08-29 11:42:29,653 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin X3DReader
+2020-08-29 11:42:29,658 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XRayView
+2020-08-29 11:42:29,670 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XmlMaterialProfile
+2020-08-29 11:42:29,676 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MaterialSettingsPlugin
+2020-08-29 11:42:29,679 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LinearAdvanceSettingPlugin
+2020-08-29 11:42:29,682 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [373]: Loading all plugins took 0.7343146800994873 seconds
+2020-08-29 11:42:29,686 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [163]: Looking for old configuration files to upgrade.
+2020-08-29 11:42:29,693 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./Weird+Bear_settings.inst.cfg] with type [definition_changes] and source version [4000014]
+2020-08-29 11:42:29,695 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0+%234_settings.inst.cfg] with type [definition_changes] and source version [4000014]
+2020-08-29 11:42:29,697 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0+%233_settings.inst.cfg] with type [definition_changes] and source version [4000014]
+2020-08-29 11:42:29,699 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./Prusa+i3+Mk3%2FMk3s_settings.inst.cfg] with type [definition_changes] and source version [4000014]
+2020-08-29 11:42:29,700 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./Fake+Bear_settings.inst.cfg] with type [definition_changes] and source version [4000014]
+2020-08-29 11:42:29,702 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0+%232_settings.inst.cfg] with type [definition_changes] and source version [4000014]
+2020-08-29 11:42:29,704 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0+%235_settings.inst.cfg] with type [definition_changes] and source version [4000014]
+2020-08-29 11:42:29,706 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./Loli+Bear_settings.inst.cfg] with type [definition_changes] and source version [4000014]
+2020-08-29 11:42:29,710 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0+%235.extruder.cfg] with type [extruder_train] and source version [4000014]
+2020-08-29 11:42:29,712 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0+%233.extruder.cfg] with type [extruder_train] and source version [4000014]
+2020-08-29 11:42:29,714 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0+%234.extruder.cfg] with type [extruder_train] and source version [4000014]
+2020-08-29 11:42:29,716 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0+%232.extruder.cfg] with type [extruder_train] and source version [4000014]
+2020-08-29 11:42:29,720 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./Loli+Bear.global.cfg] with type [machine_stack] and source version [4000014]
+2020-08-29 11:42:29,722 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./Fake+Bear.global.cfg] with type [machine_stack] and source version [4000014]
+2020-08-29 11:42:29,724 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./Weird+Bear.global.cfg] with type [machine_stack] and source version [4000014]
+2020-08-29 11:42:29,729 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./cura.cfg] with type [preferences] and source version [6000014]
+2020-08-29 11:42:29,731 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./cura.cfg] with type [preferences] and source version [6000014]
+2020-08-29 11:42:29,735 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0_%233_production_0.2mm.inst.cfg] with type [quality_changes] and source version [4000014]
+2020-08-29 11:42:29,737 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_production_0.2mm+%232.inst.cfg] with type [quality_changes] and source version [4000014]
+2020-08-29 11:42:29,739 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_production_0.2mm.inst.cfg] with type [quality_changes] and source version [4000014]
+2020-08-29 11:42:29,741 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0_%233_production_0.2mm+%232.inst.cfg] with type [quality_changes] and source version [4000014]
+2020-08-29 11:42:29,744 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [332]: Failed to get file version: ../custom_material+%232.xml.fdm_material, skip it
+2020-08-29 11:42:29,746 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [332]: Failed to get file version: ../generic_pc_175+%232.xml.fdm_material, skip it
+2020-08-29 11:42:29,748 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [332]: Failed to get file version: ../custom_material.xml.fdm_material, skip it
+2020-08-29 11:42:29,753 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0+%234_user.inst.cfg] with type [user] and source version [4000014]
+2020-08-29 11:42:29,755 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./Fake+Bear_user.inst.cfg] with type [user] and source version [4000014]
+2020-08-29 11:42:29,757 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0+%232_user.inst.cfg] with type [user] and source version [4000014]
+2020-08-29 11:42:29,758 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./Weird+Bear_user.inst.cfg] with type [user] and source version [4000014]
+2020-08-29 11:42:29,760 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0+%235_user.inst.cfg] with type [user] and source version [4000014]
+2020-08-29 11:42:29,762 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./Loli+Bear_user.inst.cfg] with type [user] and source version [4000014]
+2020-08-29 11:42:29,764 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [336]: Create upgrade task for configuration file [./prusa_i3_mk3_extruder_0+%233_user.inst.cfg] with type [user] and source version [4000014]
+2020-08-29 11:42:29,770 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./Weird+Bear_settings.inst.cfg to version 4000015.
+2020-08-29 11:42:29,774 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0+%234_settings.inst.cfg to version 4000015.
+2020-08-29 11:42:29,778 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0+%233_settings.inst.cfg to version 4000015.
+2020-08-29 11:42:29,782 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./Prusa+i3+Mk3%2FMk3s_settings.inst.cfg to version 4000015.
+2020-08-29 11:42:29,785 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./Fake+Bear_settings.inst.cfg to version 4000015.
+2020-08-29 11:42:29,789 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0+%232_settings.inst.cfg to version 4000015.
+2020-08-29 11:42:29,793 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0+%235_settings.inst.cfg to version 4000015.
+2020-08-29 11:42:29,796 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./Loli+Bear_settings.inst.cfg to version 4000015.
+2020-08-29 11:42:29,800 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0+%235.extruder.cfg to version 4000015.
+2020-08-29 11:42:29,804 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0+%233.extruder.cfg to version 4000015.
+2020-08-29 11:42:29,808 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0+%234.extruder.cfg to version 4000015.
+2020-08-29 11:42:29,812 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0+%232.extruder.cfg to version 4000015.
+2020-08-29 11:42:29,815 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./Loli+Bear.global.cfg to version 4000015.
+2020-08-29 11:42:29,819 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./Fake+Bear.global.cfg to version 4000015.
+2020-08-29 11:42:29,823 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./Weird+Bear.global.cfg to version 4000015.
+2020-08-29 11:42:29,827 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./cura.cfg to version 6000015.
+2020-08-29 11:42:29,832 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./cura.cfg to version 6000015.
+2020-08-29 11:42:29,835 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0_%233_production_0.2mm.inst.cfg to version 4000015.
+2020-08-29 11:42:29,839 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_production_0.2mm+%232.inst.cfg to version 4000015.
+2020-08-29 11:42:29,843 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_production_0.2mm.inst.cfg to version 4000015.
+2020-08-29 11:42:29,847 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0_%233_production_0.2mm+%232.inst.cfg to version 4000015.
+2020-08-29 11:42:29,850 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0+%234_user.inst.cfg to version 4000015.
+2020-08-29 11:42:29,854 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./Fake+Bear_user.inst.cfg to version 4000015.
+2020-08-29 11:42:29,858 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0+%232_user.inst.cfg to version 4000015.
+2020-08-29 11:42:29,861 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./Weird+Bear_user.inst.cfg to version 4000015.
+2020-08-29 11:42:29,865 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0+%235_user.inst.cfg to version 4000015.
+2020-08-29 11:42:29,869 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./Loli+Bear_user.inst.cfg to version 4000015.
+2020-08-29 11:42:29,872 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./prusa_i3_mk3_extruder_0+%233_user.inst.cfg to version 4000015.
+2020-08-29 11:42:29,874 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [175]: Checking and performing updates took 0.18837356567382812
+2020-08-29 11:42:31,196 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [361]: Loading metadata into container registry took 1.2985413074493408 seconds
+2020-08-29 11:42:31,204 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [142]: Select build plate: 0
+2020-08-29 11:42:31,206 - INFO - [MainThread] cura.CuraApplication.run [781]: Initializing machine error checker
+2020-08-29 11:42:31,472 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition prusa_i3_mk3 failed to pickle.
+2020-08-29 11:42:31,482 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [74]: Default machine actions added for machine definition [prusa_i3_mk3]
+2020-08-29 11:42:31,663 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition fdmprinter failed to pickle.
+2020-08-29 11:42:31,717 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[prusa_i3_mk3_extruder_0 #4] added to [Loli Bear] at position [0]
+2020-08-29 11:42:31,718 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [79]: No machine with name Prusa i3 Mk3/Mk3s in list of firmware to check.
+2020-08-29 11:42:31,866 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [120]: Adding container tree for prusa_i3_mk3 took 0.1441941261291504 seconds.
+2020-08-29 11:42:31,874 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: ChangeAtZ
+2020-08-29 11:42:31,875 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: ColorMix
+2020-08-29 11:42:31,876 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2020-08-29 11:42:31,877 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: DisplayProgressOnLCD
+2020-08-29 11:42:31,878 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: FilamentChange
+2020-08-29 11:42:31,878 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: InsertAtLayerChange
+2020-08-29 11:42:31,883 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: PauseAtHeight
+2020-08-29 11:42:31,884 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: RetractContinue
+2020-08-29 11:42:31,884 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: SearchAndReplace
+2020-08-29 11:42:31,888 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: Stretch
+2020-08-29 11:42:31,889 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: TimeLapse
+2020-08-29 11:42:31,889 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: UsePreviousProbeMeasurements
+2020-08-29 11:42:31,924 - INFO - [MainThread] cura.CuraApplication.run [786]: Initializing machine manager
+2020-08-29 11:42:31,927 - INFO - [MainThread] cura.CuraApplication.run [791]: Initializing container manager
+2020-08-29 11:42:31,964 - DEBUG - [Thread-2] UM.Mesh.MeshData.calculateNormalsFromVertices [552]: Calculating normals took 0.0013513565063476562 seconds
+2020-08-29 11:42:31,983 - DEBUG - [Thread-2] UM.Mesh.MeshData.approximateConvexHull [506]: approximateConvexHull(target_count=1024) Calculating 3D convex hull took 0.015148162841796875 seconds. 92 input vertices. 92 output vertices.
+2020-08-29 11:42:32,987 - WARNING - [MainThread] cura.OAuth2.AuthorizationHelpers.parseJWT [118]: Could not retrieve token data from auth server: {"errors": [{"id": "7b573401-0860-4c77-b4c9-6bcab6f0f912", "code": "invalidToken", "http_status": "403", "title": "The given token is invalid.", "meta": {"error_type": "AuthError", "url": "https://account.ultimaker.com/check-token"}}]}
+2020-08-29 11:42:32,991 - DEBUG - [MainThread] cura.OAuth2.AuthorizationHelpers.getAccessTokenUsingRefreshToken [60]: Refreshing the access token.
+2020-08-29 11:42:33,968 - WARNING - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [112]: Unable to use the refresh token to get a new access token.
+2020-08-29 11:42:33,972 - WARNING - [MainThread] cura.OAuth2.AuthorizationService.getUserProfile [86]: The user profile could not be loaded. The user must log in again!
+2020-08-29 11:42:33,976 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._storeAuthData [250]: Attempting to store the auth data
+2020-08-29 11:42:33,999 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2020-08-29 11:42:34,040 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [158]: Loading theme file: /tmp/.mount_UltimaVOKrEj/usr/bin/resources/themes/cura-light/theme.json
+2020-08-29 11:42:34,481 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [246]: Loaded theme /tmp/.mount_UltimaVOKrEj/usr/bin/resources/themes/cura-light
+2020-08-29 11:42:34,487 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-08-29 11:42:35,091 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [336]: Creating post processing plugin view.
+2020-08-29 11:42:35,251 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [346]: Post processing view created.
+2020-08-29 11:42:35,537 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaVOKrEj/usr/bin/resources/qml/Settings/SettingView.qml:229:20: QML SettingDefinitionsModel: Binding loop detected for property "expanded"
+2020-08-29 11:42:35,553 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
+2020-08-29 11:42:35,623 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
+2020-08-29 11:42:35,625 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
+2020-08-29 11:42:35,640 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-29 11:42:35,734 - DEBUG - [MainThread] MaterialSettingsPlugin.MaterialSettingsPlugin._onEngineCreated [64]: Replacing Materials preferencepane with patched version
+2020-08-29 11:42:35,737 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2020-08-29 11:42:35,821 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-29 11:42:35,899 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2020-08-29 11:42:36,114 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [117]: Creating model checker view.
+2020-08-29 11:42:36,120 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [126]: Model checker view created.
+2020-08-29 11:42:36,121 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [76]: Creating dialog [MoreInfoWindow.qml]
+2020-08-29 11:42:36,144 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [544]: Requesting [updates] metadata from server.
+2020-08-29 11:42:36,147 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [124]: No auth data to retrieve the access_token from
+2020-08-29 11:42:36,149 - WARNING - [MainThread] UM.Logger.warning [128]: Cannot add authorization to Cloud Api request
+2020-08-29 11:42:36,177 - DEBUG - [MainThread] cura.CuraApplication.run [830]: Booting Cura took 7.683381080627441 seconds
+2020-08-29 11:42:36,182 - DEBUG - [Thread-3] cura.Machines.ContainerTree.run [174]: Started background loading of MachineNodes
+2020-08-29 11:42:36,209 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-29 11:42:36,220 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-08-29 11:42:36,782 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [210]: Support for Vertex Array Objects: True
+2020-08-29 11:42:36,790 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
+2020-08-29 11:42:36,792 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.6 (Core Profile) Mesa 20.1.3
+2020-08-29 11:42:36,794 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   X.Org
+2020-08-29 11:42:36,796 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: Radeon RX 580 Series (POLARIS10, DRM 3.36.0, 5.6.19-2-MANJARO, LLVM 10.0.0)
+2020-08-29 11:42:36,798 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    4.60.0
+2020-08-29 11:42:36,800 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/default.shader]...
+2020-08-29 11:42:36,806 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/selection.shader]...
+2020-08-29 11:42:36,809 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/select_face.shader]...
+2020-08-29 11:42:36,812 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/default.shader]...
+2020-08-29 11:42:36,814 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/composite.shader]...
+2020-08-29 11:42:36,817 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/overhang.shader]...
+2020-08-29 11:42:36,822 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/striped.shader]...
+2020-08-29 11:42:36,827 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/transparent_object.shader]...
+2020-08-29 11:42:36,830 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/striped.shader]...
+2020-08-29 11:42:36,833 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/xray.shader]...
+2020-08-29 11:42:36,835 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/xray_composite.shader]...
+2020-08-29 11:42:36,841 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/default.shader]...
+2020-08-29 11:42:36,843 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/grid.shader]...
+2020-08-29 11:42:36,846 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/platform.shader]...
+2020-08-29 11:42:36,856 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaVOKrEj/usr/bin/resources/shaders/xray.shader]...
+2020-08-29 11:42:37,497 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-29 11:42:37,500 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-08-29 11:42:37,705 - DEBUG - [Thread-3] cura.Machines.ContainerTree.run [185]: All MachineNode loading completed
+2020-08-29 11:42:38,272 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 3.8s
+2020-08-29 11:42:47,544 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-08-29 11:42:58,142 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [58]: Default machine actions have been added for machine definition [prusa_i3_mk3], do nothing.
+2020-08-29 11:42:58,160 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[prusa_i3_mk3_extruder_0 #3] added to [Weird Bear] at position [0]
+2020-08-29 11:42:58,174 - INFO - [MainThread] UM.Logger.info [122]: Initializing Active Machine...
+2020-08-29 11:42:58,258 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-29 11:42:58,288 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-29 11:42:58,296 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-29 11:42:58,298 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-08-29 11:42:58,326 - DEBUG - [Thread-4] UM.Mesh.MeshData.calculateNormalsFromVertices [552]: Calculating normals took 0.002274751663208008 seconds
+2020-08-29 11:42:58,337 - DEBUG - [Thread-4] UM.Mesh.MeshData.approximateConvexHull [506]: approximateConvexHull(target_count=1024) Calculating 3D convex hull took 0.007833242416381836 seconds. 92 input vertices. 92 output vertices.
+2020-08-29 11:42:58,445 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-29 11:42:58,456 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-08-29 11:42:58,831 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-08-29 11:42:58,882 - DEBUG - [MainThread] UM.Logger.logException [106]: Exception: An exception occurred in inherit function =support_enable or support_tree_enable: name 'support_tree_enable' is not defined
+2020-08-29 11:42:58,884 - DEBUG - [MainThread] UM.Logger.logException [110]: Traceback (most recent call last):
+2020-08-29 11:42:58,886 - DEBUG - [MainThread] UM.Logger.logException [110]:   File "/build/4.7/build/inst/lib/python3.5/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2020-08-29 11:42:58,889 - DEBUG - [MainThread] UM.Logger.logException [110]:   File "<UM.Settings.SettingFunction (0x770e738) =support_enable or support_tree_enable >", line 1, in <module>
+2020-08-29 11:42:58,891 - DEBUG - [MainThread] UM.Logger.logException [110]: NameError: name 'support_tree_enable' is not defined
+2020-08-29 11:42:59,309 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-29 11:42:59,313 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-08-29 11:42:59,477 - DEBUG - [MainThread] UM.Logger.logException [106]: Exception: An exception occurred in inherit function =support_enable or support_tree_enable: name 'support_tree_enable' is not defined
+2020-08-29 11:42:59,479 - DEBUG - [MainThread] UM.Logger.logException [110]: Traceback (most recent call last):
+2020-08-29 11:42:59,481 - DEBUG - [MainThread] UM.Logger.logException [110]:   File "/build/4.7/build/inst/lib/python3.5/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2020-08-29 11:42:59,484 - DEBUG - [MainThread] UM.Logger.logException [110]:   File "<UM.Settings.SettingFunction (0x770e738) =support_enable or support_tree_enable >", line 1, in <module>
+2020-08-29 11:42:59,485 - DEBUG - [MainThread] UM.Logger.logException [110]: NameError: name 'support_tree_enable' is not defined
+2020-08-29 11:42:59,655 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.8s
+2020-08-29 11:43:07,586 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-29 11:43:07,589 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-29 11:43:07,676 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-29 11:43:07,680 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-08-29 11:43:07,893 - DEBUG - [MainThread] UM.Logger.logException [106]: Exception: An exception occurred in inherit function =support_enable or support_tree_enable: name 'support_tree_enable' is not defined
+2020-08-29 11:43:07,896 - DEBUG - [MainThread] UM.Logger.logException [110]: Traceback (most recent call last):
+2020-08-29 11:43:07,897 - DEBUG - [MainThread] UM.Logger.logException [110]:   File "/build/4.7/build/inst/lib/python3.5/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2020-08-29 11:43:07,899 - DEBUG - [MainThread] UM.Logger.logException [110]:   File "<UM.Settings.SettingFunction (0x770e738) =support_enable or support_tree_enable >", line 1, in <module>
+2020-08-29 11:43:07,901 - DEBUG - [MainThread] UM.Logger.logException [110]: NameError: name 'support_tree_enable' is not defined
+2020-08-29 11:43:08,323 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-08-29 11:43:08,484 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-08-29 11:43:08,487 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-08-29 11:43:08,624 - DEBUG - [MainThread] UM.Logger.logException [106]: Exception: An exception occurred in inherit function =support_enable or support_tree_enable: name 'support_tree_enable' is not defined
+2020-08-29 11:43:08,626 - DEBUG - [MainThread] UM.Logger.logException [110]: Traceback (most recent call last):
+2020-08-29 11:43:08,628 - DEBUG - [MainThread] UM.Logger.logException [110]:   File "/build/4.7/build/inst/lib/python3.5/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2020-08-29 11:43:08,630 - DEBUG - [MainThread] UM.Logger.logException [110]:   File "<UM.Settings.SettingFunction (0x770e738) =support_enable or support_tree_enable >", line 1, in <module>
+2020-08-29 11:43:08,632 - DEBUG - [MainThread] UM.Logger.logException [110]: NameError: name 'support_tree_enable' is not defined
+2020-08-29 11:43:08,803 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.5s
+2020-08-29 11:43:17,546 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-08-29 11:43:18,022 - DEBUG - [MainThread] cura.TaskManagement.OnExitCallbackManager.triggerNextCallback [51]: No more on-app-exit callbacks to process. Tell the app to exit.
+2020-08-29 11:43:18,027 - INFO - [MainThread] cura.CuraApplication.closeApplication [602]: Close application
+2020-08-29 11:43:18,035 - DEBUG - [MainThread] UM.Qt.QtApplication.windowClosed [470]: Shutting down cura
+2020-08-29 11:43:18,048 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [315]: Attempting to kill the engine process
+2020-08-29 11:43:18,048 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [321]: Killing engine process
+2020-08-29 11:43:18,049 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [324]: Engine process is killed. Received return code -15

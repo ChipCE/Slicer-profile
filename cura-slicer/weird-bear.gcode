@@ -14,15 +14,24 @@ M83 ; extruder relative mode
 G21 ; set units to millimeters ; CURA
 
 M117 Parking extruder
+
+
+G28 X Y R5 ; raise Z by 5 then home XY
+
+
+
+; then preheat (PRUSA SLICER ONLY)
+M104 S{material_print_temperature_layer_0} ; set extruder temp
+M140 S{material_bed_temperature_layer_0} ; set bed temp
+
+; when the extruder tmp is high enough, home and move the extruder from the bed to avoid heating up the probe
+M109 S{material_print_temperature_layer_0} ; wait for extruder temp
 G28 ; Home
 G0 X0 Y100 F2500 ; XY parking
 M400 ;
 G0 Z50 F420 ; Z parking
 M400 ;
 
-; then preheat (PRUSA SLICER ONLY)
-M104 S{material_print_temperature_layer_0} ; set extruder temp
-M140 S{material_bed_temperature_layer_0} ; set bed temp
 M190 S{material_bed_temperature_layer_0} ; wait for bed temp
 M109 S{material_print_temperature_layer_0} ; wait for extruder temp
 

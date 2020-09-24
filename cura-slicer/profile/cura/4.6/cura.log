@@ -488,3 +488,908 @@
 2020-08-29 11:40:31,183 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
 2020-08-29 11:40:31,496 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 0.3s
 2020-08-29 11:40:41,546 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-09-24 21:34:37,226 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FileLogger
+2020-09-24 21:34:37,232 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdateChecker
+2020-09-24 21:34:37,240 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdater
+2020-09-24 21:34:37,243 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzReader
+2020-09-24 21:34:37,247 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzWriter
+2020-09-24 21:34:37,252 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeProfileReader
+2020-09-24 21:34:37,262 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeReader
+2020-09-24 21:34:37,266 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeWriter
+2020-09-24 21:34:37,273 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ImageReader
+2020-09-24 21:34:37,279 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LegacyProfileReader
+2020-09-24 21:34:37,283 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalContainerProvider
+2020-09-24 21:34:37,291 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalFileOutputDevice
+2020-09-24 21:34:37,295 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MachineSettingsAction
+2020-09-24 21:34:37,299 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ModelChecker
+2020-09-24 21:34:37,305 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MonitorStage
+2020-09-24 21:34:37,320 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PerObjectSettingsTool
+2020-09-24 21:34:37,366 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PostProcessingPlugin
+2020-09-24 21:34:37,370 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PrepareStage
+2020-09-24 21:34:37,373 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PreviewStage
+2020-09-24 21:34:37,378 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RemovableDriveOutputDevice
+2020-09-24 21:34:37,382 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SentryLogger
+2020-09-24 21:34:37,399 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimulationView
+2020-09-24 21:34:37,405 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SliceInfoPlugin
+2020-09-24 21:34:37,411 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SolidView
+2020-09-24 21:34:37,418 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SupportEraser
+2020-09-24 21:34:37,441 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:34:37,443 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:34:37,445 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:34:37,447 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:34:37,448 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:34:37,450 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:34:37,452 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:34:37,453 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:34:37,456 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin Toolbox
+2020-09-24 21:34:37,463 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CameraTool
+2020-09-24 21:34:37,469 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MirrorTool
+2020-09-24 21:34:37,476 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RotateTool
+2020-09-24 21:34:37,484 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ScaleTool
+2020-09-24 21:34:37,490 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SelectionTool
+2020-09-24 21:34:37,496 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TranslateTool
+2020-09-24 21:34:37,500 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TrimeshReader
+2020-09-24 21:34:37,507 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPReader
+2020-09-24 21:34:37,514 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPWriter
+2020-09-24 21:34:37,580 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UM3NetworkPrinting
+2020-09-24 21:34:37,600 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin USBPrinting
+2020-09-24 21:34:37,605 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UltimakerMachineActions
+2020-09-24 21:34:37,615 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UpdateChecker
+2020-09-24 21:34:37,616 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [40]: Checking for new version of cura
+2020-09-24 21:34:37,630 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade21to22
+2020-09-24 21:34:37,637 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade22to24
+2020-09-24 21:34:37,643 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade25to26
+2020-09-24 21:34:37,647 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade26to27
+2020-09-24 21:34:37,652 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade27to30
+2020-09-24 21:34:37,656 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade30to31
+2020-09-24 21:34:37,661 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade32to33
+2020-09-24 21:34:37,664 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade33to34
+2020-09-24 21:34:37,668 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade34to35
+2020-09-24 21:34:37,672 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade35to40
+2020-09-24 21:34:37,678 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade40to41
+2020-09-24 21:34:37,683 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade41to42
+2020-09-24 21:34:37,688 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade42to43
+2020-09-24 21:34:37,692 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade43to44
+2020-09-24 21:34:37,696 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade44to45
+2020-09-24 21:34:37,700 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade45to46
+2020-09-24 21:34:37,704 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade460to462
+2020-09-24 21:34:37,707 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimpleView
+2020-09-24 21:34:37,719 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin X3DReader
+2020-09-24 21:34:37,724 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XRayView
+2020-09-24 21:34:37,736 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XmlMaterialProfile
+2020-09-24 21:34:37,747 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MaterialSettingsPlugin
+2020-09-24 21:34:37,752 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LinearAdvanceSettingPlugin
+2020-09-24 21:34:37,754 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [374]: Loading all plugins took 0.7639129161834717 seconds
+2020-09-24 21:34:37,763 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [160]: Looking for old configuration files to upgrade.
+2020-09-24 21:34:37,846 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material+%232.xml.fdm_material, skip it
+2020-09-24 21:34:37,848 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../generic_pc_175+%232.xml.fdm_material, skip it
+2020-09-24 21:34:37,850 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material.xml.fdm_material, skip it
+2020-09-24 21:34:37,991 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [85]: Found a new version of the software. Spawning message
+2020-09-24 21:34:40,248 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [360]: Loading metadata into container registry took 2.3612353801727295 seconds
+2020-09-24 21:34:40,563 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [111]: Select build plate: 0
+2020-09-24 21:34:40,565 - INFO - [MainThread] cura.CuraApplication.run [751]: Initializing machine error checker
+2020-09-24 21:34:40,625 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FileLogger
+2020-09-24 21:34:40,639 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdateChecker
+2020-09-24 21:34:40,650 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdater
+2020-09-24 21:34:40,656 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzReader
+2020-09-24 21:34:40,663 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzWriter
+2020-09-24 21:34:40,668 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeProfileReader
+2020-09-24 21:34:40,682 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeReader
+2020-09-24 21:34:40,687 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeWriter
+2020-09-24 21:34:40,695 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ImageReader
+2020-09-24 21:34:40,700 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LegacyProfileReader
+2020-09-24 21:34:40,705 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalContainerProvider
+2020-09-24 21:34:40,713 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalFileOutputDevice
+2020-09-24 21:34:40,718 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MachineSettingsAction
+2020-09-24 21:34:40,723 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ModelChecker
+2020-09-24 21:34:40,730 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MonitorStage
+2020-09-24 21:34:40,773 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PerObjectSettingsTool
+2020-09-24 21:34:40,780 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PostProcessingPlugin
+2020-09-24 21:34:40,784 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PrepareStage
+2020-09-24 21:34:40,787 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PreviewStage
+2020-09-24 21:34:40,793 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RemovableDriveOutputDevice
+2020-09-24 21:34:40,796 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SentryLogger
+2020-09-24 21:34:40,813 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimulationView
+2020-09-24 21:34:40,819 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SliceInfoPlugin
+2020-09-24 21:34:40,827 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SolidView
+2020-09-24 21:34:40,832 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SupportEraser
+2020-09-24 21:34:40,852 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:34:40,854 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:34:40,856 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:34:40,858 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:34:40,860 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:34:40,861 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:34:40,863 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:34:40,865 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:34:40,867 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin Toolbox
+2020-09-24 21:34:40,873 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CameraTool
+2020-09-24 21:34:40,880 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MirrorTool
+2020-09-24 21:34:40,886 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RotateTool
+2020-09-24 21:34:40,897 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ScaleTool
+2020-09-24 21:34:40,901 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SelectionTool
+2020-09-24 21:34:40,907 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TranslateTool
+2020-09-24 21:34:40,911 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TrimeshReader
+2020-09-24 21:34:40,918 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPReader
+2020-09-24 21:34:40,926 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPWriter
+2020-09-24 21:34:40,972 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition prusa_i3_mk3 failed to pickle.
+2020-09-24 21:34:40,982 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [72]: Default machine actions added for machine definition [prusa_i3_mk3]
+2020-09-24 21:34:40,997 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UM3NetworkPrinting
+2020-09-24 21:34:41,018 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin USBPrinting
+2020-09-24 21:34:41,024 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UltimakerMachineActions
+2020-09-24 21:34:41,030 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UpdateChecker
+2020-09-24 21:34:41,032 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [40]: Checking for new version of cura
+2020-09-24 21:34:41,049 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade21to22
+2020-09-24 21:34:41,055 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade22to24
+2020-09-24 21:34:41,061 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade25to26
+2020-09-24 21:34:41,068 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade26to27
+2020-09-24 21:34:41,073 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade27to30
+2020-09-24 21:34:41,077 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade30to31
+2020-09-24 21:34:41,081 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade32to33
+2020-09-24 21:34:41,085 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade33to34
+2020-09-24 21:34:41,089 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade34to35
+2020-09-24 21:34:41,093 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade35to40
+2020-09-24 21:34:41,097 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade40to41
+2020-09-24 21:34:41,101 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade41to42
+2020-09-24 21:34:41,107 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade42to43
+2020-09-24 21:34:41,115 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade43to44
+2020-09-24 21:34:41,120 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade44to45
+2020-09-24 21:34:41,124 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade45to46
+2020-09-24 21:34:41,128 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade460to462
+2020-09-24 21:34:41,131 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimpleView
+2020-09-24 21:34:41,141 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [184]: Extruder[prusa_i3_mk3_extruder_0 #3] added to [Weird Bear] at position [0]
+2020-09-24 21:34:41,141 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin X3DReader
+2020-09-24 21:34:41,143 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #3] has already been registered on machine [Weird Bear], not doing anything
+2020-09-24 21:34:41,143 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [74]: No machine with name Prusa i3 Mk3/Mk3s in list of firmware to check.
+2020-09-24 21:34:41,146 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XRayView
+2020-09-24 21:34:41,161 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XmlMaterialProfile
+2020-09-24 21:34:41,167 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MaterialSettingsPlugin
+2020-09-24 21:34:41,170 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LinearAdvanceSettingPlugin
+2020-09-24 21:34:41,172 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [374]: Loading all plugins took 3.5713558197021484 seconds
+2020-09-24 21:34:41,176 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [160]: Looking for old configuration files to upgrade.
+2020-09-24 21:34:41,259 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material+%232.xml.fdm_material, skip it
+2020-09-24 21:34:41,261 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../generic_pc_175+%232.xml.fdm_material, skip it
+2020-09-24 21:34:41,263 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material.xml.fdm_material, skip it
+2020-09-24 21:34:41,286 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [106]: Adding container tree for prusa_i3_mk3 took 0.138230562210083 seconds.
+2020-09-24 21:34:41,290 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: BQ_PauseAtHeight
+2020-09-24 21:34:41,293 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ChangeAtZ
+2020-09-24 21:34:41,295 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ColorMix
+2020-09-24 21:34:41,296 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2020-09-24 21:34:41,296 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayRemainingTimeOnLCD
+2020-09-24 21:34:41,297 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: FilamentChange
+2020-09-24 21:34:41,298 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: InsertAtLayerChange
+2020-09-24 21:34:41,300 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeight
+2020-09-24 21:34:41,301 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightRepRapFirmwareDuet
+2020-09-24 21:34:41,302 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightforRepetier
+2020-09-24 21:34:41,303 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: RetractContinue
+2020-09-24 21:34:41,304 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: SearchAndReplace
+2020-09-24 21:34:41,309 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: Stretch
+2020-09-24 21:34:41,310 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: TimeLapse
+2020-09-24 21:34:41,311 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: UsePreviousProbeMeasurements
+2020-09-24 21:34:41,406 - INFO - [MainThread] cura.CuraApplication.run [756]: Initializing machine manager
+2020-09-24 21:34:41,409 - INFO - [MainThread] cura.CuraApplication.run [761]: Initializing container manager
+2020-09-24 21:34:41,411 - INFO - [Thread-2] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+2020-09-24 21:34:41,458 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [85]: Found a new version of the software. Spawning message
+2020-09-24 21:34:41,488 - DEBUG - [Thread-2] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.0018451213836669922 seconds
+2020-09-24 21:34:41,488 - DEBUG - [Thread-2] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
+2020-09-24 21:34:43,602 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [360]: Loading metadata into container registry took 2.3021702766418457 seconds
+2020-09-24 21:34:43,914 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [111]: Select build plate: 0
+2020-09-24 21:34:43,916 - INFO - [MainThread] cura.CuraApplication.run [751]: Initializing machine error checker
+2020-09-24 21:34:44,210 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [72]: Default machine actions added for machine definition [prusa_i3_mk3]
+2020-09-24 21:34:44,412 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [184]: Extruder[prusa_i3_mk3_extruder_0 #3] added to [Weird Bear] at position [0]
+2020-09-24 21:34:44,414 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #3] has already been registered on machine [Weird Bear], not doing anything
+2020-09-24 21:34:44,415 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [74]: No machine with name Prusa i3 Mk3/Mk3s in list of firmware to check.
+2020-09-24 21:34:44,548 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [106]: Adding container tree for prusa_i3_mk3 took 0.1293778419494629 seconds.
+2020-09-24 21:34:44,552 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: BQ_PauseAtHeight
+2020-09-24 21:34:44,557 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ChangeAtZ
+2020-09-24 21:34:44,559 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ColorMix
+2020-09-24 21:34:44,560 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2020-09-24 21:34:44,561 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayRemainingTimeOnLCD
+2020-09-24 21:34:44,561 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: FilamentChange
+2020-09-24 21:34:44,562 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: InsertAtLayerChange
+2020-09-24 21:34:44,564 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeight
+2020-09-24 21:34:44,565 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightRepRapFirmwareDuet
+2020-09-24 21:34:44,566 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightforRepetier
+2020-09-24 21:34:44,568 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: RetractContinue
+2020-09-24 21:34:44,568 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: SearchAndReplace
+2020-09-24 21:34:44,573 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: Stretch
+2020-09-24 21:34:44,574 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: TimeLapse
+2020-09-24 21:34:44,575 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: UsePreviousProbeMeasurements
+2020-09-24 21:34:44,667 - INFO - [MainThread] cura.CuraApplication.run [756]: Initializing machine manager
+2020-09-24 21:34:44,670 - INFO - [MainThread] cura.CuraApplication.run [761]: Initializing container manager
+2020-09-24 21:34:44,673 - INFO - [Thread-2] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+2020-09-24 21:34:44,776 - DEBUG - [Thread-2] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.0010559558868408203 seconds
+2020-09-24 21:34:44,777 - DEBUG - [Thread-2] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
+2020-09-24 21:34:45,832 - WARNING - [MainThread] cura.OAuth2.AuthorizationHelpers.parseJWT [105]: Could not retrieve token data from auth server: {"errors": [{"id": "339b13d5-f94a-4ad1-ae27-7276d58c62cc", "code": "tokenExpired", "http_status": "403", "title": "The given token has expired.", "meta": {"error_type": "AuthError", "url": "https://account.ultimaker.com/check-token"}}]}
+2020-09-24 21:34:45,837 - DEBUG - [MainThread] cura.OAuth2.AuthorizationHelpers.getAccessTokenUsingRefreshToken [53]: Refreshing the access token.
+2020-09-24 21:34:46,944 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._storeAuthData [213]: Attempting to store the auth data
+2020-09-24 21:34:47,548 - WARNING - [MainThread] cura.OAuth2.AuthorizationHelpers.parseJWT [105]: Could not retrieve token data from auth server: {"errors": [{"id": "36867ec3-eef4-47a2-a9ec-0bd20188e9b0", "code": "invalidToken", "http_status": "403", "title": "The given token is invalid.", "meta": {"error_type": "AuthError", "url": "https://account.ultimaker.com/check-token"}}]}
+2020-09-24 21:34:47,553 - DEBUG - [MainThread] cura.OAuth2.AuthorizationHelpers.getAccessTokenUsingRefreshToken [53]: Refreshing the access token.
+2020-09-24 21:34:48,591 - WARNING - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [101]: Unable to use the refresh token to get a new access token.
+2020-09-24 21:34:48,595 - WARNING - [MainThread] cura.OAuth2.AuthorizationService.getUserProfile [78]: The user profile could not be loaded. The user must log in again!
+2020-09-24 21:34:48,600 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._storeAuthData [213]: Attempting to store the auth data
+2020-09-24 21:34:48,609 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-09-24 21:34:48,650 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2020-09-24 21:34:48,810 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [158]: Loading theme file: /tmp/.mount_UltimaLvpA6V/usr/bin/resources/themes/cura-light/theme.json
+2020-09-24 21:34:49,365 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [231]: Loaded theme /tmp/.mount_UltimaLvpA6V/usr/bin/resources/themes/cura-light
+2020-09-24 21:34:49,791 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._processRequest [346]: Request [48483e2a90f14f1d87c35426211f586a] started
+2020-09-24 21:34:49,796 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-09-24 21:34:49,806 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-09-24 21:34:49,834 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2020-09-24 21:34:49,983 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [158]: Loading theme file: /tmp/.mount_UltimaaogcSD/usr/bin/resources/themes/cura-light/theme.json
+2020-09-24 21:34:50,001 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [311]: Creating post processing plugin view.
+2020-09-24 21:34:50,159 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [321]: Post processing view created.
+2020-09-24 21:34:50,460 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-09-24 21:34:50,465 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-09-24 21:34:50,469 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-09-24 21:34:50,476 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [231]: Loaded theme /tmp/.mount_UltimaaogcSD/usr/bin/resources/themes/cura-light
+2020-09-24 21:34:50,709 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-09-24 21:34:50,712 - WARNING - [MainThread] UM.Decorators.deprecated_function [23]: <function GlobalStack.extruders at 0x3ad6b88> is deprecated (since 4.4): Please use extruderList instead.
+2020-09-24 21:34:50,808 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaLvpA6V/usr/bin/resources/qml/PrintSetupSelector/Custom/CustomPrintSetup.qml:76:29: Unable to assign null to double
+2020-09-24 21:34:50,819 - DEBUG - [MainThread] MaterialSettingsPlugin.MaterialSettingsPlugin._onEngineCreated [64]: Replacing Materials preferencepane with patched version
+2020-09-24 21:34:50,832 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2020-09-24 21:34:50,910 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-09-24 21:34:50,948 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaLvpA6V/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-09-24 21:34:50,950 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaLvpA6V/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-09-24 21:34:50,995 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2020-09-24 21:34:50,997 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [111]: Creating model checker view.
+2020-09-24 21:34:51,003 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [120]: Model checker view created.
+2020-09-24 21:34:51,004 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [71]: Creating dialog [MoreInfoWindow.qml]
+2020-09-24 21:34:51,020 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [542]: Requesting [updates] metadata from server.
+2020-09-24 21:34:51,025 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [112]: No auth data to retrieve the access_token from
+2020-09-24 21:34:51,028 - WARNING - [MainThread] UM.Logger.warning [128]: Cannot add authorization to Cloud Api request
+2020-09-24 21:34:51,071 - DEBUG - [MainThread] cura.CuraApplication.run [799]: Booting Cura took 14.560081243515015 seconds
+2020-09-24 21:34:51,136 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [311]: Creating post processing plugin view.
+2020-09-24 21:34:51,150 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._processRequest [346]: Request [f31aa6b9c3d247d98f458a515c6c3b39] started
+2020-09-24 21:34:51,152 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-09-24 21:34:51,161 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-09-24 21:34:51,171 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-09-24 21:34:51,282 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [321]: Post processing view created.
+2020-09-24 21:34:51,750 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-09-24 21:34:51,753 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-09-24 21:34:51,879 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-09-24 21:34:51,884 - WARNING - [MainThread] UM.Decorators.deprecated_function [23]: <function GlobalStack.extruders at 0x2ce88f8> is deprecated (since 4.4): Please use extruderList instead.
+2020-09-24 21:34:51,985 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaaogcSD/usr/bin/resources/qml/PrintSetupSelector/Custom/CustomPrintSetup.qml:76:29: Unable to assign null to double
+2020-09-24 21:34:51,997 - DEBUG - [MainThread] MaterialSettingsPlugin.MaterialSettingsPlugin._onEngineCreated [64]: Replacing Materials preferencepane with patched version
+2020-09-24 21:34:52,013 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2020-09-24 21:34:52,096 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-09-24 21:34:52,138 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaaogcSD/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-09-24 21:34:52,142 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaaogcSD/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-09-24 21:34:52,183 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2020-09-24 21:34:52,185 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [111]: Creating model checker view.
+2020-09-24 21:34:52,191 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [120]: Model checker view created.
+2020-09-24 21:34:52,192 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [71]: Creating dialog [MoreInfoWindow.qml]
+2020-09-24 21:34:52,217 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [542]: Requesting [updates] metadata from server.
+2020-09-24 21:34:52,223 - DEBUG - [MainThread] UM.Logger.debug [116]: Requesting subscribed packages metadata from server.
+2020-09-24 21:34:52,261 - DEBUG - [MainThread] cura.CuraApplication.run [799]: Booting Cura took 15.061180353164673 seconds
+2020-09-24 21:34:52,307 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [207]: Support for Vertex Array Objects: True
+2020-09-24 21:34:52,316 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
+2020-09-24 21:34:52,318 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.6 (Core Profile) Mesa 20.1.3
+2020-09-24 21:34:52,320 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   X.Org
+2020-09-24 21:34:52,322 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: Radeon RX 580 Series (POLARIS10, DRM 3.36.0, 5.6.19-2-MANJARO, LLVM 10.0.0)
+2020-09-24 21:34:52,324 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    4.60.0
+2020-09-24 21:34:52,326 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:34:52,331 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/selection.shader]...
+2020-09-24 21:34:52,333 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/select_face.shader]...
+2020-09-24 21:34:52,334 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._processRequest [346]: Request [bae499637af24d7eb2bf25f71c7b3332] started
+2020-09-24 21:34:52,336 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:34:52,336 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._processRequest [346]: Request [ef316fd51f88414a87200c613019d997] started
+2020-09-24 21:34:52,338 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-09-24 21:34:52,339 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/composite.shader]...
+2020-09-24 21:34:52,342 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/overhang.shader]...
+2020-09-24 21:34:52,345 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/striped.shader]...
+2020-09-24 21:34:52,347 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-09-24 21:34:52,348 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/transparent_object.shader]...
+2020-09-24 21:34:52,350 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/striped.shader]...
+2020-09-24 21:34:52,353 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/xray.shader]...
+2020-09-24 21:34:52,356 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/xray_composite.shader]...
+2020-09-24 21:34:52,359 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-09-24 21:34:52,359 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:34:52,361 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/grid.shader]...
+2020-09-24 21:34:52,364 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/platform.shader]...
+2020-09-24 21:34:52,378 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaLvpA6V/usr/bin/resources/shaders/xray.shader]...
+2020-09-24 21:34:52,791 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [408]: Request [48483e2a90f14f1d87c35426211f586a] finished.
+2020-09-24 21:34:52,793 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-09-24 21:34:52,937 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-09-24 21:34:52,940 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-09-24 21:34:53,343 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [408]: Request [f31aa6b9c3d247d98f458a515c6c3b39] finished.
+2020-09-24 21:34:53,345 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-09-24 21:34:53,478 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [207]: Support for Vertex Array Objects: True
+2020-09-24 21:34:53,487 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
+2020-09-24 21:34:53,489 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.6 (Core Profile) Mesa 20.1.3
+2020-09-24 21:34:53,491 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   X.Org
+2020-09-24 21:34:53,493 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: Radeon RX 580 Series (POLARIS10, DRM 3.36.0, 5.6.19-2-MANJARO, LLVM 10.0.0)
+2020-09-24 21:34:53,494 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    4.60.0
+2020-09-24 21:34:53,497 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:34:53,502 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/selection.shader]...
+2020-09-24 21:34:53,504 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/select_face.shader]...
+2020-09-24 21:34:53,506 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:34:53,509 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/composite.shader]...
+2020-09-24 21:34:53,512 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/overhang.shader]...
+2020-09-24 21:34:53,516 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/striped.shader]...
+2020-09-24 21:34:53,519 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/transparent_object.shader]...
+2020-09-24 21:34:53,522 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/striped.shader]...
+2020-09-24 21:34:53,525 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/xray.shader]...
+2020-09-24 21:34:53,528 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/xray_composite.shader]...
+2020-09-24 21:34:53,531 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:34:53,535 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/grid.shader]...
+2020-09-24 21:34:53,538 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/platform.shader]...
+2020-09-24 21:34:53,555 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaaogcSD/usr/bin/resources/shaders/xray.shader]...
+2020-09-24 21:34:53,644 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [408]: Request [bae499637af24d7eb2bf25f71c7b3332] finished.
+2020-09-24 21:34:53,646 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-09-24 21:34:53,648 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [408]: Request [ef316fd51f88414a87200c613019d997] finished.
+2020-09-24 21:34:53,650 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-09-24 21:34:54,469 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 5.9s
+2020-09-24 21:34:55,813 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 6.0s
+2020-09-24 21:34:59,105 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaaogcSD/usr/bin/resources/qml/RoundedRectangle.qml:68: TypeError: Cannot read property of null
+2020-09-24 21:35:02,565 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-09-24 21:35:03,561 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-09-24 21:35:13,763 - INFO - [MainThread] cura.Settings.MachineManager.removeMachine [681]: Attempting to remove a machine with the id [Loli Bear]
+2020-09-24 21:35:13,766 - INFO - [MainThread] LocalContainerProvider.LocalContainerProvider.removeContainer [213]: Deleting file /home/chip/.local/share/cura/4.6/user/Loli+Bear_user.inst.cfg.
+2020-09-24 21:35:13,768 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [460]: Removed container Loli Bear_user
+2020-09-24 21:35:13,769 - INFO - [MainThread] LocalContainerProvider.LocalContainerProvider.removeContainer [213]: Deleting file /home/chip/.local/share/cura/4.6/machine_instances/Loli+Bear.global.cfg.
+2020-09-24 21:35:13,771 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [460]: Removed container Loli Bear
+2020-09-24 21:35:16,850 - DEBUG - [MainThread] cura.TaskManagement.OnExitCallbackManager.triggerNextCallback [51]: No more on-app-exit callbacks to process. Tell the app to exit.
+2020-09-24 21:35:16,855 - INFO - [MainThread] cura.CuraApplication.closeApplication [577]: Close application
+2020-09-24 21:35:16,859 - DEBUG - [MainThread] UM.Qt.QtApplication.windowClosed [470]: Shutting down cura
+2020-09-24 21:35:16,874 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [304]: Attempting to kill the engine process
+2020-09-24 21:35:16,874 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [310]: Killing engine process
+2020-09-24 21:35:16,875 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [313]: Engine process is killed. Received return code -15
+2020-09-24 21:35:18,782 - DEBUG - [MainThread] cura.TaskManagement.OnExitCallbackManager.triggerNextCallback [51]: No more on-app-exit callbacks to process. Tell the app to exit.
+2020-09-24 21:35:18,785 - INFO - [MainThread] cura.CuraApplication.closeApplication [577]: Close application
+2020-09-24 21:35:18,788 - DEBUG - [MainThread] UM.Qt.QtApplication.windowClosed [470]: Shutting down cura
+2020-09-24 21:35:18,801 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [304]: Attempting to kill the engine process
+2020-09-24 21:35:18,801 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [310]: Killing engine process
+2020-09-24 21:35:18,802 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [313]: Engine process is killed. Received return code -15
+2020-09-24 21:35:23,081 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FileLogger
+2020-09-24 21:35:23,087 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdateChecker
+2020-09-24 21:35:23,094 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdater
+2020-09-24 21:35:23,097 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzReader
+2020-09-24 21:35:23,101 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzWriter
+2020-09-24 21:35:23,105 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeProfileReader
+2020-09-24 21:35:23,119 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeReader
+2020-09-24 21:35:23,123 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeWriter
+2020-09-24 21:35:23,130 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ImageReader
+2020-09-24 21:35:23,134 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LegacyProfileReader
+2020-09-24 21:35:23,139 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalContainerProvider
+2020-09-24 21:35:23,148 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalFileOutputDevice
+2020-09-24 21:35:23,153 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MachineSettingsAction
+2020-09-24 21:35:23,159 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ModelChecker
+2020-09-24 21:35:23,165 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MonitorStage
+2020-09-24 21:35:23,176 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PerObjectSettingsTool
+2020-09-24 21:35:23,222 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PostProcessingPlugin
+2020-09-24 21:35:23,226 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PrepareStage
+2020-09-24 21:35:23,229 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PreviewStage
+2020-09-24 21:35:23,234 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RemovableDriveOutputDevice
+2020-09-24 21:35:23,237 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SentryLogger
+2020-09-24 21:35:23,253 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimulationView
+2020-09-24 21:35:23,260 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SliceInfoPlugin
+2020-09-24 21:35:23,267 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SolidView
+2020-09-24 21:35:23,275 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SupportEraser
+2020-09-24 21:35:23,296 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:35:23,298 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:35:23,299 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:35:23,301 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:35:23,303 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:35:23,304 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:35:23,306 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:35:23,308 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:35:23,311 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin Toolbox
+2020-09-24 21:35:23,316 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CameraTool
+2020-09-24 21:35:23,324 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MirrorTool
+2020-09-24 21:35:23,331 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RotateTool
+2020-09-24 21:35:23,339 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ScaleTool
+2020-09-24 21:35:23,343 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SelectionTool
+2020-09-24 21:35:23,349 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TranslateTool
+2020-09-24 21:35:23,355 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TrimeshReader
+2020-09-24 21:35:23,363 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPReader
+2020-09-24 21:35:23,371 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPWriter
+2020-09-24 21:35:23,442 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UM3NetworkPrinting
+2020-09-24 21:35:23,464 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin USBPrinting
+2020-09-24 21:35:23,469 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UltimakerMachineActions
+2020-09-24 21:35:23,477 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UpdateChecker
+2020-09-24 21:35:23,479 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [40]: Checking for new version of cura
+2020-09-24 21:35:23,496 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade21to22
+2020-09-24 21:35:23,501 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade22to24
+2020-09-24 21:35:23,507 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade25to26
+2020-09-24 21:35:23,513 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade26to27
+2020-09-24 21:35:23,520 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade27to30
+2020-09-24 21:35:23,524 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade30to31
+2020-09-24 21:35:23,530 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade32to33
+2020-09-24 21:35:23,534 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade33to34
+2020-09-24 21:35:23,538 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade34to35
+2020-09-24 21:35:23,542 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade35to40
+2020-09-24 21:35:23,545 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade40to41
+2020-09-24 21:35:23,550 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade41to42
+2020-09-24 21:35:23,556 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade42to43
+2020-09-24 21:35:23,564 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade43to44
+2020-09-24 21:35:23,569 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade44to45
+2020-09-24 21:35:23,573 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade45to46
+2020-09-24 21:35:23,578 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade460to462
+2020-09-24 21:35:23,582 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimpleView
+2020-09-24 21:35:23,594 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin X3DReader
+2020-09-24 21:35:23,601 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XRayView
+2020-09-24 21:35:23,621 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XmlMaterialProfile
+2020-09-24 21:35:23,628 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MaterialSettingsPlugin
+2020-09-24 21:35:23,631 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LinearAdvanceSettingPlugin
+2020-09-24 21:35:23,633 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [374]: Loading all plugins took 0.8714621067047119 seconds
+2020-09-24 21:35:23,637 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [160]: Looking for old configuration files to upgrade.
+2020-09-24 21:35:23,720 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material+%232.xml.fdm_material, skip it
+2020-09-24 21:35:23,722 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../generic_pc_175+%232.xml.fdm_material, skip it
+2020-09-24 21:35:23,724 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material.xml.fdm_material, skip it
+2020-09-24 21:35:26,147 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [360]: Loading metadata into container registry took 2.393901824951172 seconds
+2020-09-24 21:35:26,483 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [111]: Select build plate: 0
+2020-09-24 21:35:26,486 - INFO - [MainThread] cura.CuraApplication.run [751]: Initializing machine error checker
+2020-09-24 21:35:26,855 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [72]: Default machine actions added for machine definition [prusa_i3_mk3]
+2020-09-24 21:35:27,008 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [184]: Extruder[prusa_i3_mk3_extruder_0 #3] added to [Weird Bear] at position [0]
+2020-09-24 21:35:27,010 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #3] has already been registered on machine [Weird Bear], not doing anything
+2020-09-24 21:35:27,010 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [74]: No machine with name Prusa i3 Mk3/Mk3s in list of firmware to check.
+2020-09-24 21:35:27,138 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [106]: Adding container tree for prusa_i3_mk3 took 0.12217330932617188 seconds.
+2020-09-24 21:35:27,142 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: BQ_PauseAtHeight
+2020-09-24 21:35:27,146 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ChangeAtZ
+2020-09-24 21:35:27,147 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ColorMix
+2020-09-24 21:35:27,148 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2020-09-24 21:35:27,149 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayRemainingTimeOnLCD
+2020-09-24 21:35:27,150 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: FilamentChange
+2020-09-24 21:35:27,150 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: InsertAtLayerChange
+2020-09-24 21:35:27,153 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeight
+2020-09-24 21:35:27,153 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightRepRapFirmwareDuet
+2020-09-24 21:35:27,155 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightforRepetier
+2020-09-24 21:35:27,158 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: RetractContinue
+2020-09-24 21:35:27,158 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: SearchAndReplace
+2020-09-24 21:35:27,163 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: Stretch
+2020-09-24 21:35:27,164 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: TimeLapse
+2020-09-24 21:35:27,164 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: UsePreviousProbeMeasurements
+2020-09-24 21:35:27,258 - INFO - [MainThread] cura.CuraApplication.run [756]: Initializing machine manager
+2020-09-24 21:35:27,262 - INFO - [MainThread] cura.CuraApplication.run [761]: Initializing container manager
+2020-09-24 21:35:27,265 - INFO - [Thread-2] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+2020-09-24 21:35:27,369 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-09-24 21:35:27,385 - DEBUG - [Thread-2] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.0228421688079834 seconds
+2020-09-24 21:35:27,386 - DEBUG - [Thread-2] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
+2020-09-24 21:35:27,423 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2020-09-24 21:35:27,593 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [158]: Loading theme file: /tmp/.mount_UltimaMfIz5i/usr/bin/resources/themes/cura-light/theme.json
+2020-09-24 21:35:28,030 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [231]: Loaded theme /tmp/.mount_UltimaMfIz5i/usr/bin/resources/themes/cura-light
+2020-09-24 21:35:28,588 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [311]: Creating post processing plugin view.
+2020-09-24 21:35:28,762 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [321]: Post processing view created.
+2020-09-24 21:35:29,065 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-09-24 21:35:29,070 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-09-24 21:35:29,074 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-09-24 21:35:29,326 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-09-24 21:35:29,329 - WARNING - [MainThread] UM.Decorators.deprecated_function [23]: <function GlobalStack.extruders at 0x333b3a8> is deprecated (since 4.4): Please use extruderList instead.
+2020-09-24 21:35:29,424 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaMfIz5i/usr/bin/resources/qml/PrintSetupSelector/Custom/CustomPrintSetup.qml:76:29: Unable to assign null to double
+2020-09-24 21:35:29,430 - DEBUG - [MainThread] MaterialSettingsPlugin.MaterialSettingsPlugin._onEngineCreated [64]: Replacing Materials preferencepane with patched version
+2020-09-24 21:35:29,438 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2020-09-24 21:35:29,518 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-09-24 21:35:29,565 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaMfIz5i/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-09-24 21:35:29,567 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaMfIz5i/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-09-24 21:35:29,599 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2020-09-24 21:35:29,601 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [111]: Creating model checker view.
+2020-09-24 21:35:29,607 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [120]: Model checker view created.
+2020-09-24 21:35:29,607 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [71]: Creating dialog [MoreInfoWindow.qml]
+2020-09-24 21:35:29,632 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [542]: Requesting [updates] metadata from server.
+2020-09-24 21:35:29,636 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [112]: No auth data to retrieve the access_token from
+2020-09-24 21:35:29,640 - WARNING - [MainThread] UM.Logger.warning [128]: Cannot add authorization to Cloud Api request
+2020-09-24 21:35:29,667 - ERROR - [MainThread] UM.Settings.ContainerStack.deserialize [428]: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:29,669 - ERROR - [MainThread] UM.Logger.logException [106]: Exception: Error in the format of container Loli Bear: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:29,671 - ERROR - [MainThread] UM.Logger.logException [110]: Traceback (most recent call last):
+2020-09-24 21:35:29,673 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/UM/Settings/ContainerRegistry.py", line 202, in findContainers
+2020-09-24 21:35:29,675 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/tmp/.mount_UltimaMfIz5i/usr/bin/plugins/plugins/LocalContainerProvider/LocalContainerProvider.py", line 73, in loadContainer
+2020-09-24 21:35:29,677 - ERROR - [MainThread] UM.Logger.logException [110]:     container.deserialize(f.read(), file_path)
+2020-09-24 21:35:29,678 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/cura/Settings/CuraContainerStack.py", line 259, in deserialize
+2020-09-24 21:35:29,680 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/UM/Settings/ContainerStack.py", line 429, in deserialize
+2020-09-24 21:35:29,682 - ERROR - [MainThread] UM.Logger.logException [110]: UM.Settings.ContainerFormatError.ContainerFormatError: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:29,695 - DEBUG - [MainThread] cura.CuraApplication.run [799]: Booting Cura took 7.333146810531616 seconds
+2020-09-24 21:35:29,767 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._processRequest [346]: Request [97d0d6b73c654a69a230bd5250a0eb44] started
+2020-09-24 21:35:29,769 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-09-24 21:35:29,778 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-09-24 21:35:29,788 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-09-24 21:35:30,197 - ERROR - [MainThread] UM.Settings.ContainerStack.deserialize [428]: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:30,199 - ERROR - [MainThread] UM.Logger.logException [106]: Exception: Error in the format of container Loli Bear: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:30,201 - ERROR - [MainThread] UM.Logger.logException [110]: Traceback (most recent call last):
+2020-09-24 21:35:30,203 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/UM/Settings/ContainerRegistry.py", line 202, in findContainers
+2020-09-24 21:35:30,205 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/tmp/.mount_UltimaMfIz5i/usr/bin/plugins/plugins/LocalContainerProvider/LocalContainerProvider.py", line 73, in loadContainer
+2020-09-24 21:35:30,207 - ERROR - [MainThread] UM.Logger.logException [110]:     container.deserialize(f.read(), file_path)
+2020-09-24 21:35:30,209 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/cura/Settings/CuraContainerStack.py", line 259, in deserialize
+2020-09-24 21:35:30,211 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/UM/Settings/ContainerStack.py", line 429, in deserialize
+2020-09-24 21:35:30,213 - ERROR - [MainThread] UM.Logger.logException [110]: UM.Settings.ContainerFormatError.ContainerFormatError: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:30,217 - ERROR - [MainThread] UM.Settings.ContainerStack.deserialize [428]: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:30,219 - ERROR - [MainThread] UM.Logger.logException [106]: Exception: Error in the format of container Loli Bear: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:30,221 - ERROR - [MainThread] UM.Logger.logException [110]: Traceback (most recent call last):
+2020-09-24 21:35:30,223 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/UM/Settings/ContainerRegistry.py", line 202, in findContainers
+2020-09-24 21:35:30,225 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/tmp/.mount_UltimaMfIz5i/usr/bin/plugins/plugins/LocalContainerProvider/LocalContainerProvider.py", line 73, in loadContainer
+2020-09-24 21:35:30,227 - ERROR - [MainThread] UM.Logger.logException [110]:     container.deserialize(f.read(), file_path)
+2020-09-24 21:35:30,229 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/cura/Settings/CuraContainerStack.py", line 259, in deserialize
+2020-09-24 21:35:30,231 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/UM/Settings/ContainerStack.py", line 429, in deserialize
+2020-09-24 21:35:30,233 - ERROR - [MainThread] UM.Logger.logException [110]: UM.Settings.ContainerFormatError.ContainerFormatError: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:30,237 - ERROR - [MainThread] UM.Settings.ContainerStack.deserialize [428]: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:30,239 - ERROR - [MainThread] UM.Logger.logException [106]: Exception: Error in the format of container Loli Bear: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:30,241 - ERROR - [MainThread] UM.Logger.logException [110]: Traceback (most recent call last):
+2020-09-24 21:35:30,243 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/UM/Settings/ContainerRegistry.py", line 202, in findContainers
+2020-09-24 21:35:30,245 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/tmp/.mount_UltimaMfIz5i/usr/bin/plugins/plugins/LocalContainerProvider/LocalContainerProvider.py", line 73, in loadContainer
+2020-09-24 21:35:30,247 - ERROR - [MainThread] UM.Logger.logException [110]:     container.deserialize(f.read(), file_path)
+2020-09-24 21:35:30,249 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/cura/Settings/CuraContainerStack.py", line 259, in deserialize
+2020-09-24 21:35:30,251 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/UM/Settings/ContainerStack.py", line 429, in deserialize
+2020-09-24 21:35:30,253 - ERROR - [MainThread] UM.Logger.logException [110]: UM.Settings.ContainerFormatError.ContainerFormatError: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:30,379 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-09-24 21:35:30,382 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-09-24 21:35:30,896 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [207]: Support for Vertex Array Objects: True
+2020-09-24 21:35:30,904 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
+2020-09-24 21:35:30,906 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.6 (Core Profile) Mesa 20.1.3
+2020-09-24 21:35:30,908 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   X.Org
+2020-09-24 21:35:30,910 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: Radeon RX 580 Series (POLARIS10, DRM 3.36.0, 5.6.19-2-MANJARO, LLVM 10.0.0)
+2020-09-24 21:35:30,912 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    4.60.0
+2020-09-24 21:35:30,914 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:35:30,919 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/selection.shader]...
+2020-09-24 21:35:30,922 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/select_face.shader]...
+2020-09-24 21:35:30,925 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:35:30,927 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/composite.shader]...
+2020-09-24 21:35:30,930 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/overhang.shader]...
+2020-09-24 21:35:30,933 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/striped.shader]...
+2020-09-24 21:35:30,936 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/transparent_object.shader]...
+2020-09-24 21:35:30,938 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/striped.shader]...
+2020-09-24 21:35:30,941 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/xray.shader]...
+2020-09-24 21:35:30,944 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/xray_composite.shader]...
+2020-09-24 21:35:30,947 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:35:30,949 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/grid.shader]...
+2020-09-24 21:35:30,952 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/platform.shader]...
+2020-09-24 21:35:30,968 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaMfIz5i/usr/bin/resources/shaders/xray.shader]...
+2020-09-24 21:35:31,913 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [408]: Request [97d0d6b73c654a69a230bd5250a0eb44] finished.
+2020-09-24 21:35:31,914 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-09-24 21:35:33,048 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 5.7s
+2020-09-24 21:35:40,559 - DEBUG - [MainThread] cura.AutoSave._onTimeout [60]: Autosaving preferences, instances and profiles
+2020-09-24 21:35:40,568 - ERROR - [MainThread] UM.Settings.ContainerStack.deserialize [428]: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:40,570 - ERROR - [MainThread] UM.Logger.logException [106]: Exception: Error in the format of container Loli Bear: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:40,572 - ERROR - [MainThread] UM.Logger.logException [110]: Traceback (most recent call last):
+2020-09-24 21:35:40,574 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/UM/Settings/ContainerRegistry.py", line 202, in findContainers
+2020-09-24 21:35:40,576 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/tmp/.mount_UltimaMfIz5i/usr/bin/plugins/plugins/LocalContainerProvider/LocalContainerProvider.py", line 73, in loadContainer
+2020-09-24 21:35:40,578 - ERROR - [MainThread] UM.Logger.logException [110]:     container.deserialize(f.read(), file_path)
+2020-09-24 21:35:40,580 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/cura/Settings/CuraContainerStack.py", line 259, in deserialize
+2020-09-24 21:35:40,582 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/UM/Settings/ContainerStack.py", line 429, in deserialize
+2020-09-24 21:35:40,584 - ERROR - [MainThread] UM.Logger.logException [110]: UM.Settings.ContainerFormatError.ContainerFormatError: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:35:47,506 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaMfIz5i/usr/bin/resources/qml/RoundedRectangle.qml:68: TypeError: Cannot read property of null
+2020-09-24 21:36:26,610 - DEBUG - [MainThread] cura.TaskManagement.OnExitCallbackManager.triggerNextCallback [51]: No more on-app-exit callbacks to process. Tell the app to exit.
+2020-09-24 21:36:26,612 - INFO - [MainThread] cura.CuraApplication.closeApplication [577]: Close application
+2020-09-24 21:36:26,614 - DEBUG - [MainThread] UM.Qt.QtApplication.windowClosed [470]: Shutting down cura
+2020-09-24 21:36:26,623 - ERROR - [MainThread] UM.Settings.ContainerStack.deserialize [428]: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:36:26,626 - ERROR - [MainThread] UM.Logger.logException [106]: Exception: Error in the format of container Loli Bear: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:36:26,631 - ERROR - [MainThread] UM.Logger.logException [110]: Traceback (most recent call last):
+2020-09-24 21:36:26,634 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/UM/Settings/ContainerRegistry.py", line 202, in findContainers
+2020-09-24 21:36:26,637 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/tmp/.mount_UltimaMfIz5i/usr/bin/plugins/plugins/LocalContainerProvider/LocalContainerProvider.py", line 73, in loadContainer
+2020-09-24 21:36:26,640 - ERROR - [MainThread] UM.Logger.logException [110]:     container.deserialize(f.read(), file_path)
+2020-09-24 21:36:26,643 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/cura/Settings/CuraContainerStack.py", line 259, in deserialize
+2020-09-24 21:36:26,645 - ERROR - [MainThread] UM.Logger.logException [110]:   File "/build/4.6/build/inst/lib/python3.5/site-packages/UM/Settings/ContainerStack.py", line 429, in deserialize
+2020-09-24 21:36:26,648 - ERROR - [MainThread] UM.Logger.logException [110]: UM.Settings.ContainerFormatError.ContainerFormatError: When trying to deserialize Loli Bear, we received an unknown container ID (Loli Bear_user)
+2020-09-24 21:36:26,652 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [304]: Attempting to kill the engine process
+2020-09-24 21:36:26,652 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [310]: Killing engine process
+2020-09-24 21:36:26,653 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [313]: Engine process is killed. Received return code -15
+2020-09-24 21:38:15,116 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FileLogger
+2020-09-24 21:38:15,123 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdateChecker
+2020-09-24 21:38:15,130 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdater
+2020-09-24 21:38:15,133 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzReader
+2020-09-24 21:38:15,136 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzWriter
+2020-09-24 21:38:15,140 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeProfileReader
+2020-09-24 21:38:15,153 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeReader
+2020-09-24 21:38:15,158 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeWriter
+2020-09-24 21:38:15,164 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ImageReader
+2020-09-24 21:38:15,168 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LegacyProfileReader
+2020-09-24 21:38:15,207 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalContainerProvider
+2020-09-24 21:38:15,213 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalFileOutputDevice
+2020-09-24 21:38:15,218 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MachineSettingsAction
+2020-09-24 21:38:15,222 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ModelChecker
+2020-09-24 21:38:15,227 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MonitorStage
+2020-09-24 21:38:15,236 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PerObjectSettingsTool
+2020-09-24 21:38:15,241 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PostProcessingPlugin
+2020-09-24 21:38:15,244 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PrepareStage
+2020-09-24 21:38:15,248 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PreviewStage
+2020-09-24 21:38:15,253 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RemovableDriveOutputDevice
+2020-09-24 21:38:15,256 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SentryLogger
+2020-09-24 21:38:15,271 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimulationView
+2020-09-24 21:38:15,277 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SliceInfoPlugin
+2020-09-24 21:38:15,284 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SolidView
+2020-09-24 21:38:15,291 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SupportEraser
+2020-09-24 21:38:15,313 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:38:15,314 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:38:15,316 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:38:15,317 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:38:15,319 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:38:15,321 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:38:15,322 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:38:15,324 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:38:15,329 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin Toolbox
+2020-09-24 21:38:15,335 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CameraTool
+2020-09-24 21:38:15,341 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MirrorTool
+2020-09-24 21:38:15,348 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RotateTool
+2020-09-24 21:38:15,356 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ScaleTool
+2020-09-24 21:38:15,361 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SelectionTool
+2020-09-24 21:38:15,367 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TranslateTool
+2020-09-24 21:38:15,371 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TrimeshReader
+2020-09-24 21:38:15,379 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPReader
+2020-09-24 21:38:15,388 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPWriter
+2020-09-24 21:38:15,460 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UM3NetworkPrinting
+2020-09-24 21:38:15,482 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin USBPrinting
+2020-09-24 21:38:15,487 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UltimakerMachineActions
+2020-09-24 21:38:15,496 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UpdateChecker
+2020-09-24 21:38:15,496 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [40]: Checking for new version of cura
+2020-09-24 21:38:15,512 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade21to22
+2020-09-24 21:38:15,517 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade22to24
+2020-09-24 21:38:15,523 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade25to26
+2020-09-24 21:38:15,527 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade26to27
+2020-09-24 21:38:15,534 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade27to30
+2020-09-24 21:38:15,539 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade30to31
+2020-09-24 21:38:15,543 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade32to33
+2020-09-24 21:38:15,546 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade33to34
+2020-09-24 21:38:15,551 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade34to35
+2020-09-24 21:38:15,556 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade35to40
+2020-09-24 21:38:15,561 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade40to41
+2020-09-24 21:38:15,566 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade41to42
+2020-09-24 21:38:15,570 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade42to43
+2020-09-24 21:38:15,575 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade43to44
+2020-09-24 21:38:15,580 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade44to45
+2020-09-24 21:38:15,585 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade45to46
+2020-09-24 21:38:15,590 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade460to462
+2020-09-24 21:38:15,594 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimpleView
+2020-09-24 21:38:15,604 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin X3DReader
+2020-09-24 21:38:15,608 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XRayView
+2020-09-24 21:38:15,621 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XmlMaterialProfile
+2020-09-24 21:38:15,626 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MaterialSettingsPlugin
+2020-09-24 21:38:15,629 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LinearAdvanceSettingPlugin
+2020-09-24 21:38:15,631 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [374]: Loading all plugins took 0.7392077445983887 seconds
+2020-09-24 21:38:15,634 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [160]: Looking for old configuration files to upgrade.
+2020-09-24 21:38:15,709 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material+%232.xml.fdm_material, skip it
+2020-09-24 21:38:15,711 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../generic_pc_175+%232.xml.fdm_material, skip it
+2020-09-24 21:38:15,713 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material.xml.fdm_material, skip it
+2020-09-24 21:38:18,068 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [360]: Loading metadata into container registry took 2.324798107147217 seconds
+2020-09-24 21:38:18,377 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [111]: Select build plate: 0
+2020-09-24 21:38:18,379 - INFO - [MainThread] cura.CuraApplication.run [751]: Initializing machine error checker
+2020-09-24 21:38:18,733 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition prusa_i3_mk3 failed to pickle.
+2020-09-24 21:38:18,745 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [72]: Default machine actions added for machine definition [prusa_i3_mk3]
+2020-09-24 21:38:18,893 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [184]: Extruder[prusa_i3_mk3_extruder_0 #3] added to [Weird Bear] at position [0]
+2020-09-24 21:38:18,895 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #3] has already been registered on machine [Weird Bear], not doing anything
+2020-09-24 21:38:18,896 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [74]: No machine with name Prusa i3 Mk3/Mk3s in list of firmware to check.
+2020-09-24 21:38:19,018 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [106]: Adding container tree for prusa_i3_mk3 took 0.11841034889221191 seconds.
+2020-09-24 21:38:19,023 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: BQ_PauseAtHeight
+2020-09-24 21:38:19,026 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ChangeAtZ
+2020-09-24 21:38:19,028 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ColorMix
+2020-09-24 21:38:19,029 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2020-09-24 21:38:19,030 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayRemainingTimeOnLCD
+2020-09-24 21:38:19,031 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: FilamentChange
+2020-09-24 21:38:19,031 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: InsertAtLayerChange
+2020-09-24 21:38:19,034 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeight
+2020-09-24 21:38:19,034 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightRepRapFirmwareDuet
+2020-09-24 21:38:19,036 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightforRepetier
+2020-09-24 21:38:19,037 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: RetractContinue
+2020-09-24 21:38:19,037 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: SearchAndReplace
+2020-09-24 21:38:19,042 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: Stretch
+2020-09-24 21:38:19,043 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: TimeLapse
+2020-09-24 21:38:19,043 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: UsePreviousProbeMeasurements
+2020-09-24 21:38:19,134 - INFO - [MainThread] cura.CuraApplication.run [756]: Initializing machine manager
+2020-09-24 21:38:19,138 - INFO - [MainThread] cura.CuraApplication.run [761]: Initializing container manager
+2020-09-24 21:38:19,140 - INFO - [Thread-2] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+2020-09-24 21:38:19,254 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-09-24 21:38:19,273 - DEBUG - [Thread-2] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.02816319465637207 seconds
+2020-09-24 21:38:19,275 - DEBUG - [Thread-2] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
+2020-09-24 21:38:19,281 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2020-09-24 21:38:19,438 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [158]: Loading theme file: /tmp/.mount_UltimaYo7K5V/usr/bin/resources/themes/cura-light/theme.json
+2020-09-24 21:38:19,901 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [231]: Loaded theme /tmp/.mount_UltimaYo7K5V/usr/bin/resources/themes/cura-light
+2020-09-24 21:38:20,484 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [311]: Creating post processing plugin view.
+2020-09-24 21:38:20,626 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [321]: Post processing view created.
+2020-09-24 21:38:20,934 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-09-24 21:38:20,937 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-09-24 21:38:20,942 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-09-24 21:38:21,210 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-09-24 21:38:21,213 - WARNING - [MainThread] UM.Decorators.deprecated_function [23]: <function GlobalStack.extruders at 0x2dddae8> is deprecated (since 4.4): Please use extruderList instead.
+2020-09-24 21:38:21,295 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaYo7K5V/usr/bin/resources/qml/PrintSetupSelector/Custom/CustomPrintSetup.qml:76:29: Unable to assign null to double
+2020-09-24 21:38:21,301 - DEBUG - [MainThread] MaterialSettingsPlugin.MaterialSettingsPlugin._onEngineCreated [64]: Replacing Materials preferencepane with patched version
+2020-09-24 21:38:21,309 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2020-09-24 21:38:21,371 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-09-24 21:38:21,398 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaYo7K5V/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-09-24 21:38:21,400 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaYo7K5V/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-09-24 21:38:21,434 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2020-09-24 21:38:21,436 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [111]: Creating model checker view.
+2020-09-24 21:38:21,441 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [120]: Model checker view created.
+2020-09-24 21:38:21,442 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [71]: Creating dialog [MoreInfoWindow.qml]
+2020-09-24 21:38:21,459 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [542]: Requesting [updates] metadata from server.
+2020-09-24 21:38:21,461 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [112]: No auth data to retrieve the access_token from
+2020-09-24 21:38:21,463 - WARNING - [MainThread] UM.Logger.warning [128]: Cannot add authorization to Cloud Api request
+2020-09-24 21:38:21,492 - DEBUG - [MainThread] cura.CuraApplication.run [799]: Booting Cura took 7.060227155685425 seconds
+2020-09-24 21:38:21,567 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._processRequest [346]: Request [8e571c3a60d5455b81f1846c2a863bde] started
+2020-09-24 21:38:21,569 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-09-24 21:38:21,579 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-09-24 21:38:21,589 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-09-24 21:38:22,131 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-09-24 21:38:22,134 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-09-24 21:38:22,655 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [207]: Support for Vertex Array Objects: True
+2020-09-24 21:38:22,663 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
+2020-09-24 21:38:22,665 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.6 (Core Profile) Mesa 20.1.3
+2020-09-24 21:38:22,667 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   X.Org
+2020-09-24 21:38:22,669 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: Radeon RX 580 Series (POLARIS10, DRM 3.36.0, 5.6.19-2-MANJARO, LLVM 10.0.0)
+2020-09-24 21:38:22,671 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    4.60.0
+2020-09-24 21:38:22,673 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:38:22,677 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/selection.shader]...
+2020-09-24 21:38:22,680 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/select_face.shader]...
+2020-09-24 21:38:22,682 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:38:22,685 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/composite.shader]...
+2020-09-24 21:38:22,688 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/overhang.shader]...
+2020-09-24 21:38:22,690 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/striped.shader]...
+2020-09-24 21:38:22,693 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/transparent_object.shader]...
+2020-09-24 21:38:22,696 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/striped.shader]...
+2020-09-24 21:38:22,699 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/xray.shader]...
+2020-09-24 21:38:22,701 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/xray_composite.shader]...
+2020-09-24 21:38:22,704 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:38:22,706 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/grid.shader]...
+2020-09-24 21:38:22,709 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/platform.shader]...
+2020-09-24 21:38:22,721 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaYo7K5V/usr/bin/resources/shaders/xray.shader]...
+2020-09-24 21:38:24,689 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 5.4s
+2020-09-24 21:38:26,448 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [408]: Request [8e571c3a60d5455b81f1846c2a863bde] finished.
+2020-09-24 21:38:26,451 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-09-24 21:38:29,771 - DEBUG - [MainThread] cura.TaskManagement.OnExitCallbackManager.triggerNextCallback [51]: No more on-app-exit callbacks to process. Tell the app to exit.
+2020-09-24 21:38:29,775 - INFO - [MainThread] cura.CuraApplication.closeApplication [577]: Close application
+2020-09-24 21:38:29,781 - DEBUG - [MainThread] UM.Qt.QtApplication.windowClosed [470]: Shutting down cura
+2020-09-24 21:38:29,803 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [304]: Attempting to kill the engine process
+2020-09-24 21:38:29,803 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [310]: Killing engine process
+2020-09-24 21:38:29,804 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [313]: Engine process is killed. Received return code -15
+2020-09-24 21:38:57,145 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FileLogger
+2020-09-24 21:38:57,150 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdateChecker
+2020-09-24 21:38:57,156 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdater
+2020-09-24 21:38:57,159 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzReader
+2020-09-24 21:38:57,162 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzWriter
+2020-09-24 21:38:57,166 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeProfileReader
+2020-09-24 21:38:57,177 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeReader
+2020-09-24 21:38:57,183 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeWriter
+2020-09-24 21:38:57,189 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ImageReader
+2020-09-24 21:38:57,193 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LegacyProfileReader
+2020-09-24 21:38:57,198 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalContainerProvider
+2020-09-24 21:38:57,207 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalFileOutputDevice
+2020-09-24 21:38:57,211 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MachineSettingsAction
+2020-09-24 21:38:57,215 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ModelChecker
+2020-09-24 21:38:57,220 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MonitorStage
+2020-09-24 21:38:57,235 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PerObjectSettingsTool
+2020-09-24 21:38:57,275 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PostProcessingPlugin
+2020-09-24 21:38:57,279 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PrepareStage
+2020-09-24 21:38:57,282 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PreviewStage
+2020-09-24 21:38:57,288 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RemovableDriveOutputDevice
+2020-09-24 21:38:57,291 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SentryLogger
+2020-09-24 21:38:57,305 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimulationView
+2020-09-24 21:38:57,310 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SliceInfoPlugin
+2020-09-24 21:38:57,317 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SolidView
+2020-09-24 21:38:57,324 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SupportEraser
+2020-09-24 21:38:57,345 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:38:57,347 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:38:57,349 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:38:57,350 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:38:57,352 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:38:57,354 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:38:57,355 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-09-24 21:38:57,357 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-09-24 21:38:57,360 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin Toolbox
+2020-09-24 21:38:57,365 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CameraTool
+2020-09-24 21:38:57,372 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MirrorTool
+2020-09-24 21:38:57,378 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RotateTool
+2020-09-24 21:38:57,386 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ScaleTool
+2020-09-24 21:38:57,390 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SelectionTool
+2020-09-24 21:38:57,396 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TranslateTool
+2020-09-24 21:38:57,400 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TrimeshReader
+2020-09-24 21:38:57,407 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPReader
+2020-09-24 21:38:57,415 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPWriter
+2020-09-24 21:38:57,485 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UM3NetworkPrinting
+2020-09-24 21:38:57,506 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin USBPrinting
+2020-09-24 21:38:57,511 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UltimakerMachineActions
+2020-09-24 21:38:57,520 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UpdateChecker
+2020-09-24 21:38:57,521 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [40]: Checking for new version of cura
+2020-09-24 21:38:57,537 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade21to22
+2020-09-24 21:38:57,542 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade22to24
+2020-09-24 21:38:57,547 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade25to26
+2020-09-24 21:38:57,551 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade26to27
+2020-09-24 21:38:57,555 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade27to30
+2020-09-24 21:38:57,559 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade30to31
+2020-09-24 21:38:57,564 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade32to33
+2020-09-24 21:38:57,567 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade33to34
+2020-09-24 21:38:57,573 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade34to35
+2020-09-24 21:38:57,577 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade35to40
+2020-09-24 21:38:57,580 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade40to41
+2020-09-24 21:38:57,585 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade41to42
+2020-09-24 21:38:57,590 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade42to43
+2020-09-24 21:38:57,594 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade43to44
+2020-09-24 21:38:57,599 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade44to45
+2020-09-24 21:38:57,603 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade45to46
+2020-09-24 21:38:57,607 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade460to462
+2020-09-24 21:38:57,611 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimpleView
+2020-09-24 21:38:57,621 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin X3DReader
+2020-09-24 21:38:57,627 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XRayView
+2020-09-24 21:38:57,639 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XmlMaterialProfile
+2020-09-24 21:38:57,643 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MaterialSettingsPlugin
+2020-09-24 21:38:57,646 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LinearAdvanceSettingPlugin
+2020-09-24 21:38:57,648 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [374]: Loading all plugins took 0.7032787799835205 seconds
+2020-09-24 21:38:57,652 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [160]: Looking for old configuration files to upgrade.
+2020-09-24 21:38:57,728 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material+%232.xml.fdm_material, skip it
+2020-09-24 21:38:57,730 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../generic_pc_175+%232.xml.fdm_material, skip it
+2020-09-24 21:38:57,731 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [328]: Failed to get file version: ../custom_material.xml.fdm_material, skip it
+2020-09-24 21:39:00,089 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [360]: Loading metadata into container registry took 2.3257904052734375 seconds
+2020-09-24 21:39:00,404 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [111]: Select build plate: 0
+2020-09-24 21:39:00,408 - INFO - [MainThread] cura.CuraApplication.run [751]: Initializing machine error checker
+2020-09-24 21:39:00,654 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [286]: The definition cache for definition prusa_i3_mk3 failed to pickle.
+2020-09-24 21:39:00,664 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [72]: Default machine actions added for machine definition [prusa_i3_mk3]
+2020-09-24 21:39:00,871 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [184]: Extruder[prusa_i3_mk3_extruder_0 #3] added to [Weird Bear] at position [0]
+2020-09-24 21:39:00,873 - WARNING - [MainThread] cura.Settings.ExtruderManager.registerExtruder [156]: Extruder [prusa_i3_mk3_extruder_0 #3] has already been registered on machine [Weird Bear], not doing anything
+2020-09-24 21:39:00,874 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [74]: No machine with name Prusa i3 Mk3/Mk3s in list of firmware to check.
+2020-09-24 21:39:01,012 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [106]: Adding container tree for prusa_i3_mk3 took 0.13393831253051758 seconds.
+2020-09-24 21:39:01,016 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: BQ_PauseAtHeight
+2020-09-24 21:39:01,019 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ChangeAtZ
+2020-09-24 21:39:01,021 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: ColorMix
+2020-09-24 21:39:01,022 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2020-09-24 21:39:01,022 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: DisplayRemainingTimeOnLCD
+2020-09-24 21:39:01,023 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: FilamentChange
+2020-09-24 21:39:01,024 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: InsertAtLayerChange
+2020-09-24 21:39:01,026 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeight
+2020-09-24 21:39:01,027 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightRepRapFirmwareDuet
+2020-09-24 21:39:01,028 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: PauseAtHeightforRepetier
+2020-09-24 21:39:01,030 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: RetractContinue
+2020-09-24 21:39:01,031 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: SearchAndReplace
+2020-09-24 21:39:01,036 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: Stretch
+2020-09-24 21:39:01,037 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: TimeLapse
+2020-09-24 21:39:01,037 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [180]: Begin loading of script: UsePreviousProbeMeasurements
+2020-09-24 21:39:01,130 - INFO - [MainThread] cura.CuraApplication.run [756]: Initializing machine manager
+2020-09-24 21:39:01,134 - INFO - [MainThread] cura.CuraApplication.run [761]: Initializing container manager
+2020-09-24 21:39:01,136 - INFO - [Thread-2] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+2020-09-24 21:39:01,218 - DEBUG - [Thread-2] UM.Mesh.MeshData.calculateNormalsFromVertices [548]: Calculating normals took 0.002469301223754883 seconds
+2020-09-24 21:39:01,222 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2020-09-24 21:39:01,222 - DEBUG - [Thread-2] STLReader.STLReader._read [104]: Loaded a mesh with 29268 vertices
+2020-09-24 21:39:01,266 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [135]: New error check scheduled.
+2020-09-24 21:39:01,386 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [158]: Loading theme file: /tmp/.mount_UltimaUv0Fbg/usr/bin/resources/themes/cura-light/theme.json
+2020-09-24 21:39:01,827 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [231]: Loaded theme /tmp/.mount_UltimaUv0Fbg/usr/bin/resources/themes/cura-light
+2020-09-24 21:39:02,417 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [311]: Creating post processing plugin view.
+2020-09-24 21:39:02,558 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [321]: Post processing view created.
+2020-09-24 21:39:02,842 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-09-24 21:39:02,845 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-09-24 21:39:02,848 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [89]: There was no auth data or access token
+2020-09-24 21:39:03,118 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-09-24 21:39:03,120 - WARNING - [MainThread] UM.Decorators.deprecated_function [23]: <function GlobalStack.extruders at 0x4a34328> is deprecated (since 4.4): Please use extruderList instead.
+2020-09-24 21:39:03,206 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaUv0Fbg/usr/bin/resources/qml/PrintSetupSelector/Custom/CustomPrintSetup.qml:76:29: Unable to assign null to double
+2020-09-24 21:39:03,212 - DEBUG - [MainThread] MaterialSettingsPlugin.MaterialSettingsPlugin._onEngineCreated [64]: Replacing Materials preferencepane with patched version
+2020-09-24 21:39:03,220 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2020-09-24 21:39:03,294 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-09-24 21:39:03,331 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaUv0Fbg/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-09-24 21:39:03,333 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaUv0Fbg/usr/bin/resources/qml/ActionButton.qml:101: ReferenceError: contentWidth is not defined
+2020-09-24 21:39:03,361 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2020-09-24 21:39:03,362 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [111]: Creating model checker view.
+2020-09-24 21:39:03,367 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [120]: Model checker view created.
+2020-09-24 21:39:03,368 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [71]: Creating dialog [MoreInfoWindow.qml]
+2020-09-24 21:39:03,387 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [542]: Requesting [updates] metadata from server.
+2020-09-24 21:39:03,392 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [112]: No auth data to retrieve the access_token from
+2020-09-24 21:39:03,395 - WARNING - [MainThread] UM.Logger.warning [128]: Cannot add authorization to Cloud Api request
+2020-09-24 21:39:03,435 - DEBUG - [MainThread] cura.CuraApplication.run [799]: Booting Cura took 6.904468059539795 seconds
+2020-09-24 21:39:03,511 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._processRequest [346]: Request [8b322f4d4c8b4c7190698128dc58cc02] started
+2020-09-24 21:39:03,512 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-09-24 21:39:03,521 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-09-24 21:39:03,532 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-09-24 21:39:04,074 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [34]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-09-24 21:39:04,077 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [63]: Updating QualityProfilesDropDownMenuModel.
+2020-09-24 21:39:04,605 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [207]: Support for Vertex Array Objects: True
+2020-09-24 21:39:04,614 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
+2020-09-24 21:39:04,616 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.6 (Core Profile) Mesa 20.1.3
+2020-09-24 21:39:04,618 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   X.Org
+2020-09-24 21:39:04,620 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: Radeon RX 580 Series (POLARIS10, DRM 3.36.0, 5.6.19-2-MANJARO, LLVM 10.0.0)
+2020-09-24 21:39:04,621 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    4.60.0
+2020-09-24 21:39:04,623 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:39:04,628 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/selection.shader]...
+2020-09-24 21:39:04,631 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/select_face.shader]...
+2020-09-24 21:39:04,633 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:39:04,636 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/composite.shader]...
+2020-09-24 21:39:04,639 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/overhang.shader]...
+2020-09-24 21:39:04,642 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/striped.shader]...
+2020-09-24 21:39:04,644 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/transparent_object.shader]...
+2020-09-24 21:39:04,647 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/striped.shader]...
+2020-09-24 21:39:04,650 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/xray.shader]...
+2020-09-24 21:39:04,652 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/xray_composite.shader]...
+2020-09-24 21:39:04,655 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/default.shader]...
+2020-09-24 21:39:04,658 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/grid.shader]...
+2020-09-24 21:39:04,660 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/platform.shader]...
+2020-09-24 21:39:04,676 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaUv0Fbg/usr/bin/resources/shaders/xray.shader]...
+2020-09-24 21:39:05,611 - INFO - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [408]: Request [8b322f4d4c8b4c7190698128dc58cc02] finished.
+2020-09-24 21:39:05,613 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._processNextRequestsInQueue [317]: No more requests to process, stop
+2020-09-24 21:39:06,700 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [187]: Error check finished, result = False, time = 5.4s
+2020-09-24 21:39:09,943 - DEBUG - [MainThread] cura.TaskManagement.OnExitCallbackManager.triggerNextCallback [51]: No more on-app-exit callbacks to process. Tell the app to exit.
+2020-09-24 21:39:09,945 - INFO - [MainThread] cura.CuraApplication.closeApplication [577]: Close application
+2020-09-24 21:39:09,948 - DEBUG - [MainThread] UM.Qt.QtApplication.windowClosed [470]: Shutting down cura
+2020-09-24 21:39:09,959 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [304]: Attempting to kill the engine process
+2020-09-24 21:39:09,959 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [310]: Killing engine process
+2020-09-24 21:39:09,960 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [313]: Engine process is killed. Received return code -15

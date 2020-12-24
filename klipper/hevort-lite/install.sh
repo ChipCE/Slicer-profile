@@ -1,4 +1,5 @@
 #/bin/bash
 
-yes | cp *.cfg ~/klipper-configs
+rm ~/klipper_config/*.cfg
+yes | cp *.cfg ~/klipper_config
 echo "Done!"

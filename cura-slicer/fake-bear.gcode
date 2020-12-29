@@ -45,10 +45,14 @@ M221 S95
 ; --------------------------------------------------
 
 ; ------------------- STOP GCODE -------------------
-G4 ; wait
+M400 ; wait
 M221 S100
+G91 ;
+G1 E-2 F300 ; retract
+G0 Z5 F420
 M104 S0 ; turn off temperature
 M140 S0 ; turn off heatbed
+G90 ;
 M107 ; turn off fan
 ;{if layer_z < max_print_height}G1 Z{z_offset+min(layer_z+30, max_print_height)}{endif} ; Move print head up
 G0 X0 Y200 F2500 ; home X axis

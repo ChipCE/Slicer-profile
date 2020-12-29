@@ -1,36 +1,406 @@
-2020-12-29 08:27:22,641 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ConsoleLogger
-2020-12-29 08:27:22,653 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraDrive
-2020-12-29 08:27:22,675 - INFO - [MainThread] CuraEngineBackend.CuraEngineBackend.__init__ [92]: Found CuraEngine at: /tmp/.mount_UltimaRycxf6/usr/bin/CuraEngine
-2020-12-29 08:27:22,677 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraEngineBackend
-2020-12-29 08:27:22,684 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraProfileReader
-2020-12-29 08:27:22,686 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [188]: Socket state changed to Listening
-2020-12-29 08:27:22,697 - INFO - [MainThread] UM.Backend.Backend.startEngine [90]: Started engine process: /tmp/.mount_UltimaRycxf6/usr/bin/CuraEngine
-2020-12-29 08:27:22,706 - DEBUG - [MainThread] UM.Backend.Backend._backendLog [110]: [Backend] Calling engine with: ['/tmp/.mount_UltimaRycxf6/usr/bin/CuraEngine', 'connect', '127.0.0.1:49674', '']
-2020-12-29 08:27:22,721 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
-2020-12-29 08:27:22,723 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] Cura_SteamEngine version 4.8.0
-2020-12-29 08:27:22,725 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] Copyright (C) 2020 Ultimaker
-2020-12-29 08:27:22,727 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
-2020-12-29 08:27:22,729 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] This program is free software: you can redistribute it and/or modify
-2020-12-29 08:27:22,731 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] it under the terms of the GNU Affero General Public License as published by
-2020-12-29 08:27:22,733 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] the Free Software Foundation, either version 3 of the License, or
-2020-12-29 08:27:22,735 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] (at your option) any later version.
-2020-12-29 08:27:22,738 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
-2020-12-29 08:27:22,740 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] This program is distributed in the hope that it will be useful,
-2020-12-29 08:27:22,742 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] but WITHOUT ANY WARRANTY; without even the implied warranty of
-2020-12-29 08:27:22,744 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-2020-12-29 08:27:22,745 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] GNU Affero General Public License for more details.
-2020-12-29 08:27:22,747 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
-2020-12-29 08:27:22,748 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] You should have received a copy of the GNU Affero General Public License
-2020-12-29 08:27:22,750 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] along with this program.  If not, see <http://www.gnu.org/licenses/>.
-2020-12-29 08:27:22,752 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraProfileWriter
-2020-12-29 08:27:22,753 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [192]: Socket state changed to Connected
-2020-12-29 08:27:22,755 - DEBUG - [MainThread] UM.Backend.Backend._onSocketStateChanged [181]: Backend connected on port 49674
-2020-12-29 08:27:22,761 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin OBJReader
-2020-12-29 08:27:22,765 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin OBJWriter
-2020-12-29 08:27:22,768 - WARNING - [MainThread] STLReader.STLReader.<module> [30]: Not loading numpy-stl due to linux issue
-2020-12-29 08:27:22,770 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin STLReader
-2020-12-29 08:27:22,774 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin STLWriter
-2020-12-29 08:27:22,779 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FileLogger
+2020-12-29 08:18:15,871 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FileLogger
+2020-12-29 08:18:15,879 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdateChecker
+2020-12-29 08:18:15,886 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdater
+2020-12-29 08:18:15,889 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzReader
+2020-12-29 08:18:15,899 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzWriter
+2020-12-29 08:18:15,904 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeProfileReader
+2020-12-29 08:18:15,917 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeReader
+2020-12-29 08:18:15,922 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeWriter
+2020-12-29 08:18:15,929 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ImageReader
+2020-12-29 08:18:15,934 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LegacyProfileReader
+2020-12-29 08:18:15,940 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalContainerProvider
+2020-12-29 08:18:15,950 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalFileOutputDevice
+2020-12-29 08:18:15,955 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MachineSettingsAction
+2020-12-29 08:18:15,960 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ModelChecker
+2020-12-29 08:18:15,967 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MonitorStage
+2020-12-29 08:18:16,008 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PerObjectSettingsTool
+2020-12-29 08:18:16,016 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PostProcessingPlugin
+2020-12-29 08:18:16,021 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PrepareStage
+2020-12-29 08:18:16,024 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PreviewStage
+2020-12-29 08:18:16,031 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RemovableDriveOutputDevice
+2020-12-29 08:18:16,035 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SentryLogger
+2020-12-29 08:18:16,052 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimulationView
+2020-12-29 08:18:16,060 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SliceInfoPlugin
+2020-12-29 08:18:16,068 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SolidView
+2020-12-29 08:18:16,074 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SupportEraser
+2020-12-29 08:18:16,099 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-12-29 08:18:16,101 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-12-29 08:18:16,103 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-12-29 08:18:16,105 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-12-29 08:18:16,106 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-12-29 08:18:16,108 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-12-29 08:18:16,110 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
+2020-12-29 08:18:16,113 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
+2020-12-29 08:18:16,116 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin Toolbox
+2020-12-29 08:18:16,123 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CameraTool
+2020-12-29 08:18:16,130 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MirrorTool
+2020-12-29 08:18:16,140 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RotateTool
+2020-12-29 08:18:16,149 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ScaleTool
+2020-12-29 08:18:16,155 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SelectionTool
+2020-12-29 08:18:16,163 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TranslateTool
+2020-12-29 08:18:16,168 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TrimeshReader
+2020-12-29 08:18:16,177 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPReader
+2020-12-29 08:18:16,185 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPWriter
+2020-12-29 08:18:16,270 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UM3NetworkPrinting
+2020-12-29 08:18:16,293 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin USBPrinting
+2020-12-29 08:18:16,299 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UltimakerMachineActions
+2020-12-29 08:18:16,306 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UpdateChecker
+2020-12-29 08:18:16,308 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [40]: Checking for new version of cura
+2020-12-29 08:18:16,322 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade21to22
+2020-12-29 08:18:16,334 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade22to24
+2020-12-29 08:18:16,340 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade25to26
+2020-12-29 08:18:16,345 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade26to27
+2020-12-29 08:18:16,350 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade27to30
+2020-12-29 08:18:16,355 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade30to31
+2020-12-29 08:18:16,360 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade32to33
+2020-12-29 08:18:16,364 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade33to34
+2020-12-29 08:18:16,368 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade34to35
+2020-12-29 08:18:16,373 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade35to40
+2020-12-29 08:18:16,377 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade40to41
+2020-12-29 08:18:16,383 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade41to42
+2020-12-29 08:18:16,388 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade42to43
+2020-12-29 08:18:16,392 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade43to44
+2020-12-29 08:18:16,397 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade44to45
+2020-12-29 08:18:16,402 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade45to46
+2020-12-29 08:18:16,407 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade460to462
+2020-12-29 08:18:16,412 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade462to47
+2020-12-29 08:18:16,416 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade47to48
+2020-12-29 08:18:16,420 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimpleView
+2020-12-29 08:18:16,432 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin X3DReader
+2020-12-29 08:18:16,437 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XRayView
+2020-12-29 08:18:16,452 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XmlMaterialProfile
+2020-12-29 08:18:16,455 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [432]: Loading all plugins took 0.8189599514007568 seconds
+2020-12-29 08:18:16,459 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [163]: Looking for old configuration files to upgrade.
+2020-12-29 08:18:16,464 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [175]: Checking and performing updates took 0.0049266815185546875
+2020-12-29 08:18:16,466 - INFO - [MainThread] UM.Qt.QtApplication.startSplashWindowPhase [226]: The preferences file cannot be found or it is corrupted, so we will use default values
+2020-12-29 08:18:16,468 - INFO - [MainThread] UM.Qt.QtApplication.startSplashWindowPhase [235]: The preferences file 'None' cannot be found, will use default values
+2020-12-29 08:18:17,945 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [361]: Loading metadata into container registry took 1.4324045181274414 seconds
+2020-12-29 08:18:17,955 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [142]: Select build plate: 0
+2020-12-29 08:18:17,958 - INFO - [MainThread] cura.CuraApplication.run [782]: Initializing machine error checker
+2020-12-29 08:18:17,960 - INFO - [MainThread] cura.CuraApplication.run [787]: Initializing machine manager
+2020-12-29 08:18:17,962 - INFO - [MainThread] cura.CuraApplication.run [792]: Initializing container manager
+2020-12-29 08:18:18,158 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition fdmprinter failed to pickle.
+2020-12-29 08:18:18,174 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2020-12-29 08:18:18,213 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [158]: Loading theme file: /tmp/.mount_UltimaNdsPUs/usr/bin/resources/themes/cura-light/theme.json
+2020-12-29 08:18:18,561 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [246]: Loaded theme /tmp/.mount_UltimaNdsPUs/usr/bin/resources/themes/cura-light
+2020-12-29 08:18:19,124 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [340]: Creating post processing plugin view.
+2020-12-29 08:18:19,133 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: ChangeAtZ
+2020-12-29 08:18:19,134 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: ColorMix
+2020-12-29 08:18:19,135 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2020-12-29 08:18:19,137 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: DisplayProgressOnLCD
+2020-12-29 08:18:19,138 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: FilamentChange
+2020-12-29 08:18:19,138 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: InsertAtLayerChange
+2020-12-29 08:18:19,142 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: PauseAtHeight
+2020-12-29 08:18:19,143 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: RetractContinue
+2020-12-29 08:18:19,144 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: SearchAndReplace
+2020-12-29 08:18:19,149 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: Stretch
+2020-12-29 08:18:19,150 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: TimeLapse
+2020-12-29 08:18:19,151 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: UsePreviousProbeMeasurements
+2020-12-29 08:18:19,274 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [350]: Post processing view created.
+2020-12-29 08:18:19,519 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
+2020-12-29 08:18:19,578 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
+2020-12-29 08:18:19,580 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
+2020-12-29 08:18:19,654 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2020-12-29 08:18:19,745 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:18:19,748 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaNdsPUs/usr/bin/resources/qml/Menus/ConfigurationMenu/ConfigurationMenu.qml:143: TypeError: Cannot read property 'hasRemoteConnection' of null
+2020-12-29 08:18:19,764 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaNdsPUs/usr/bin/resources/qml/Menus/ConfigurationMenu/CustomConfiguration.qml:234: TypeError: Cannot read property 'activeStack' of undefined
+2020-12-29 08:18:19,766 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaNdsPUs/usr/bin/resources/qml/Menus/ConfigurationMenu/CustomConfiguration.qml:233: TypeError: Cannot read property 'isEnabled' of null
+2020-12-29 08:18:19,795 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2020-12-29 08:18:19,805 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [117]: Creating model checker view.
+2020-12-29 08:18:19,810 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [126]: Model checker view created.
+2020-12-29 08:18:19,810 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [76]: Creating dialog [MoreInfoWindow.qml]
+2020-12-29 08:18:19,835 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [544]: Requesting [updates] metadata from server.
+2020-12-29 08:18:19,838 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [124]: No auth data to retrieve the access_token from
+2020-12-29 08:18:19,840 - WARNING - [MainThread] UM.Logger.warning [128]: Cannot add authorization to Cloud Api request
+2020-12-29 08:18:19,848 - DEBUG - [MainThread] cura.CuraApplication.run [833]: Booting Cura took 7.5281524658203125 seconds
+2020-12-29 08:18:19,851 - DEBUG - [Thread-2] cura.Machines.ContainerTree.run [174]: Started background loading of MachineNodes
+2020-12-29 08:18:19,853 - DEBUG - [Thread-2] cura.Machines.ContainerTree.run [185]: All MachineNode loading completed
+2020-12-29 08:18:19,861 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:18:19,864 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [38]: No active GlobalStack, set CustomQualityProfilesDropDownMenuModel as empty.
+2020-12-29 08:18:19,866 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:18:19,869 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [74]: No active GlobalStack, set quality profile model as empty.
+2020-12-29 08:18:20,372 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [210]: Support for Vertex Array Objects: True
+2020-12-29 08:18:20,380 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
+2020-12-29 08:18:20,382 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.1.0 NVIDIA 418.152.00
+2020-12-29 08:18:20,384 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   NVIDIA Corporation
+2020-12-29 08:18:20,386 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: Quadro P1000/PCIe/SSE2
+2020-12-29 08:18:20,387 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    4.0.0
+2020-12-29 08:18:20,390 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/default.shader]...
+2020-12-29 08:18:20,400 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/selection.shader]...
+2020-12-29 08:18:20,407 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/select_face.shader]...
+2020-12-29 08:18:20,413 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/default.shader]...
+2020-12-29 08:18:20,416 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/composite.shader]...
+2020-12-29 08:18:20,427 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/overhang.shader]...
+2020-12-29 08:18:20,439 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/striped.shader]...
+2020-12-29 08:18:20,450 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/transparent_object.shader]...
+2020-12-29 08:18:20,457 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/striped.shader]...
+2020-12-29 08:18:20,460 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/xray.shader]...
+2020-12-29 08:18:20,466 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/xray_composite.shader]...
+2020-12-29 08:18:20,478 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/platform.shader]...
+2020-12-29 08:18:20,489 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/xray.shader]...
+2020-12-29 08:18:28,350 - INFO - [MainThread] cura.CuraApplication.writeToLog [596]: User accepted the User-Agreement.
+2020-12-29 08:18:38,553 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-12-29 08:18:52,878 - INFO - [MainThread] cura.Settings.MachineManager.addMachine [397]: Trying to add a machine with the definition id [custom]
+2020-12-29 08:18:53,062 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition custom failed to pickle.
+2020-12-29 08:18:53,222 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [120]: Adding container tree for custom took 0.15652751922607422 seconds.
+2020-12-29 08:18:53,369 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:18:53,408 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_1 #2] added to [Weird Bear] at position [0]
+2020-12-29 08:18:53,414 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:18:53,441 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_2 #2] added to [Weird Bear] at position [1]
+2020-12-29 08:18:53,447 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:18:53,474 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_3 #2] added to [Weird Bear] at position [2]
+2020-12-29 08:18:53,479 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:18:53,506 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_4 #2] added to [Weird Bear] at position [3]
+2020-12-29 08:18:53,511 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:18:53,538 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_5 #2] added to [Weird Bear] at position [4]
+2020-12-29 08:18:53,543 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:18:53,572 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_6 #2] added to [Weird Bear] at position [5]
+2020-12-29 08:18:53,577 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:18:53,604 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_7 #2] added to [Weird Bear] at position [6]
+2020-12-29 08:18:53,609 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:18:53,636 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_8 #2] added to [Weird Bear] at position [7]
+2020-12-29 08:18:53,639 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [74]: Default machine actions added for machine definition [custom]
+2020-12-29 08:18:53,645 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_5 #2] has already been added to this stack [Weird Bear]
+2020-12-29 08:18:53,647 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_8 #2] has already been added to this stack [Weird Bear]
+2020-12-29 08:18:53,649 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_6 #2] has already been added to this stack [Weird Bear]
+2020-12-29 08:18:53,651 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_3 #2] has already been added to this stack [Weird Bear]
+2020-12-29 08:18:53,653 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_4 #2] has already been added to this stack [Weird Bear]
+2020-12-29 08:18:53,655 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_7 #2] has already been added to this stack [Weird Bear]
+2020-12-29 08:18:53,657 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_2 #2] has already been added to this stack [Weird Bear]
+2020-12-29 08:18:53,659 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_1 #2] has already been added to this stack [Weird Bear]
+2020-12-29 08:18:53,661 - INFO - [MainThread] UM.Logger.info [122]: Initializing Active Machine...
+2020-12-29 08:18:53,677 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:18:53,696 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaNdsPUs/usr/bin/resources/qml/Menus/ConfigurationMenu/CustomConfiguration.qml:233: TypeError: Cannot read property 'isEnabled' of null
+2020-12-29 08:18:53,699 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:18:53,701 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:18:53,982 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [79]: No machine with name Custom FFF printer in list of firmware to check.
+2020-12-29 08:18:54,008 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:18:54,066 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:18:54,073 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:18:54,090 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/default.shader]...
+2020-12-29 08:18:54,093 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaNdsPUs/usr/bin/resources/shaders/grid.shader]...
+2020-12-29 08:18:54,194 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:18:54,197 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:18:54,715 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.7s
+2020-12-29 08:19:03,550 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-12-29 08:19:23,752 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:23,768 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:23,770 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:23,773 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:23,876 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:19:23,878 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:19:23,966 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:19:23,976 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:19:25,544 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:25,560 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:25,562 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:25,565 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:25,661 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:19:25,664 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:19:25,748 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:19:25,755 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:19:30,971 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:30,987 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:30,989 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:30,992 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:31,097 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:19:31,100 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:19:31,154 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:31,171 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:31,173 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:31,176 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:31,271 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:19:31,273 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:19:31,353 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:19:31,392 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:19:35,830 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:35,847 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:35,849 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:35,852 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:35,952 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:19:35,954 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:19:36,049 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:19:36,058 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:19:39,353 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:39,378 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:39,381 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:39,384 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:39,475 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:19:39,478 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:19:39,563 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:19:39,566 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:19:42,086 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:42,103 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:42,105 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:42,109 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:42,210 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:19:42,213 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:19:42,289 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:19:42,295 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:19:45,021 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:45,039 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:45,041 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:45,045 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:45,146 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:19:45,149 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:19:45,236 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:19:45,241 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:19:49,255 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:49,272 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:49,274 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:49,277 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:19:49,390 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:19:49,392 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:19:49,396 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:19:49,424 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [159]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-12-29 08:19:49,545 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:19:49,728 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.2s
+2020-12-29 08:20:00,939 - WARNING - [MainThread] UM.PluginRegistry._populateMetaData [739]: Could not find plugin extruder_stack
+2020-12-29 08:20:00,941 - WARNING - [MainThread] UM.PluginRegistry._populateMetaData [739]: Could not find plugin global_stack
+2020-12-29 08:20:00,944 - WARNING - [MainThread] cura.Settings.ContainerManager.getContainerMetaDataEntry [60]: Could not get metadata of container Unknown because it was not found.
+2020-12-29 08:20:01,022 - WARNING - [MainThread] cura.Settings.ContainerManager.getContainerMetaDataEntry [60]: Could not get metadata of container Unknown because it was not found.
+2020-12-29 08:20:01,037 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaNdsPUs/usr/bin/resources/qml/Preferences/Materials/MaterialsDetailsPanel.qml:91: TypeError: Cannot read property 'container_node' of null
+2020-12-29 08:20:01,116 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaNdsPUs/usr/bin/resources/qml/Preferences/Materials/MaterialsBrandSection.qml:94:5: QML Column: Binding loop detected for property "height"
+2020-12-29 08:20:01,119 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaNdsPUs/usr/bin/resources/qml/Preferences/Materials/MaterialsPage.qml:272:13: QML MaterialsList: Binding loop detected for property "height"
+2020-12-29 08:20:01,122 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaNdsPUs/usr/bin/resources/qml/Preferences/Materials/MaterialsBrandSection.qml:94:5: QML Column: Binding loop detected for property "height"
+2020-12-29 08:20:01,124 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaNdsPUs/usr/bin/resources/qml/Preferences/Materials/MaterialsList.qml:149:9: QML MaterialsBrandSection: Binding loop detected for property "height"
+2020-12-29 08:20:01,126 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaNdsPUs/usr/bin/resources/qml/Preferences/Materials/MaterialsList.qml:136:5: QML Column: Binding loop detected for property "height"
+2020-12-29 08:20:03,051 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
+2020-12-29 08:20:11,549 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-12-29 08:20:29,226 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:20:29,231 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:20:39,549 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-12-29 08:20:50,290 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:20:50,292 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:21:00,552 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-12-29 08:23:18,065 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:23:18,068 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:23:27,550 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-12-29 08:23:42,359 - INFO - [MainThread] cura.Settings.MachineManager.addMachine [397]: Trying to add a machine with the definition id [custom]
+2020-12-29 08:23:42,409 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:23:42,436 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_1 #3] added to [HevORT lite] at position [0]
+2020-12-29 08:23:42,438 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:23:42,465 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_2 #3] added to [HevORT lite] at position [1]
+2020-12-29 08:23:42,467 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:23:42,495 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_3 #3] added to [HevORT lite] at position [2]
+2020-12-29 08:23:42,498 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:23:42,524 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_4 #3] added to [HevORT lite] at position [3]
+2020-12-29 08:23:42,527 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:23:42,554 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_5 #3] added to [HevORT lite] at position [4]
+2020-12-29 08:23:42,556 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:23:42,583 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_6 #3] added to [HevORT lite] at position [5]
+2020-12-29 08:23:42,585 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:23:42,612 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_7 #3] added to [HevORT lite] at position [6]
+2020-12-29 08:23:42,614 - WARNING - [MainThread] cura.Settings.CuraStackBuilder.createExtruderStackWithDefaultSetup [115]: Could not find preferred nozzle . Falling back to empty.
+2020-12-29 08:23:42,640 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[custom_extruder_8 #3] added to [HevORT lite] at position [7]
+2020-12-29 08:23:42,643 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [58]: Default machine actions have been added for machine definition [custom], do nothing.
+2020-12-29 08:23:42,648 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_5 #3] has already been added to this stack [HevORT lite]
+2020-12-29 08:23:42,650 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_1 #3] has already been added to this stack [HevORT lite]
+2020-12-29 08:23:42,652 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_7 #3] has already been added to this stack [HevORT lite]
+2020-12-29 08:23:42,654 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_3 #3] has already been added to this stack [HevORT lite]
+2020-12-29 08:23:42,656 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_2 #3] has already been added to this stack [HevORT lite]
+2020-12-29 08:23:42,658 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_6 #3] has already been added to this stack [HevORT lite]
+2020-12-29 08:23:42,661 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_8 #3] has already been added to this stack [HevORT lite]
+2020-12-29 08:23:42,663 - WARNING - [MainThread] cura.Settings.GlobalStack.addExtruder [189]: Extruder [custom_extruder_4 #3] has already been added to this stack [HevORT lite]
+2020-12-29 08:23:42,665 - INFO - [MainThread] UM.Logger.info [122]: Initializing Active Machine...
+2020-12-29 08:23:42,671 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:23:42,695 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:23:42,725 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:23:42,728 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:23:42,848 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:23:42,882 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:23:42,888 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:23:42,898 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
+2020-12-29 08:23:43,554 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.7s
+2020-12-29 08:23:49,827 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:23:49,847 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:23:49,849 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:23:49,852 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:23:49,988 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:23:49,990 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:23:49,994 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
+2020-12-29 08:23:50,113 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:23:50,121 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:23:52,515 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:23:52,535 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:23:52,538 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:23:52,541 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:23:52,682 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:23:52,685 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:23:52,689 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
+2020-12-29 08:23:52,811 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:23:52,826 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:24:00,135 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:24:00,154 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:24:00,156 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:24:00,159 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:24:00,305 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:24:00,308 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:24:00,312 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
+2020-12-29 08:24:00,349 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:24:00,368 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:24:00,370 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:24:00,373 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2020-12-29 08:24:00,510 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:24:00,512 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 08:24:00,516 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:24:00,518 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
+2020-12-29 08:24:00,560 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [159]: Need to check for errors again. Discard the current progress and reschedule a check.
+2020-12-29 08:24:00,706 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:24:00,740 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:24:10,556 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-12-29 08:24:27,078 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:24:27,085 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:24:36,549 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-12-29 08:24:37,764 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:24:37,776 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:24:47,554 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-12-29 08:24:57,524 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:24:57,527 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:25:07,547 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-12-29 08:25:22,711 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:25:22,715 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:25:32,551 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-12-29 08:25:38,656 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:25:38,662 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:25:48,551 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-12-29 08:26:20,537 - DEBUG - [MainThread] Toolbox.src.Toolbox._createDialog [216]: Marketplace: Creating dialog [Toolbox.qml].
+2020-12-29 08:26:20,623 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [544]: Requesting [packages] metadata from server.
+2020-12-29 08:26:20,626 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [124]: No auth data to retrieve the access_token from
+2020-12-29 08:26:20,628 - WARNING - [MainThread] UM.Logger.warning [128]: Cannot add authorization to Cloud Api request
+2020-12-29 08:26:20,628 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [544]: Requesting [authors] metadata from server.
+2020-12-29 08:26:20,630 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [124]: No auth data to retrieve the access_token from
+2020-12-29 08:26:20,633 - WARNING - [MainThread] UM.Logger.warning [128]: Cannot add authorization to Cloud Api request
+2020-12-29 08:26:20,633 - DEBUG - [MainThread] Toolbox.src.Toolbox._updateInstalledModels [270]: Found a plugin that was installed with the old plugin browser: VersionUpgrade47to48
+2020-12-29 08:26:48,281 - INFO - [MainThread] Toolbox.src.Toolbox.startDownload [556]: Attempting to download & install package from https://api.ultimaker.com/cura-packages/v1/cura/v7.0.0/packages/LinearAdvanceSettingPlugin/download.
+2020-12-29 08:26:48,287 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [124]: No auth data to retrieve the access_token from
+2020-12-29 08:26:48,289 - WARNING - [MainThread] UM.Logger.warning [128]: Cannot add authorization to Cloud Api request
+2020-12-29 08:26:49,715 - DEBUG - [MainThread] Toolbox.src.Toolbox._onDownloadProgress [673]: new download progress 1441 / 19909 : 7.237932593299513%
+2020-12-29 08:26:49,765 - DEBUG - [MainThread] Toolbox.src.Toolbox._onDownloadProgress [673]: new download progress 19909 / 19909 : 100.0%
+2020-12-29 08:26:49,819 - INFO - [MainThread] Toolbox.src.Toolbox._onDownloadComplete [676]: Download complete.
+2020-12-29 08:26:49,827 - DEBUG - [MainThread] UM.PackageManager.getPackageInfo [601]: Found potential package.json file '/package.json'
+2020-12-29 08:26:49,830 - DEBUG - [MainThread] UM.PackageManager.getPackageLicense [629]: Found potential license file '/files/plugins/LinearAdvanceSettingPlugin/LICENSE'
+2020-12-29 08:26:51,725 - DEBUG - [MainThread] UM.PackageManager.getPackageInfo [601]: Found potential package.json file '/package.json'
+2020-12-29 08:26:51,727 - INFO - [MainThread] UM.PackageManager.installPackage [447]: Package [LinearAdvanceSettingPlugin] version [3.5.11] is scheduled to be installed.
+2020-12-29 08:26:51,730 - INFO - [MainThread] UM.PackageManager._saveManagementData [259]: Package management file /home/tux/.local/share/cura/4.8/packages.json was saved
+2020-12-29 08:26:51,730 - DEBUG - [MainThread] Toolbox.src.Toolbox._updateInstalledModels [270]: Found a plugin that was installed with the old plugin browser: VersionUpgrade47to48
+2020-12-29 08:27:00,497 - INFO - [MainThread] Toolbox.src.Toolbox.startDownload [556]: Attempting to download & install package from https://api.ultimaker.com/cura-packages/v1/cura/v7.0.0/packages/MaterialSettingsPlugin/download.
+2020-12-29 08:27:00,503 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [124]: No auth data to retrieve the access_token from
+2020-12-29 08:27:00,505 - WARNING - [MainThread] UM.Logger.warning [128]: Cannot add authorization to Cloud Api request
+2020-12-29 08:27:01,132 - DEBUG - [MainThread] Toolbox.src.Toolbox._onDownloadProgress [673]: new download progress 7436 / 38441 : 19.343929658437606%
+2020-12-29 08:27:01,165 - DEBUG - [MainThread] Toolbox.src.Toolbox._onDownloadProgress [673]: new download progress 38441 / 38441 : 100.0%
+2020-12-29 08:27:01,221 - INFO - [MainThread] Toolbox.src.Toolbox._onDownloadComplete [676]: Download complete.
+2020-12-29 08:27:01,227 - DEBUG - [MainThread] UM.PackageManager.getPackageInfo [601]: Found potential package.json file '/package.json'
+2020-12-29 08:27:01,231 - DEBUG - [MainThread] UM.PackageManager.getPackageLicense [629]: Found potential license file '/files/plugins/MaterialSettingsPlugin/LICENSE'
+2020-12-29 08:27:02,922 - DEBUG - [MainThread] UM.PackageManager.getPackageInfo [601]: Found potential package.json file '/package.json'
+2020-12-29 08:27:02,925 - INFO - [MainThread] UM.PackageManager.installPackage [447]: Package [MaterialSettingsPlugin] version [3.5.3] is scheduled to be installed.
+2020-12-29 08:27:02,928 - INFO - [MainThread] UM.PackageManager._saveManagementData [259]: Package management file /home/tux/.local/share/cura/4.8/packages.json was saved
+2020-12-29 08:27:02,928 - DEBUG - [MainThread] Toolbox.src.Toolbox._updateInstalledModels [270]: Found a plugin that was installed with the old plugin browser: VersionUpgrade47to48
+2020-12-29 08:27:15,028 - DEBUG - [MainThread] UM.Qt.QtApplication.windowClosed [470]: Shutting down cura
+2020-12-29 08:27:15,254 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [315]: Attempting to kill the engine process
+2020-12-29 08:27:15,255 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [321]: Killing engine process
+2020-12-29 08:27:15,257 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [324]: Engine process is killed. Received return code -15
+2020-12-29 08:27:22,780 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FileLogger
 2020-12-29 08:27:22,786 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdateChecker
 2020-12-29 08:27:22,792 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdater
 2020-12-29 08:27:22,796 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzReader
@@ -41,10 +411,10 @@
 2020-12-29 08:27:22,830 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ImageReader
 2020-12-29 08:27:22,834 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LegacyProfileReader
 2020-12-29 08:27:22,839 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalContainerProvider
-2020-12-29 08:27:22,874 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalFileOutputDevice
+2020-12-29 08:27:22,875 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalFileOutputDevice
 2020-12-29 08:27:22,880 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MachineSettingsAction
 2020-12-29 08:27:22,884 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ModelChecker
-2020-12-29 08:27:22,889 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MonitorStage
+2020-12-29 08:27:22,890 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MonitorStage
 2020-12-29 08:27:22,900 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PerObjectSettingsTool
 2020-12-29 08:27:22,907 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PostProcessingPlugin
 2020-12-29 08:27:22,911 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PrepareStage
@@ -69,23 +439,23 @@
 2020-12-29 08:27:23,022 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RotateTool
 2020-12-29 08:27:23,030 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ScaleTool
 2020-12-29 08:27:23,034 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SelectionTool
-2020-12-29 08:27:23,041 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TranslateTool
+2020-12-29 08:27:23,042 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TranslateTool
 2020-12-29 08:27:23,046 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TrimeshReader
 2020-12-29 08:27:23,055 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPReader
 2020-12-29 08:27:23,062 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPWriter
-2020-12-29 08:27:23,140 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UM3NetworkPrinting
+2020-12-29 08:27:23,141 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UM3NetworkPrinting
 2020-12-29 08:27:23,163 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin USBPrinting
 2020-12-29 08:27:23,169 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UltimakerMachineActions
 2020-12-29 08:27:23,176 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UpdateChecker
 2020-12-29 08:27:23,176 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [40]: Checking for new version of cura
 2020-12-29 08:27:23,191 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade21to22
 2020-12-29 08:27:23,196 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade22to24
-2020-12-29 08:27:23,202 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade25to26
+2020-12-29 08:27:23,203 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade25to26
 2020-12-29 08:27:23,207 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade26to27
 2020-12-29 08:27:23,212 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade27to30
 2020-12-29 08:27:23,217 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade30to31
 2020-12-29 08:27:23,222 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade32to33
-2020-12-29 08:27:23,225 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade33to34
+2020-12-29 08:27:23,226 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade33to34
 2020-12-29 08:27:23,230 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade34to35
 2020-12-29 08:27:23,234 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade35to40
 2020-12-29 08:27:23,238 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade40to41
@@ -133,7 +503,7 @@
 2020-12-29 08:27:25,118 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: Stretch
 2020-12-29 08:27:25,119 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: TimeLapse
 2020-12-29 08:27:25,120 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: UsePreviousProbeMeasurements
-2020-12-29 08:27:25,349 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition fdmprinter failed to pickle.
+2020-12-29 08:27:25,350 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition fdmprinter failed to pickle.
 2020-12-29 08:27:25,361 - INFO - [MainThread] cura.CuraApplication.run [787]: Initializing machine manager
 2020-12-29 08:27:25,364 - INFO - [MainThread] cura.CuraApplication.run [792]: Initializing container manager
 2020-12-29 08:27:25,389 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
@@ -162,7 +532,7 @@
 2020-12-29 08:27:27,258 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 08:27:27,267 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 08:27:27,710 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [210]: Support for Vertex Array Objects: True
-2020-12-29 08:27:27,718 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
+2020-12-29 08:27:27,719 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
 2020-12-29 08:27:27,720 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.1.0 NVIDIA 418.152.00
 2020-12-29 08:27:27,722 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   NVIDIA Corporation
 2020-12-29 08:27:27,724 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: Quadro P1000/PCIe/SSE2
@@ -178,9 +548,9 @@
 2020-12-29 08:27:27,822 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/striped.shader]...
 2020-12-29 08:27:27,825 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/xray.shader]...
 2020-12-29 08:27:27,831 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/xray_composite.shader]...
-2020-12-29 08:27:27,843 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/default.shader]...
+2020-12-29 08:27:27,844 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/default.shader]...
 2020-12-29 08:27:27,846 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/grid.shader]...
-2020-12-29 08:27:27,856 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/platform.shader]...
+2020-12-29 08:27:27,857 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/platform.shader]...
 2020-12-29 08:27:27,869 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/xray.shader]...
 2020-12-29 08:27:28,092 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 08:27:28,097 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
@@ -236,8 +606,8 @@
 2020-12-29 08:28:19,587 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition ultimaker2_extended failed to pickle.
 2020-12-29 08:28:19,897 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition ultimaker_original failed to pickle.
 2020-12-29 08:28:20,154 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition ultimaker_s3 failed to pickle.
-2020-12-29 08:28:20,437 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition ultimaker_s5 failed to pickle.
-2020-12-29 08:28:20,840 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:28:20,438 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition ultimaker_s5 failed to pickle.
+2020-12-29 08:28:20,841 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 08:28:20,854 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 08:28:21,361 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1242]: Updating quality/quality_changes due to material change
 2020-12-29 08:28:21,363 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1247]: Current quality type = [normal]
@@ -250,12 +620,12 @@
 2020-12-29 08:28:21,734 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 08:28:21,787 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.3s
 2020-12-29 08:28:33,550 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
-2020-12-29 08:28:41,805 - INFO - [MainThread] LocalContainerProvider.LocalContainerProvider.removeContainer [222]: Deleting file /home/tux/.local/share/cura/4.8/materials/generic_pla+%232.xml.fdm_material.
+2020-12-29 08:28:41,806 - INFO - [MainThread] LocalContainerProvider.LocalContainerProvider.removeContainer [222]: Deleting file /home/tux/.local/share/cura/4.8/materials/generic_pla+%232.xml.fdm_material.
 2020-12-29 08:28:41,809 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [461]: Removed container generic_pla #2_ultimaker3_BB_0.8
 2020-12-29 08:28:41,811 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [461]: Removed container generic_pla #2_ultimaker_s3
 2020-12-29 08:28:41,813 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [461]: Removed container generic_pla #2_ultimaker_s3_AA_0.4
 2020-12-29 08:28:41,815 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [461]: Removed container generic_pla #2_ultimaker2_extended
-2020-12-29 08:28:41,817 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [461]: Removed container generic_pla #2_ultimaker3_extended_AA_0.25
+2020-12-29 08:28:41,818 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [461]: Removed container generic_pla #2_ultimaker3_extended_AA_0.25
 2020-12-29 08:28:41,820 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [461]: Removed container generic_pla #2_ultimaker3_extended
 2020-12-29 08:28:41,822 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [461]: Removed container generic_pla #2_ultimaker_s3_AA_0.25
 2020-12-29 08:28:41,824 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [461]: Removed container generic_pla #2_ultimaker_s5_BB_0.4
@@ -299,9 +669,9 @@
 2020-12-29 08:28:41,900 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.removeContainer [461]: Removed container generic_pla #2_ultimaker_s5_AA_0.8
 2020-12-29 08:28:54,056 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1242]: Updating quality/quality_changes due to material change
 2020-12-29 08:28:54,059 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1247]: Current quality type = [normal]
-2020-12-29 08:28:54,060 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1260]: Current available quality type [normal] is available, applying changes.
+2020-12-29 08:28:54,061 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1260]: Current available quality type [normal] is available, applying changes.
 2020-12-29 08:28:54,065 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1284]: Updating intent due to quality change
-2020-12-29 08:28:54,092 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaRycxf6/usr/bin/resources/qml/Preferences/Materials/MaterialsBrandSection.qml:94:5: QML Column: Binding loop detected for property "height"
+2020-12-29 08:28:54,093 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaRycxf6/usr/bin/resources/qml/Preferences/Materials/MaterialsBrandSection.qml:94:5: QML Column: Binding loop detected for property "height"
 2020-12-29 08:28:54,095 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaRycxf6/usr/bin/resources/qml/Preferences/Materials/MaterialsTypeSection.qml:108:5: QML Column: Binding loop detected for property "height"
 2020-12-29 08:28:54,160 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 08:28:54,164 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
@@ -332,7 +702,7 @@
 2020-12-29 08:29:41,742 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 08:29:41,744 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 08:29:41,755 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 08:29:41,979 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:29:41,980 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 08:29:41,982 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 08:29:42,055 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.3s
 2020-12-29 08:29:51,550 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
@@ -356,7 +726,7 @@
 2020-12-29 08:42:21,839 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaRycxf6/usr/bin/resources/qml/Preferences/Materials/MaterialsBrandSection.qml:94:5: QML Column: Binding loop detected for property "height"
 2020-12-29 08:42:21,841 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaRycxf6/usr/bin/resources/qml/Preferences/Materials/MaterialsList.qml:149:9: QML MaterialsBrandSection: Binding loop detected for property "height"
 2020-12-29 08:42:21,843 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaRycxf6/usr/bin/resources/qml/Preferences/Materials/MaterialsList.qml:136:5: QML Column: Binding loop detected for property "height"
-2020-12-29 08:42:46,745 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1242]: Updating quality/quality_changes due to material change
+2020-12-29 08:42:46,746 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1242]: Updating quality/quality_changes due to material change
 2020-12-29 08:42:46,748 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1247]: Current quality type = [normal]
 2020-12-29 08:42:46,750 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1260]: Current available quality type [normal] is available, applying changes.
 2020-12-29 08:42:46,754 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1284]: Updating intent due to quality change
@@ -376,23 +746,23 @@
 2020-12-29 08:43:01,216 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 08:43:17,037 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1242]: Updating quality/quality_changes due to material change
 2020-12-29 08:43:17,039 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1247]: Current quality type = [normal]
-2020-12-29 08:43:17,041 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1260]: Current available quality type [normal] is available, applying changes.
+2020-12-29 08:43:17,042 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1260]: Current available quality type [normal] is available, applying changes.
 2020-12-29 08:43:17,046 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1284]: Updating intent due to quality change
 2020-12-29 08:43:17,222 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 08:43:17,228 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 08:53:38,383 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 08:53:38,396 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:53:38,397 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 08:53:38,934 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:53:38,948 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 08:53:39,581 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:53:39,584 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 08:53:42,466 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:53:42,483 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 08:53:42,749 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 08:53:42,762 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:53:42,750 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:53:42,763 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 08:53:51,214 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:53:51,229 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 08:53:52,585 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:53:52,586 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:53:52,596 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 08:53:53,139 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:53:53,142 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
@@ -400,19 +770,19 @@
 2020-12-29 08:53:58,771 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 08:53:58,912 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:53:58,923 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 08:53:59,342 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:53:59,343 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:53:59,363 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 08:54:01,628 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:54:01,631 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 08:54:01,954 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:54:01,966 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 08:54:02,453 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:54:02,454 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:54:02,466 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 08:54:04,926 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 08:54:04,942 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 08:54:05,346 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:54:04,927 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:54:04,943 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 08:54:05,347 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:54:05,353 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 08:54:05,543 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:54:05,544 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:54:05,583 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 08:54:11,283 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:54:11,296 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
@@ -420,7 +790,7 @@
 2020-12-29 08:54:14,868 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 08:54:16,136 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:54:16,138 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 08:55:32,446 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1242]: Updating quality/quality_changes due to material change
+2020-12-29 08:55:32,447 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1242]: Updating quality/quality_changes due to material change
 2020-12-29 08:55:32,450 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1247]: Current quality type = [normal]
 2020-12-29 08:55:32,453 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1260]: Current available quality type [normal] is available, applying changes.
 2020-12-29 08:55:32,459 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1284]: Updating intent due to quality change
@@ -429,11 +799,11 @@
 2020-12-29 08:55:41,091 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1242]: Updating quality/quality_changes due to material change
 2020-12-29 08:55:41,093 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1247]: Current quality type = [normal]
 2020-12-29 08:55:41,095 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1260]: Current available quality type [normal] is available, applying changes.
-2020-12-29 08:55:41,099 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1284]: Updating intent due to quality change
+2020-12-29 08:55:41,100 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1284]: Updating intent due to quality change
 2020-12-29 08:55:41,295 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 08:55:41,301 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 08:55:44,319 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaRycxf6/usr/bin/resources/qml/Preferences/Materials/MaterialsTypeSection.qml:108:5: QML Column: Binding loop detected for property "height"
-2020-12-29 08:55:50,002 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1242]: Updating quality/quality_changes due to material change
+2020-12-29 08:55:50,003 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1242]: Updating quality/quality_changes due to material change
 2020-12-29 08:55:50,007 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1247]: Current quality type = [normal]
 2020-12-29 08:55:50,010 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1260]: Current available quality type [normal] is available, applying changes.
 2020-12-29 08:55:50,016 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1284]: Updating intent due to quality change
@@ -451,7 +821,7 @@
 2020-12-29 08:56:04,724 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1247]: Current quality type = [normal]
 2020-12-29 08:56:04,726 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1260]: Current available quality type [normal] is available, applying changes.
 2020-12-29 08:56:04,731 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1284]: Updating intent due to quality change
-2020-12-29 08:56:04,945 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 08:56:04,946 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 08:56:04,952 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 08:56:05,554 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
 2020-12-29 08:56:07,327 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1242]: Updating quality/quality_changes due to material change
@@ -460,7 +830,7 @@
 2020-12-29 08:56:07,335 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1284]: Updating intent due to quality change
 2020-12-29 08:56:07,530 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 08:56:07,536 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
-2020-12-29 08:56:09,290 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1242]: Updating quality/quality_changes due to material change
+2020-12-29 08:56:09,291 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1242]: Updating quality/quality_changes due to material change
 2020-12-29 08:56:09,293 - DEBUG - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1247]: Current quality type = [normal]
 2020-12-29 08:56:09,295 - INFO - [MainThread] cura.Settings.MachineManager._updateQualityWithMaterial [1260]: Current available quality type [normal] is available, applying changes.
 2020-12-29 08:56:09,299 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1284]: Updating intent due to quality change
@@ -472,9 +842,9 @@
 2020-12-29 08:56:18,208 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1284]: Updating intent due to quality change
 2020-12-29 08:56:18,405 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 08:56:18,412 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
-2020-12-29 08:58:36,031 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:58:36,032 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:58:36,057 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 08:58:37,132 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 08:58:37,133 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 08:58:37,159 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 08:59:52,635 - WARNING - [MainThread] cura.Settings.ContainerManager.getContainerMetaDataEntry [60]: Could not get metadata of container Unknown because it was not found.
 2020-12-29 08:59:52,877 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///home/tux/.local/share/cura/4.8/plugins/MaterialSettingsPlugin/MaterialSettingsPlugin/qml/MaterialPreferences/MaterialsPage.qml:281:13: QML MaterialsList: Binding loop detected for property "height"
@@ -489,19 +859,19 @@
 2020-12-29 09:01:54,602 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
 2020-12-29 09:01:57,664 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [76]: Updating QualitySettingsModel.
 2020-12-29 09:01:57,666 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [76]: Updating QualitySettingsModel.
-2020-12-29 09:02:13,231 - INFO - [MainThread] cura.Settings.IntentManager.selectIntent [155]: Attempting to set intent_category to [default] and quality type to [draft]
+2020-12-29 09:02:13,232 - INFO - [MainThread] cura.Settings.IntentManager.selectIntent [155]: Attempting to set intent_category to [default] and quality type to [draft]
 2020-12-29 09:02:13,237 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1284]: Updating intent due to quality change
 2020-12-29 09:02:13,348 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-12-29 09:02:13,358 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 09:02:13,359 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 09:02:13,372 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
-2020-12-29 09:02:13,388 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:02:13,389 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:02:13,563 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.2s
 2020-12-29 09:02:13,614 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 09:02:13,617 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
-2020-12-29 09:02:27,551 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
-2020-12-29 09:02:38,646 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:02:27,552 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2020-12-29 09:02:38,647 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:02:38,692 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
-2020-12-29 09:02:42,895 - INFO - [MainThread] cura.Settings.MachineManager.clearUserSettingAllCurrentStacks [453]: Clearing the setting [wall_line_count] from all stacks
+2020-12-29 09:02:42,896 - INFO - [MainThread] cura.Settings.MachineManager.clearUserSettingAllCurrentStacks [453]: Clearing the setting [wall_line_count] from all stacks
 2020-12-29 09:02:43,027 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:02:43,087 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
 2020-12-29 09:02:43,552 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
@@ -511,9 +881,9 @@
 2020-12-29 09:02:59,354 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:02:59,416 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
 2020-12-29 09:03:01,947 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 09:03:01,991 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
+2020-12-29 09:03:01,992 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
 2020-12-29 09:03:05,207 - INFO - [MainThread] cura.Settings.MachineManager.clearUserSettingAllCurrentStacks [453]: Clearing the setting [wall_line_count] from all stacks
-2020-12-29 09:03:05,338 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:03:05,339 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:03:05,513 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.2s
 2020-12-29 09:03:06,907 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:03:06,967 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
@@ -523,14 +893,14 @@
 2020-12-29 09:04:57,305 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
 2020-12-29 09:05:03,868 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:05:03,909 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 09:05:05,332 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 09:05:05,368 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 09:05:05,333 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:05:05,369 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:05:22,465 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:05:22,475 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:05:24,649 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:05:24,661 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:05:50,567 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 09:05:50,578 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 09:05:50,579 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:06:01,474 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:06:01,478 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:06:24,937 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
@@ -538,31 +908,31 @@
 2020-12-29 09:06:25,381 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:06:25,428 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
 2020-12-29 09:06:30,549 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
-2020-12-29 09:06:32,182 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 09:06:32,247 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
+2020-12-29 09:06:32,183 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:06:32,248 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
 2020-12-29 09:07:31,926 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaRycxf6/usr/bin/resources/qml/Settings/SettingTextField.qml:163:13: QML Binding: Binding loop detected for property "value"
 2020-12-29 09:07:48,380 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:07:48,450 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
 2020-12-29 09:07:58,547 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
-2020-12-29 09:08:40,552 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:08:40,553 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:08:40,587 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:08:40,843 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:08:40,878 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:08:42,722 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:08:42,724 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 09:08:42,908 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:08:42,909 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:08:42,922 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:09:07,422 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:09:07,447 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:09:07,733 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 09:09:07,748 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 09:09:07,749 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:09:07,953 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:09:07,969 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 09:09:09,780 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 09:09:09,796 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 09:09:10,266 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:09:09,781 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:09:09,797 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 09:09:10,267 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:09:10,284 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 09:09:46,425 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:09:46,426 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:09:46,428 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:10:06,654 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:10:06,684 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
@@ -576,7 +946,7 @@
 2020-12-29 09:10:20,444 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:10:20,872 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:10:20,888 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 09:10:21,080 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:10:21,081 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:10:21,096 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:10:21,321 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:10:21,334 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
@@ -588,13 +958,13 @@
 2020-12-29 09:10:57,349 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:10:57,396 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:11:06,166 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 09:11:06,176 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 09:11:06,177 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:11:15,547 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
 2020-12-29 09:11:47,179 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:11:47,277 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
 2020-12-29 09:12:20,552 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
-2020-12-29 09:12:29,500 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 09:12:29,522 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 09:12:29,501 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:12:29,523 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:12:42,878 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:12:42,897 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = True, time = 0.0s
 2020-12-29 09:12:43,292 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
@@ -614,16 +984,16 @@
 2020-12-29 09:13:46,135 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 09:13:46,138 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
 2020-12-29 09:13:46,793 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-12-29 09:13:46,795 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 09:13:46,796 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 09:13:46,799 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
-2020-12-29 09:13:47,399 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:13:47,400 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:13:47,666 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._checkStack [159]: Need to check for errors again. Discard the current progress and reschedule a check.
 2020-12-29 09:13:48,497 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 09:13:48,499 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 09:13:48,580 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:13:48,680 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
 2020-12-29 09:13:56,549 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
-2020-12-29 09:14:47,321 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:14:47,322 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:14:47,379 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
 2020-12-29 09:14:54,149 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:14:54,163 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
@@ -632,30 +1002,30 @@
 2020-12-29 09:15:02,788 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:15:02,822 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:15:05,984 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 09:15:06,031 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
-2020-12-29 09:15:18,830 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:15:06,032 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
+2020-12-29 09:15:18,831 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:15:18,886 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
-2020-12-29 09:15:19,452 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:15:19,453 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:15:19,500 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.1s
 2020-12-29 09:15:19,652 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:15:19,696 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:15:22,720 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:15:22,722 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 09:15:23,141 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:15:23,142 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:15:23,154 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:15:23,665 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:15:23,674 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:15:31,740 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 09:15:31,755 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 09:15:31,756 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:15:32,087 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:15:32,100 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:15:32,285 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:15:32,303 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 09:15:34,727 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2020-12-29 09:15:34,745 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 09:15:37,382 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:15:34,728 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:15:34,746 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2020-12-29 09:15:37,383 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:15:37,399 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 09:15:37,617 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:15:37,618 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:15:37,637 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:16:13,681 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [76]: Updating QualitySettingsModel.
 2020-12-29 09:16:13,684 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [76]: Updating QualitySettingsModel.
@@ -663,15 +1033,15 @@
 2020-12-29 09:16:19,346 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 09:16:19,353 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
 2020-12-29 09:16:19,357 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [76]: Updating QualitySettingsModel.
-2020-12-29 09:16:19,363 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 09:16:19,364 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 09:16:19,366 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
 2020-12-29 09:16:19,594 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:16:19,746 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.2s
 2020-12-29 09:16:21,259 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [76]: Updating QualitySettingsModel.
-2020-12-29 09:17:02,602 - INFO - [MainThread] cura.Machines.Models.QualityManagementModel.renameQualityChangesGroup [112]: Renaming QualityChangesGroup Fast #2 to Prototype.
+2020-12-29 09:17:02,603 - INFO - [MainThread] cura.Machines.Models.QualityManagementModel.renameQualityChangesGroup [112]: Renaming QualityChangesGroup Fast #2 to Prototype.
 2020-12-29 09:17:02,613 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 09:17:02,620 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
-2020-12-29 09:17:02,624 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 09:17:02,625 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 09:17:02,631 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
 2020-12-29 09:17:02,635 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [76]: Updating QualitySettingsModel.
 2020-12-29 09:17:02,750 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
@@ -691,7 +1061,7 @@
 2020-12-29 09:18:12,415 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 09:18:12,418 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 09:18:12,421 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
-2020-12-29 09:18:12,424 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [76]: Updating QualitySettingsModel.
+2020-12-29 09:18:12,425 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [76]: Updating QualitySettingsModel.
 2020-12-29 09:18:13,121 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [76]: Updating QualitySettingsModel.
 2020-12-29 09:18:21,620 - INFO - [MainThread] cura.Machines.Models.QualityManagementModel.renameQualityChangesGroup [112]: Renaming QualityChangesGroup Prototype to Prototype(cartesian).
 2020-12-29 09:18:21,631 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
@@ -699,16 +1069,16 @@
 2020-12-29 09:18:21,642 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 09:18:21,649 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
 2020-12-29 09:18:21,652 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [76]: Updating QualitySettingsModel.
-2020-12-29 09:18:21,756 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 09:18:21,757 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 09:18:21,759 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 09:18:21,763 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
 2020-12-29 09:18:21,767 - DEBUG - [MainThread] cura.Machines.Models.QualitySettingsModel._update [76]: Updating QualitySettingsModel.
 2020-12-29 09:22:19,070 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:22:19,073 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:22:20,269 - INFO - [MainThread] cura.Settings.MachineManager.clearUserSettingAllCurrentStacks [453]: Clearing the setting [speed_travel] from all stacks
-2020-12-29 09:22:20,371 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2020-12-29 09:22:20,372 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:22:20,376 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
-2020-12-29 09:22:26,855 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2020-12-29 09:22:26,856 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 09:22:26,869 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
 2020-12-29 09:22:26,882 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
 2020-12-29 09:22:27,225 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
@@ -717,7 +1087,7 @@
 2020-12-29 09:22:27,779 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.6s
 2020-12-29 09:22:36,552 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
 2020-12-29 09:27:48,334 - INFO - [MainThread] cura.CuraApplication.readLocalFile [1733]: Attempting to read file file:///home/tux/Desktop/bear-lcd-mount-lower.stl
-2020-12-29 09:27:48,335 - INFO - [Thread-3] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
+2020-12-29 09:27:48,336 - INFO - [Thread-3] STLReader.STLReader.load_file [60]: Using legacy code to load STL data.
 2020-12-29 09:27:48,567 - DEBUG - [Thread-3] UM.Mesh.MeshData.calculateNormalsFromVertices [556]: Calculating normals took 0.00022172927856445312 seconds
 2020-12-29 09:27:48,567 - DEBUG - [Thread-3] STLReader.STLReader._read [104]: Loaded a mesh with 3750 vertices
 2020-12-29 09:27:48,575 - DEBUG - [Thread-3] UM.Mesh.MeshData.approximateConvexHull [506]: approximateConvexHull(target_count=1024) Calculating 3D convex hull took 0.0054972171783447266 seconds. 62 input vertices. 62 output vertices.
@@ -727,7 +1097,7 @@
 2020-12-29 09:27:48,601 - DEBUG - [MainThread] UM.Operations.OperationStack.push [72]: GroupedOp.(#=2) RotateOp.(node=<CuraSceneNode object: 'bear-lcd-mount-lower.stl'>,rot.=Q<0.0,0.0,0.0,w=4.0>) TranslateOp.(node=<CuraSceneNode object: 'bear-lcd-mount-lower.stl'>,trans.=<0.0,0.0,0.0>), took 1ms
 2020-12-29 09:27:48,802 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/transparent_object.shader]...
 2020-12-29 09:27:49,174 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///tmp/.mount_UltimaRycxf6/usr/bin/resources/qml/ObjectItemButton.qml:81:9: QML Button: Binding loop detected for property "width"
-2020-12-29 09:27:50,428 - INFO - [MainThread] CuraEngineBackend.CuraEngineBackend.slice [246]: Starting to slice...
+2020-12-29 09:27:50,429 - INFO - [MainThread] CuraEngineBackend.CuraEngineBackend.slice [246]: Starting to slice...
 2020-12-29 09:27:50,429 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend.slice [264]: Going to slice build plate [0]!
 2020-12-29 09:27:50,544 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._onStartSliceCompleted [457]: Sending slice message took 0.11463809013366699 seconds
 2020-12-29 09:27:50,798 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] [WARNING]  -s top_thickness="0.8" -s support_roof_extruder_nr="0" -s infill_offset_y="0" -s material_anti_ooze_retraction_speed="5" -s raft_surface_thickness="0.2" -s raft_surface_fan_speed="0" -s platform_adhesion="0" -s acceleration_wall_x="3000" -s slicing_tolerance="middle" -s draft_shield_height="10" -s z_seam_relative="False" -s jerk_ironing="20" -s support_bottom_enable="True" -s wall_line_width_x="0.4" -s jerk_print_layer_0="20" -s initial_layer_line_width_factor="100.0" -s roofing_pattern="lines" -s retraction_min_travel="0.8" -s support_top_distance="0.1" -s infill_pattern="grid" -s material_guid="" -s machine_depth="215" -s machine_steps_per_mm_z="50" -s wireframe_printspeed_down="5" -s wall_0_extruder_nr="-1" -s material_break_preparation_retracted_position="-16" -s wireframe_roof_outer_delay="0.2" -s bridge_skin_density_2="75" -s wireframe_fall_down="0.5" -s support_interface_extruder_nr="0" -s infill_line_width="0.4" -s mold_enabled="False" -s skin_no_small_gaps_heuristic="False" -s jerk_skirt_brim="20" -s material_linear_advance_factor_wall_0="0" -s skirt_brim_material_flow="100" -s support_offset="0" -s minimum_roof_area="1.0" -s wireframe_printspeed_flat="5" -s wipe_hop_enable="False" -s top_skin_preshrink="0.8" -s jerk_travel="30" -s material_flow_temp_graph="[[3.5,200],[7.0,240]]" -s material_print_temp_prepend="False" -s infill_wall_line_count="0" -s material_no_load_move_factor="0.940860215" -s machine_nozzle_cool_down_speed="2.0" -s machine_nozzle_size="0.4" -s support_bottom_offset="0.0" -s support_interface_offset="0.0" -s initial_extruder_nr="0" -s time="09:27:50" -s brim_outside_only="True" -s brim_replaces_support="True" -s speed_print="60" -s support_extruder_nr="0" -s jerk_topbottom="20" -s acceleration_print_layer_0="3000" -s limit_support_retractions="True" -s outer_inset_first="False" -s wireframe_drag_along="0.6" -s support_angle="50" -s default_material_bed_temperature="100" -s skin_overlap_mm="0.02" -s sub_div_rad_add="0.4" -s machine_name="Unknown" -s support_extruder_nr_layer_0="0" -s optimize_wall_printing_order="False" -s prime_tower_enable="False" -s machine_max_feedrate_x="299792458000" -s wireframe_up_half_speed="0.3" -s support_join_distance="2.0" -s machine_endstop_positive_direction_z="True" -s magic_fuzzy_skin_point_dist="0.8" -s wipe_retraction_enable="True" -s jerk_travel_layer_0="30.0" -s top_layers="4" -s support_roof_offset="0.0" -s coasting_min_volume="0.8" -s magic_mesh_surface_mode="normal" -s roofing_layer_count="0" -s material_linear_advance_factor_infill="0" -s brim_gap="0" -s material_linear_advance_factor_topbottom="0" -s skirt_line_count="1" -s raft_surface_acceleration="1000" -s bridge_skin_speed="15.0" -s jerk_roofing="20" -s wipe_brush_pos_x="100" -s wall_min_flow="0" -s infill_material_flow="100" -s gradual_support_infill_steps="0" -s hole_xy_offset="0" -s support_infill_rate="15" -s acceleration_wall_0="3000" -s prime_tower_flow="100" -s retraction_combing_max_distance="0" -s clean_between_layers="False" -s prime_tower_min_volume="6" -s speed_support_infill="100" -s retraction_combing="all" -s skin_angles="[ ]" -s travel_retract_before_outer_wall="False" -s wall_0_wipe_dist="0.2" -s support_interface_height="1" -s travel_speed="120" -s material_flush_purge_speed="0.5" -s raft_surface_layers="2" -s ironing_pattern="zigzag" -s gradual_support_infill_step_height="1" -s machine_acceleration="4000" -s min_skin_width_for_expansion="4.898587196589413e-17" -s smooth_spiralized_contours="True" -s material_crystallinity="False" -s wall_thickness="0.8" -s machine_endstop_positive_direction_y="False" -s bridge_skin_material_flow_2="100" -s draft_shield_enabled="False" -s brim_width="8.0" -s wireframe_straight_before_down="20" -s support_tower_maximum_supported_diameter="3.0" -s wireframe_printspeed_bottom="5" -s travel_compensate_overlapping_walls_x_enabled="True" -s speed_infill="60" -s retraction_enable="True" -s infill_sparse_density="20" -s nozzle_disallowed_areas="[]" -s meshfix_maximum_resolution="0.5" -s raft_interface_jerk="20" -s wipe_retraction_retract_speed="25" -s filter_out_tiny_gaps="True" -s retraction_extrusion_window="6.5" -s material_flow="100" -s ooze_shield_angle="60" -s support_brim_line_count="20" -s raft_interface_acceleration="1000" -s bottom_layers="4" -s prime_tower_brim_enable="False" -s support_tower_diameter="3.0" -s print_bed_temperature="100" -s machine_max_acceleration_y="9000" -s bridge_enable_more_layers="True" -s material_linear_advance_factor="0" -s support_roof_enable="True" -s support_line_distance="2.6666666666666665" -s speed_print_layer_0="30.0" -s machine_shape="rectangular" -s support_meshes_present="False" -s prime_tower_position_x="240.6" -s speed_support_bottom="66.66666666666667" -s retraction_retract_speed="25" -s speed_slowdown_layers="2" -s extruder_prime_pos_z="0" -s machine_nozzle_expansion_angle="45" -s skin_edge_support_layers="0" -s support="0" -s acceleration_support_infill="1000" -s raft_base_line_spacing="1.6" -s small_feature_speed_factor="50" -s support_bottom_material_flow="100" -s experimental="0" -s acceleration_infill="3000" -s max_skin_angle_for_expansion="90" -s machine_nozzle_tip_outer_diameter="1" -s gradual_infill_steps="0" -s raft_surface_speed="50.0" -s switch_extruder_prime_speed="20" -s machine_steps_per_mm_x="50" -s initial_bottom_layers="4" -s cool_fan_full_at_height="0.3" -s material_bed_temperature_layer_0="95" -s bridge_skin_speed_2="15.0" -s infill_before_walls="True" -s minimum_interface_area="1.0" -s support_tree_collision_resolution="0.2" -s conical_overhang_enabled="False" -s jerk_support_bottom="20" -s material_adhesion_tendency="10" -s speed_z_hop="10" -s raft_surface_jerk="20" -s speed_equalize_flow_enabled="False" -s skin_edge_support_thickness="0" -s brim_line_count="20" -s wipe_hop_speed="10" -s speed_support="100" -s cross_infill_pocket_size="4.0" -s shell="0" -s travel_avoid_supports="False" -s jerk_enabled="False" -s material_break_temperature="50" -s adaptive_layer_height_enabled="False" -s material_linear_advance_factor_prime_tower="0" -s support_z_distance="0.1" -s connect_skin_polygons="False" -s machine_always_write_active_tool="False" -s cool_min_layer_time="5" -s raft_surface_line_spacing="0.4" -s material_break_retracted_position="-50" -s bridge_wall_min_length="5" -s alternate_extra_perimeter="False" -s small_hole_max_size="0" -s wireframe_nozzle_clearance="1" -s acceleration_enabled="True" -s retraction_prime_speed="25" -s z_seam_type="sharpest_corner" -s material_print_temp_wait="True" -s support_bottom_height="1" -s machine_disallowed_areas="[]" -s raft_base_fan_speed="0" -s switch_extruder_retraction_speeds="20" -s acceleration_support_interface="1000" -s retraction_hop_after_extruder_switch_height="1" -s ironing_line_spacing="0.1" -s ooze_shield_dist="2" -s wireframe_height="3" -s support_roof_height="1" -s infill_overlap="10" -s speed_equalize_flow_max="150" -s support_infill_extruder_nr="0" -s material_linear_advance_factor_wall="0" -s material_end_of_filament_purge_length="20" -s support_connect_zigzags="True" -s support_type="buildplate" -s top_bottom_thickness="0.8" -s raft_fan_speed="0" -s support_interface_pattern="concentric" -s wall_material_flow="100" -s material_break_preparation_temperature="210" -s support_infill_angles="[ ]" -s skirt_brim_minimal_length="250" -s support_xy_overrides_z="z_overrides_xy" -s switch_extruder_extra_prime_amount="0" -s support_tree_branch_distance="1" -s support_conical_enabled="False" -s cool_fan_speed_min="100.0" -s infill_line_distance="4.0" -s retraction_speed="25" -s meshfix_maximum_travel_resolution="0.8" -s connect_infill_polygons="False" -s support_bottom_density="100" -s machine_feeder_wheel_diameter="10.0" -s adaptive_layer_height_variation_step="0.01" -s jerk_wall_x="20" -s extruder_prime_pos_abs="False" -s bottom_thickness="0.8" -s coasting_speed="90" -s machine_max_jerk_e="5.0" -s material_linear_advance_factor_support_interface="0.08" -s speed_wall="30.0" -s wireframe_printspeed_up="5" -s travel_avoid_other_parts="True" -s wipe_hop_amount="1" -s jerk_wall_0="20" -s support_brim_width="8.0" -s support_interface_enable="True" -s bridge_skin_material_flow_3="110" -s raft_interface_thickness="0.30000000000000004" -s switch_extruder_retraction_amount="16" -s cross_support_density_image="" -s meshfix_keep_open_polygons="False" -s minimum_bottom_area="1.0" -s ooze_shield_enabled="False" -s bridge_fan_speed="100" -s machine_center_is_zero="False" -s machine_minimum_feedrate="0.0" -s cool_fan_speed="100.0" -s machine_steps_per_mm_y="50" -s magic_fuzzy_skin_thickness="0.3" -s material_initial_print_temperature="200" -s z_seam_y="215" -s prime_tower_size="20" -s speed_support_interface="66.66666666666667" -s wall_0_inset="0" -s bridge_fan_speed_2="0" -s retraction_extra_prime_amount="0" -s retraction_hop_only_when_collides="False" -s wireframe_flow_connection="100" -s material_flush_purge_length="60" -s raft_base_jerk="20" -s wall_overhang_speed_factor="100" -s raft_base_acceleration="1000" -s adhesion_extruder_nr="0" -s relative_extrusion="False" -s raft_smoothing="5" -s anti_overhang_mesh="False" -s top_bottom_extruder_nr="-1" -s adhesion_type="brim" -s wireframe_flow_flat="100" -s roofing_line_width="0.4" -s meshfix_union_all_remove_holes="False" -s bridge_wall_speed="15.0" -s xy_offset_layer_0="0" -s support_use_towers="True" -s jerk_support_infill="20" -s travel_avoid_distance="0.625" -s material_print_temperature_layer_0="210" -s support_enable="True" -s skirt_brim_speed="25" -s material_bed_temp_prepend="False" -s raft_interface_speed="37.5" -s wall_line_width_0="0.4" -s bridge_skin_support_threshold="50" -s support_line_width="0.4" -s support_wall_count="0" -s material_linear_advance_factor_wall_x="0" -s bridge_skin_density_3="80" -s wipe_retraction_extra_prime_amount="0" -s wireframe_printspeed="5" -s cutting_mesh="False" -s material_extrusion_cool_down_speed="0.7" -s machine_gcode_flavor="RepRap (Marlin/Sprinter)" -s z_seam_x="125.0" -s wireframe_flat_delay="0.1" -s magic_fuzzy_skin_enabled="False" -s draft_shield_height_limitation="full" -s machine_nozzle_head_distance="3" -s machine_show_variants="False" -s skirt_brim_line_width="0.4" -s machine_nozzle_id="unknown" -s support_bottom_pattern="concentric" -s mold_width="5" -s infill_support_enabled="False" -s wireframe_enabled="False" -s material_diameter="2.85" -s infill_extruder_nr="-1" -s flow_rate_max_extrusion_offset="0" -s bridge_wall_material_flow="50" -s infill="0" -s raft_interface_line_spacing="1.0" -s magic_spiralize="False" -s support_bottom_stair_step_height="0.3" -s default_material_print_temperature="210" -s support_roof_material_flow="100" -s machine_steps_per_mm_e="1600" -s support_roof_line_width="0.4" -s raft_margin="15" -s infill_mesh="False" -s meshfix="0" -s speed_wall_0="30.0" -s support_skip_zag_per_mm="10" -s magic_fuzzy_skin_outside_only="False" -s bridge_skin_density="100" -s layer_height="0.2" -s day="Tue" -s wireframe_top_delay="0" -s wall_line_width="0.4" -s acceleration_travel="5000" -s support_supported_skin_fan_speed="100" -s material="0" -s expand_skins_expand_distance="0.8" -s speed_travel_layer_0="60.0" -s support_bottom_extruder_nr="0" -s machine_height="265" -s machine_buildplate_type="glass" -s carve_multiple_volumes="False" -s fill_perimeter_gaps="everywhere" -s retraction_amount="6.5" -s skin_preshrink="0.8" -s ironing_inset="0.38" -s material_final_print_temperature="195" -s support_tree_angle="40" -s raft_jerk="20" -s extruders_enabled_count="1" -s extruder_prime_pos_y="0" -s wall_min_flow_retract="False" -s jerk_infill="20" -s switch_extruder_retraction_speed="20" -s bottom_skin_expand_distance="0.8" -s build_volume_temperature="28" -s material_linear_advance_factor_skirt_brim="0.08" -s acceleration_travel_layer_0="5000.0" -s machine_width="250" -s machine_settings="0" -s infill_multiplier="1" -s acceleration_wall="3000" -s support_bottom_distance="0" -s prime_blob_enable="False" -s machine_nozzle_temp_enabled="True" -s jerk_support_roof="20" -s wireframe_roof_drag_along="0.8" -s material_flow_dependent_temperature="False" -s machine_max_acceleration_e="10000" -s machine_start_gcode="; ------------------- START GCODE -------------------
@@ -738,7 +1108,7 @@
 2020-12-29 09:27:50,810 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M205 S0 T0 ; sets the minimum extruding and travel feed rate, mm/sec
 2020-12-29 09:27:50,812 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M107
 2020-12-29 09:27:50,814 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
-2020-12-29 09:27:50,816 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M862.3 P "Weird Bear" ; printer model check
+2020-12-29 09:27:50,817 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M862.3 P "Weird Bear" ; printer model check
 2020-12-29 09:27:50,819 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M862.1 P0.4 ; nozzle diameter check
 2020-12-29 09:27:50,821 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
 2020-12-29 09:27:50,823 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G90 ; use absolute coordinates
@@ -752,7 +1122,7 @@
 2020-12-29 09:27:50,841 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
 2020-12-29 09:27:50,843 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
 2020-12-29 09:27:50,846 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
-2020-12-29 09:27:50,848 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ; then preheat (PRUSA SLICER ONLY)
+2020-12-29 09:27:50,849 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ; then preheat (PRUSA SLICER ONLY)
 2020-12-29 09:27:50,851 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M104 S240 ; set extruder temp
 2020-12-29 09:27:50,854 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M140 S95 ; set bed temp
 2020-12-29 09:27:50,858 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
@@ -769,7 +1139,7 @@
 2020-12-29 09:27:50,884 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
 2020-12-29 09:27:50,886 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M400 ; wait for complete
 2020-12-29 09:27:50,890 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M300 S440 P500 ; play sound
-2020-12-29 09:27:50,893 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M0 S30 Wait for clean nozzle ; wait for user to clean nozzle
+2020-12-29 09:27:50,894 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M0 S30 Wait for clean nozzle ; wait for user to clean nozzle
 2020-12-29 09:27:50,896 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M400 ;
 2020-12-29 09:27:50,899 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
 2020-12-29 09:27:50,902 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G28 ; home
@@ -799,14 +1169,14 @@
 2020-12-29 09:27:50,953 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M104 S0 ; turn off temperature
 2020-12-29 09:27:50,955 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M140 S0 ; turn off heatbed
 2020-12-29 09:27:50,957 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M107 ; turn off fan
-2020-12-29 09:27:50,958 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M400 ;
+2020-12-29 09:27:50,959 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M400 ;
 2020-12-29 09:27:50,960 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G90 ;
 2020-12-29 09:27:50,962 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G0 X0 Y215 F3000 ; home X axis
 2020-12-29 09:27:50,964 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M300 S440 P300 ; play sound
 2020-12-29 09:27:50,965 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M300 S0 P100 ; mute
 2020-12-29 09:27:50,967 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M300 S440 P300 ; play sound
 2020-12-29 09:27:50,970 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] M84 ; disable motors
-2020-12-29 09:27:50,972 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ; --------------------------------------------------" -s zig_zaggify_support="False" -s raft_base_thickness="0.36" -s layer_0_z_overlap="0.15" -s infill_randomize_start_location="False" -s speed_layer_0="30.0" -s top_skin_expand_distance="0.8" -s draft_shield_dist="10" -s support_tower_roof_angle="65" -s support_xy_distance_overhang="0.2" -s print_sequence="all_at_once" -s line_width="0.4" -s machine_max_jerk_xy="20.0" -s acceleration_print="3000" -s machine_max_acceleration_z="100" -s z_seam_position="back" -s speed="0" -s acceleration_ironing="3000" -s skin_material_flow="100" -s wireframe_roof_inset="3" -s small_feature_max_length="0.0" -s acceleration_skirt_brim="1000" -s raft_interface_line_width="0.8" -s meshfix_extensive_stitching="False" -s wall_overhang_angle="90" -s material_print_temperature="210" -s speed_support_roof="66.66666666666667" -s conical_overhang_angle="50" -s machine_heated_bed="True" -s support_bottom_stair_step_width="5.0" -s support_structure="normal" -s magic_fuzzy_skin_point_density="1.25" -s jerk_support="20" -s material_end_of_filament_purge_speed="0.5" -s roofing_extruder_nr="-1" -s cool_fan_speed_max="100.0" -s support_interface_angles="[ ]" -s support_bottom_stair_step_min_slope="10.0" -s support_bottom_line_width="0.4" -e0 -s top_thickness="0.8" -s material_flow_temp_graph="[[3.5,200],[7.0,240]]" -s infill_offset_y="0" -s material_anti_ooze_retraction_speed="5" -s raft_surface_thickness="0.2" -s raft_surface_fan_speed="0" -s platform_adhesion="0" -s acceleration_wall_x="1000" -s slicing_tolerance="middle" -s z_seam_relative="False" -s jerk_ironing="20" -s support_bottom_enable="True" -s wall_line_width_x="0.4" -s jerk_print_layer_0="20" -s initial_layer_line_width_factor="100.0" -s roofing_pattern="lines" -s retraction_min_travel="0.8" -s support_top_distance="0.1" -s jerk_support_roof="20" -s infill_pattern="lines" -s material_guid="bb6272e9-3c5c-4ee8-ad69-bba9fd148ef8" -s support_xy_distance_overhang="0.2" -s machine_steps_per_mm_z="50" -s material_break_preparation_retracted_position="-16" -s bridge_skin_density_2="75" -s infill_line_width="0.4" -s mold_enabled="False" -s machine_extruder_end_pos_x="0" -s jerk_skirt_brim="20" -s material_linear_advance_factor_wall_0="0.08" -s bridge_sparse_infill_max_density="0" -s skirt_brim_material_flow="100" -s support_offset="0" -s minimum_roof_area="1.0" -s wipe_hop_enable="True" -s top_skin_preshrink="1.2000000000000002" -s machine_extruder_cooling_fan_number="0" -s jerk_travel="30" -s infill_wall_line_count="0" -s raft_margin="15" -s material_no_load_move_factor="0.94" -s machine_nozzle_cool_down_speed="2.0" -s machine_nozzle_size="0.4" -s support_bottom_offset="0.0" -s support_interface_offset="0.0" -s brim_outside_only="True" -s brim_replaces_support="True" -s speed_print="100" -s jerk_topbottom="20" -s acceleration_print_layer_0="1000" -s limit_support_retractions="True" -s outer_inset_first="False" -s support_angle="50" -s skin_overlap_mm="0.02" -s sub_div_rad_add="0.4" -s optimize_wall_printing_order="True" -s machine_extruder_end_pos_abs="False" -s support_join_distance="2.0" -s machine_endstop_positive_direction_z="True" -s magic_fuzzy_skin_point_dist="0.8" -s wipe_retraction_enable="True" -s jerk_travel_layer_0="30.0" -s extruder_nr="0" -s support_interface_skip_height="0.3" -s top_layers="5" -s support_roof_offset="0.0" -s coasting_min_volume="0.8" -s magic_mesh_surface_mode="normal" -s material_break_temperature="60" -s bottom_layers="3" -s roofing_layer_count="0" -s material_linear_advance_factor_infill="0.08" -s brim_gap="0" -s material_linear_advance_factor_topbottom="0.08" -s skirt_line_count="1" -s raft_surface_acceleration="1000" -s bridge_skin_speed="25.0" -s jerk_roofing="20" -s wipe_brush_pos_x="100" -s wall_min_flow="0" -s infill_material_flow="100" -s gradual_support_infill_steps="0" -s hole_xy_offset="0" -s support_infill_rate="15" -s acceleration_wall_0="1000" -s prime_tower_flow="100" -s retraction_combing_max_distance="0" -s acceleration_travel_layer_0="1000.0" -s support_line_distance="2.6666666666666665" -s speed_print_layer_0="25" -s clean_between_layers="False" -s prime_tower_min_volume="6" -s support_xy_distance="0.7" -s cool_fan_enabled="True" -s cool_min_layer_time_fan_speed_max="10" -s jerk_layer_0="20" -s wipe_hop_speed="10" -s support_roof_density="100" -s material_standby_temperature="175" -s material_flow_layer_0="100" -s speed_roofing="50.0" -s fill_outline_gaps="True" -s material_linear_advance_factor_layer_0="0.08" -s support_roof_line_distance="0.4" -s roofing_material_flow="100" -s meshfix_maximum_deviation="0.025" -s infill_wipe_dist="0.1" -s bridge_skin_speed_3="25.0" -s machine_extruder_start_pos_y="0" -s infill_support_enabled="False" -s min_infill_area="0" -s support_brim_enable="False" -s layer_start_x="0.0" -s infill_support_angle="40" -s machine_extruder_start_pos_abs="False" -s speed_wall_x="100.0" -s support_interface_material_flow="100" -s speed_topbottom="50.0" -s speed_ironing="33.333333333333336" -s support_initial_layer_line_distance="2.6666666666666665" -s ironing_flow="10.0" -s switch_extruder_prime_speed="20" -s machine_steps_per_mm_x="50" -s initial_bottom_layers="3" -s cool_fan_full_at_height="0.3" -s bridge_skin_speed_2="25.0" -s speed_support="100" -s cross_infill_pocket_size="4.0" -s shell="0" -s travel_avoid_supports="False" -s support_tree_collision_resolution="0.2" -s wipe_retraction_retract_speed="35" -s conical_overhang_enabled="False" -s jerk_support_bottom="20" -s material_adhesion_tendency="0" -s acceleration_infill="1000" -s speed_z_hop="10" -s raft_surface_jerk="20" -s speed_equalize_flow_enabled="False" -s bridge_fan_speed="20" -s skin_edge_support_thickness="0" -s brim_line_count="20" -s extruder_prime_pos_z="0" -s machine_extruder_start_pos_x="0" -s zig_zaggify_infill="False" -s small_feature_speed_factor="25" -s material_linear_advance_factor_prime_tower="0.08" -s support_z_distance="0.1" -s connect_skin_polygons="False" -s cool_min_layer_time="5" -s raft_surface_line_spacing="0.4" -s material_break_retracted_position="-50" -s alternate_extra_perimeter="True" -s small_hole_max_size="0" -s infill_overlap="10" -s support_bottom_height="1" -s retraction_retract_speed="35" -s acceleration_support_roof="1000" -s acceleration_support_interface="1000" -s support_bottom_angles="[ ]" -s raft_base_line_width="0.8" -s material_extrusion_cool_down_speed="0.7" -s support_bottom_density="100" -s machine_feeder_wheel_diameter="10.0" -s machine_endstop_positive_direction_y="False" -s bridge_skin_material_flow_2="100" -s retraction_hop_after_extruder_switch_height="1" -s ironing_line_spacing="0.1" -s support_roof_height="1" -s material_linear_advance_factor_wall="0.08" -s material_end_of_filament_purge_length="20" -s support_connect_zigzags="True" -s top_bottom_thickness="0.8" -s material_flow_dependent_temperature="False" -s material_break_speed="25" -s skin_edge_support_layers="0" -s support="0" -s machine_nozzle_temp_enabled="True" -s material="0" -s expand_skins_expand_distance="1.2000000000000002" -s support_supported_skin_fan_speed="100" -s switch_extruder_extra_prime_amount="0" -s support_tree_branch_distance="1" -s support_conical_enabled="False" -s cool_fan_speed_min="0" -s support_conical_angle="30" -s support_interface_line_width="0.4" -s wall_x_material_flow="100" -s acceleration_topbottom="1000" -s skin_outline_count="1" -s coasting_enable="False" -s support_infill_sparse_thickness="0.2" -s wall_line_count="3" -s machine_nozzle_head_distance="3" -s skirt_brim_line_width="0.4" -s speed_support_bottom="66.66666666666667" -s support_tower_maximum_supported_diameter="3.0" -s roofing_line_width="0.4" -s raft_interface_thickness="0.30000000000000004" -s bridge_skin_material_flow_3="110" -s material_final_print_temperature="235" -s support_tree_angle="40" -s raft_jerk="20" -s extruder_prime_pos_y="0" -s wall_min_flow_retract="False" -s jerk_infill="20" -s material_initial_print_temperature="240" -s skin_preshrink="1.2000000000000002" -s ironing_inset="0.38" -s infill_before_walls="True" -s minimum_interface_area="1.0" -s speed_prime_tower="100" -s mesh_position_z="0" -s magic_fuzzy_skin_outside_only="False" -s retraction_amount="1.4" -s fill_perimeter_gaps="everywhere" -s bridge_skin_density="100" -s support_skip_zag_per_mm="10" -s speed_support_infill="100" -s support_bottom_stair_step_height="0.3" -s switch_extruder_retraction_amount="16" -s cross_support_density_image="" -s meshfix_keep_open_polygons="False" -s minimum_bottom_area="1.0" -s speed_equalize_flow_max="150" -s cool_lift_head="False" -s switch_extruder_retraction_speed="20" -s bottom_skin_expand_distance="1.2000000000000002" -s coasting_speed="90" -s material_linear_advance_factor_support_interface="0.08" -s bottom_thickness="0.8" -s speed_wall="50.0" -s material_diameter="2.85" -s material_break_preparation_speed="2" -s skin_overlap="5" -s acceleration_layer_0="1000" -s wall_0_material_flow="100" -s bridge_wall_coast="100" -s retraction_hop_only_when_collides="False" -s z_seam_x="125.0" -s magic_fuzzy_skin_enabled="False" -s machine_nozzle_id="unknown" -s support_bottom_pattern="concentric" -s prime_blob_enable="False" -s mold_width="5" -s support_line_width="0.4" -s support_wall_count="0" -s material_linear_advance_factor_wall_x="0.08" -s resolution="0" -s retraction_speed="35" -s meshfix_maximum_travel_resolution="0.8" -s infill_line_distance="4.0" -s connect_infill_polygons="False" -s bridge_skin_density_3="80" -s wipe_retraction_extra_prime_amount="0" -s acceleration_support_infill="1000" -s bridge_fan_speed_2="0" -s retraction_extra_prime_amount="0" -s material_linear_advance_factor_skirt_brim="0.08" -s machine_settings="0" -s infill_multiplier="1" -s small_feature_speed_factor_0="25" -s wipe_retraction_amount="1.4" -s support_roof_angles="[ ]" -s material_anti_ooze_retracted_position="-4" -s machine_heat_zone_length="16" -s material_break_preparation_temperature="210" -s support_infill_angles="[ ]" -s skirt_brim_minimal_length="250" -s support_xy_overrides_z="z_overrides_xy" -s speed_wall_0="50.0" -s meshfix="0" -s material_maximum_park_duration="7200" -s top_bottom_pattern="lines" -s ironing_enabled="False" -s travel_avoid_other_parts="True" -s wipe_hop_amount="1" -s support_skip_some_zags="True" -s wipe_repeat_count="5" -s bridge_fan_speed_3="0" -s xy_offset="0" -s prime_tower_line_width="0.4" -s acceleration_support="1000" -s speed_travel_layer_0="50.0" -s support_fan_enable="False" -s infill_sparse_thickness="0.2" -s travel_compensate_overlapping_walls_0_enabled="True" -s experimental="0" -s magic_fuzzy_skin_thickness="0.3" -s layer_start_y="0.0" -s prime_tower_wipe_enabled="True" -s cool_fan_speed_0="0" -s bridge_wall_material_flow="50" -s support_pattern="zigzag" -s multiple_mesh_overlap="0.15" -s acceleration_prime_tower="1000" -s support_material_flow="100" -s wipe_retraction_prime_speed="35" -s machine_endstop_positive_direction_x="False" -s speed_travel="200" -s infill_offset_x="0" -s jerk_wall="20" -s material_linear_advance_factor_support="0.08" -s raft_surface_line_width="0.4" -s mold_roof_height="0.5" -s infill_angles="[ ]" -s top_bottom_pattern_0="lines" -s travel="0" -s max_extrusion_before_wipe="10" -s machine_nozzle_offset_x="0" -s mesh_rotation_matrix="[[1,0,0], [0,1,0], [0,0,1]]" -s raft_acceleration="1000" -s support_interface_density="100" -s support_conical_min_width="5.0" -s gradual_infill_step_height="1.5" -s support_roof_line_width="0.4" -s support_roof_material_flow="100" -s machine_steps_per_mm_e="1600" -s blackmagic="0" -s gradual_support_infill_step_height="1" -s default_material_print_temperature="250" -s raft_fan_speed="0" -s wall_material_flow="100" -s support_interface_pattern="concentric" -s raft_smoothing="5" -s wall_overhang_speed_factor="100" -s raft_base_acceleration="1000" -s jerk_wall_0="20" -s support_interface_height="1" -s support_brim_width="8.0" -s support_interface_enable="True" -s jerk_wall_x="20" -s infill_enable_travel_optimization="False" -s cool_fan_full_layer="2" -s extruder_prime_pos_abs="False" -s travel_avoid_distance="0.625" -s material_print_temperature_layer_0="240" -s bridge_skin_material_flow="60" -s raft_airgap="0.3" -s skirt_brim_speed="25" -s bottom_skin_preshrink="1.2000000000000002" -s coasting_volume="0.064" -s speed_support_interface="66.66666666666667" -s wall_0_inset="0" -s machine_nozzle_heat_up_speed="2.0" -s skin_line_width="0.4" -s wipe_move_distance="20" -s mesh_position_y="0" -s travel_compensate_overlapping_walls_enabled="True" -s support_tree_branch_diameter_angle="5" -s acceleration_travel="1000" -s wall_line_width="0.4" -s minimum_support_area="0.0" -s skin_no_small_gaps_heuristic="False" -s max_skin_angle_for_expansion="90" -s machine_nozzle_tip_outer_diameter="1" -s skin_material_flow="100" -s retraction_count_max="90" -s machine_extruder_start_code="" -s z_seam_y="215" -s support_bottom_distance="0" -s acceleration_wall="1000" -s cross_infill_density_image="" -s center_object="False" -s cool_fan_speed="0" -s machine_steps_per_mm_y="50" -s cool_min_speed="10" -s machine_min_cool_heat_time_window="50.0" -s roofing_angles="[ ]" -s z_seam_corner="z_seam_corner_weighted" -s support_tree_branch_diameter="2" -s skirt_gap="3" -s support_zag_skip_count="5" -s wipe_pause="0" -s infill_overlap_mm="0.04" -s raft_base_speed="37.5" -s material_surface_energy="100" -s raft_interface_fan_speed="0" -s acceleration_print="1000" -s support_bottom_line_distance="0.4" -s jerk_support_interface="20" -s retraction_hop_after_extruder_switch="True" -s material_flush_purge_speed="0.5" -s raft_base_jerk="20" -s jerk_print="20" -s acceleration_support_bottom="1000" -s command_line_settings="0" -s mold_angle="40" -s dual="0" -s retraction_hop="1" -s raft_interface_speed="37.5" -s wall_line_width_0="0.4" -s bridge_skin_support_threshold="50" -s cooling="0" -s retract_at_layer_change="False" -s retraction_hop_enabled="True" -s acceleration_roofing="1000" -s zig_zaggify_support="False" -s raft_base_thickness="0.36" -s layer_0_z_overlap="0.15" -s infill_randomize_start_location="False" -s speed_layer_0="25" -s top_skin_expand_distance="1.2000000000000002" -s material_flush_purge_length="60" -s machine_nozzle_offset_y="0" -s line_width="0.4" -s support_tower_roof_angle="65" -s z_seam_position="back" -s speed="0" -s acceleration_ironing="1000" -s speed_infill="150" -s small_feature_max_length="0.0" -s acceleration_skirt_brim="1000" -s raft_interface_line_width="0.8" -s meshfix_extensive_stitching="False" -s wall_overhang_angle="90" -s material_print_temperature="250" -s speed_support_roof="66.66666666666667" -s conical_overhang_angle="50" -s jerk_support="20" -s material_end_of_filament_purge_speed="0.5" -s support_bottom_stair_step_min_slope="10.0" -s material_linear_advance_factor="0.08" -s support_roof_enable="True" -s support_bottom_line_width="0.4" -s raft_surface_speed="50.0" -s ironing_only_highest_layer="False" -s mesh_position_x="0" -s gradual_infill_steps="0" -s magic_fuzzy_skin_point_density="1.25" -s support_bottom_stair_step_width="5.0" -s support_bottom_material_flow="100" -s travel_compensate_overlapping_walls_x_enabled="True" -s raft_base_line_spacing="1.6" -s material_crystallinity="False" -s xy_offset_layer_0="0" -s meshfix_union_all_remove_holes="False" -s bridge_wall_speed="25.0" -s z_seam_type="sharpest_corner" -s retraction_prime_speed="35" -s jerk_support_infill="20" -s support_use_towers="True" -s raft_interface_line_spacing="1.0" -s infill="0" -s bridge_enable_more_layers="True" -s switch_extruder_retraction_speeds="20" -s raft_base_fan_speed="0" -s wipe_retraction_speed="35" -s extruder_prime_pos_x="0" -s meshfix_union_all="True" -s support_tower_diameter="3.0" -s raft_interface_acceleration="1000" -s support_brim_line_count="20" -s retraction_extrusion_window="1.4" -s material_flow="100" -s filter_out_tiny_gaps="True" -s raft_interface_jerk="20" -s meshfix_maximum_resolution="0.5" -s retraction_enable="True" -s infill_sparse_density="10" -s machine_extruder_end_code="" -s jerk_prime_tower="20" -s machine_extruder_end_pos_y="0" -s raft_speed="50.0" -s support_roof_pattern="concentric" -s skin_angles="[ ]" -s support_interface_angles="[ ]" -s cool_fan_speed_max="0" -s brim_width="8.0" -s wall_thickness="0.8" -s min_skin_width_for_expansion="6.123233995736766e-17" -s ironing_pattern="zigzag" -s raft_surface_layers="2" -s wall_0_wipe_dist="0.2" -g -e0 -l "0" -s extruder_nr="0"
+2020-12-29 09:27:50,973 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ; --------------------------------------------------" -s zig_zaggify_support="False" -s raft_base_thickness="0.36" -s layer_0_z_overlap="0.15" -s infill_randomize_start_location="False" -s speed_layer_0="30.0" -s top_skin_expand_distance="0.8" -s draft_shield_dist="10" -s support_tower_roof_angle="65" -s support_xy_distance_overhang="0.2" -s print_sequence="all_at_once" -s line_width="0.4" -s machine_max_jerk_xy="20.0" -s acceleration_print="3000" -s machine_max_acceleration_z="100" -s z_seam_position="back" -s speed="0" -s acceleration_ironing="3000" -s skin_material_flow="100" -s wireframe_roof_inset="3" -s small_feature_max_length="0.0" -s acceleration_skirt_brim="1000" -s raft_interface_line_width="0.8" -s meshfix_extensive_stitching="False" -s wall_overhang_angle="90" -s material_print_temperature="210" -s speed_support_roof="66.66666666666667" -s conical_overhang_angle="50" -s machine_heated_bed="True" -s support_bottom_stair_step_width="5.0" -s support_structure="normal" -s magic_fuzzy_skin_point_density="1.25" -s jerk_support="20" -s material_end_of_filament_purge_speed="0.5" -s roofing_extruder_nr="-1" -s cool_fan_speed_max="100.0" -s support_interface_angles="[ ]" -s support_bottom_stair_step_min_slope="10.0" -s support_bottom_line_width="0.4" -e0 -s top_thickness="0.8" -s material_flow_temp_graph="[[3.5,200],[7.0,240]]" -s infill_offset_y="0" -s material_anti_ooze_retraction_speed="5" -s raft_surface_thickness="0.2" -s raft_surface_fan_speed="0" -s platform_adhesion="0" -s acceleration_wall_x="1000" -s slicing_tolerance="middle" -s z_seam_relative="False" -s jerk_ironing="20" -s support_bottom_enable="True" -s wall_line_width_x="0.4" -s jerk_print_layer_0="20" -s initial_layer_line_width_factor="100.0" -s roofing_pattern="lines" -s retraction_min_travel="0.8" -s support_top_distance="0.1" -s jerk_support_roof="20" -s infill_pattern="lines" -s material_guid="bb6272e9-3c5c-4ee8-ad69-bba9fd148ef8" -s support_xy_distance_overhang="0.2" -s machine_steps_per_mm_z="50" -s material_break_preparation_retracted_position="-16" -s bridge_skin_density_2="75" -s infill_line_width="0.4" -s mold_enabled="False" -s machine_extruder_end_pos_x="0" -s jerk_skirt_brim="20" -s material_linear_advance_factor_wall_0="0.08" -s bridge_sparse_infill_max_density="0" -s skirt_brim_material_flow="100" -s support_offset="0" -s minimum_roof_area="1.0" -s wipe_hop_enable="True" -s top_skin_preshrink="1.2000000000000002" -s machine_extruder_cooling_fan_number="0" -s jerk_travel="30" -s infill_wall_line_count="0" -s raft_margin="15" -s material_no_load_move_factor="0.94" -s machine_nozzle_cool_down_speed="2.0" -s machine_nozzle_size="0.4" -s support_bottom_offset="0.0" -s support_interface_offset="0.0" -s brim_outside_only="True" -s brim_replaces_support="True" -s speed_print="100" -s jerk_topbottom="20" -s acceleration_print_layer_0="1000" -s limit_support_retractions="True" -s outer_inset_first="False" -s support_angle="50" -s skin_overlap_mm="0.02" -s sub_div_rad_add="0.4" -s optimize_wall_printing_order="True" -s machine_extruder_end_pos_abs="False" -s support_join_distance="2.0" -s machine_endstop_positive_direction_z="True" -s magic_fuzzy_skin_point_dist="0.8" -s wipe_retraction_enable="True" -s jerk_travel_layer_0="30.0" -s extruder_nr="0" -s support_interface_skip_height="0.3" -s top_layers="5" -s support_roof_offset="0.0" -s coasting_min_volume="0.8" -s magic_mesh_surface_mode="normal" -s material_break_temperature="60" -s bottom_layers="3" -s roofing_layer_count="0" -s material_linear_advance_factor_infill="0.08" -s brim_gap="0" -s material_linear_advance_factor_topbottom="0.08" -s skirt_line_count="1" -s raft_surface_acceleration="1000" -s bridge_skin_speed="25.0" -s jerk_roofing="20" -s wipe_brush_pos_x="100" -s wall_min_flow="0" -s infill_material_flow="100" -s gradual_support_infill_steps="0" -s hole_xy_offset="0" -s support_infill_rate="15" -s acceleration_wall_0="1000" -s prime_tower_flow="100" -s retraction_combing_max_distance="0" -s acceleration_travel_layer_0="1000.0" -s support_line_distance="2.6666666666666665" -s speed_print_layer_0="25" -s clean_between_layers="False" -s prime_tower_min_volume="6" -s support_xy_distance="0.7" -s cool_fan_enabled="True" -s cool_min_layer_time_fan_speed_max="10" -s jerk_layer_0="20" -s wipe_hop_speed="10" -s support_roof_density="100" -s material_standby_temperature="175" -s material_flow_layer_0="100" -s speed_roofing="50.0" -s fill_outline_gaps="True" -s material_linear_advance_factor_layer_0="0.08" -s support_roof_line_distance="0.4" -s roofing_material_flow="100" -s meshfix_maximum_deviation="0.025" -s infill_wipe_dist="0.1" -s bridge_skin_speed_3="25.0" -s machine_extruder_start_pos_y="0" -s infill_support_enabled="False" -s min_infill_area="0" -s support_brim_enable="False" -s layer_start_x="0.0" -s infill_support_angle="40" -s machine_extruder_start_pos_abs="False" -s speed_wall_x="100.0" -s support_interface_material_flow="100" -s speed_topbottom="50.0" -s speed_ironing="33.333333333333336" -s support_initial_layer_line_distance="2.6666666666666665" -s ironing_flow="10.0" -s switch_extruder_prime_speed="20" -s machine_steps_per_mm_x="50" -s initial_bottom_layers="3" -s cool_fan_full_at_height="0.3" -s bridge_skin_speed_2="25.0" -s speed_support="100" -s cross_infill_pocket_size="4.0" -s shell="0" -s travel_avoid_supports="False" -s support_tree_collision_resolution="0.2" -s wipe_retraction_retract_speed="35" -s conical_overhang_enabled="False" -s jerk_support_bottom="20" -s material_adhesion_tendency="0" -s acceleration_infill="1000" -s speed_z_hop="10" -s raft_surface_jerk="20" -s speed_equalize_flow_enabled="False" -s bridge_fan_speed="20" -s skin_edge_support_thickness="0" -s brim_line_count="20" -s extruder_prime_pos_z="0" -s machine_extruder_start_pos_x="0" -s zig_zaggify_infill="False" -s small_feature_speed_factor="25" -s material_linear_advance_factor_prime_tower="0.08" -s support_z_distance="0.1" -s connect_skin_polygons="False" -s cool_min_layer_time="5" -s raft_surface_line_spacing="0.4" -s material_break_retracted_position="-50" -s alternate_extra_perimeter="True" -s small_hole_max_size="0" -s infill_overlap="10" -s support_bottom_height="1" -s retraction_retract_speed="35" -s acceleration_support_roof="1000" -s acceleration_support_interface="1000" -s support_bottom_angles="[ ]" -s raft_base_line_width="0.8" -s material_extrusion_cool_down_speed="0.7" -s support_bottom_density="100" -s machine_feeder_wheel_diameter="10.0" -s machine_endstop_positive_direction_y="False" -s bridge_skin_material_flow_2="100" -s retraction_hop_after_extruder_switch_height="1" -s ironing_line_spacing="0.1" -s support_roof_height="1" -s material_linear_advance_factor_wall="0.08" -s material_end_of_filament_purge_length="20" -s support_connect_zigzags="True" -s top_bottom_thickness="0.8" -s material_flow_dependent_temperature="False" -s material_break_speed="25" -s skin_edge_support_layers="0" -s support="0" -s machine_nozzle_temp_enabled="True" -s material="0" -s expand_skins_expand_distance="1.2000000000000002" -s support_supported_skin_fan_speed="100" -s switch_extruder_extra_prime_amount="0" -s support_tree_branch_distance="1" -s support_conical_enabled="False" -s cool_fan_speed_min="0" -s support_conical_angle="30" -s support_interface_line_width="0.4" -s wall_x_material_flow="100" -s acceleration_topbottom="1000" -s skin_outline_count="1" -s coasting_enable="False" -s support_infill_sparse_thickness="0.2" -s wall_line_count="3" -s machine_nozzle_head_distance="3" -s skirt_brim_line_width="0.4" -s speed_support_bottom="66.66666666666667" -s support_tower_maximum_supported_diameter="3.0" -s roofing_line_width="0.4" -s raft_interface_thickness="0.30000000000000004" -s bridge_skin_material_flow_3="110" -s material_final_print_temperature="235" -s support_tree_angle="40" -s raft_jerk="20" -s extruder_prime_pos_y="0" -s wall_min_flow_retract="False" -s jerk_infill="20" -s material_initial_print_temperature="240" -s skin_preshrink="1.2000000000000002" -s ironing_inset="0.38" -s infill_before_walls="True" -s minimum_interface_area="1.0" -s speed_prime_tower="100" -s mesh_position_z="0" -s magic_fuzzy_skin_outside_only="False" -s retraction_amount="1.4" -s fill_perimeter_gaps="everywhere" -s bridge_skin_density="100" -s support_skip_zag_per_mm="10" -s speed_support_infill="100" -s support_bottom_stair_step_height="0.3" -s switch_extruder_retraction_amount="16" -s cross_support_density_image="" -s meshfix_keep_open_polygons="False" -s minimum_bottom_area="1.0" -s speed_equalize_flow_max="150" -s cool_lift_head="False" -s switch_extruder_retraction_speed="20" -s bottom_skin_expand_distance="1.2000000000000002" -s coasting_speed="90" -s material_linear_advance_factor_support_interface="0.08" -s bottom_thickness="0.8" -s speed_wall="50.0" -s material_diameter="2.85" -s material_break_preparation_speed="2" -s skin_overlap="5" -s acceleration_layer_0="1000" -s wall_0_material_flow="100" -s bridge_wall_coast="100" -s retraction_hop_only_when_collides="False" -s z_seam_x="125.0" -s magic_fuzzy_skin_enabled="False" -s machine_nozzle_id="unknown" -s support_bottom_pattern="concentric" -s prime_blob_enable="False" -s mold_width="5" -s support_line_width="0.4" -s support_wall_count="0" -s material_linear_advance_factor_wall_x="0.08" -s resolution="0" -s retraction_speed="35" -s meshfix_maximum_travel_resolution="0.8" -s infill_line_distance="4.0" -s connect_infill_polygons="False" -s bridge_skin_density_3="80" -s wipe_retraction_extra_prime_amount="0" -s acceleration_support_infill="1000" -s bridge_fan_speed_2="0" -s retraction_extra_prime_amount="0" -s material_linear_advance_factor_skirt_brim="0.08" -s machine_settings="0" -s infill_multiplier="1" -s small_feature_speed_factor_0="25" -s wipe_retraction_amount="1.4" -s support_roof_angles="[ ]" -s material_anti_ooze_retracted_position="-4" -s machine_heat_zone_length="16" -s material_break_preparation_temperature="210" -s support_infill_angles="[ ]" -s skirt_brim_minimal_length="250" -s support_xy_overrides_z="z_overrides_xy" -s speed_wall_0="50.0" -s meshfix="0" -s material_maximum_park_duration="7200" -s top_bottom_pattern="lines" -s ironing_enabled="False" -s travel_avoid_other_parts="True" -s wipe_hop_amount="1" -s support_skip_some_zags="True" -s wipe_repeat_count="5" -s bridge_fan_speed_3="0" -s xy_offset="0" -s prime_tower_line_width="0.4" -s acceleration_support="1000" -s speed_travel_layer_0="50.0" -s support_fan_enable="False" -s infill_sparse_thickness="0.2" -s travel_compensate_overlapping_walls_0_enabled="True" -s experimental="0" -s magic_fuzzy_skin_thickness="0.3" -s layer_start_y="0.0" -s prime_tower_wipe_enabled="True" -s cool_fan_speed_0="0" -s bridge_wall_material_flow="50" -s support_pattern="zigzag" -s multiple_mesh_overlap="0.15" -s acceleration_prime_tower="1000" -s support_material_flow="100" -s wipe_retraction_prime_speed="35" -s machine_endstop_positive_direction_x="False" -s speed_travel="200" -s infill_offset_x="0" -s jerk_wall="20" -s material_linear_advance_factor_support="0.08" -s raft_surface_line_width="0.4" -s mold_roof_height="0.5" -s infill_angles="[ ]" -s top_bottom_pattern_0="lines" -s travel="0" -s max_extrusion_before_wipe="10" -s machine_nozzle_offset_x="0" -s mesh_rotation_matrix="[[1,0,0], [0,1,0], [0,0,1]]" -s raft_acceleration="1000" -s support_interface_density="100" -s support_conical_min_width="5.0" -s gradual_infill_step_height="1.5" -s support_roof_line_width="0.4" -s support_roof_material_flow="100" -s machine_steps_per_mm_e="1600" -s blackmagic="0" -s gradual_support_infill_step_height="1" -s default_material_print_temperature="250" -s raft_fan_speed="0" -s wall_material_flow="100" -s support_interface_pattern="concentric" -s raft_smoothing="5" -s wall_overhang_speed_factor="100" -s raft_base_acceleration="1000" -s jerk_wall_0="20" -s support_interface_height="1" -s support_brim_width="8.0" -s support_interface_enable="True" -s jerk_wall_x="20" -s infill_enable_travel_optimization="False" -s cool_fan_full_layer="2" -s extruder_prime_pos_abs="False" -s travel_avoid_distance="0.625" -s material_print_temperature_layer_0="240" -s bridge_skin_material_flow="60" -s raft_airgap="0.3" -s skirt_brim_speed="25" -s bottom_skin_preshrink="1.2000000000000002" -s coasting_volume="0.064" -s speed_support_interface="66.66666666666667" -s wall_0_inset="0" -s machine_nozzle_heat_up_speed="2.0" -s skin_line_width="0.4" -s wipe_move_distance="20" -s mesh_position_y="0" -s travel_compensate_overlapping_walls_enabled="True" -s support_tree_branch_diameter_angle="5" -s acceleration_travel="1000" -s wall_line_width="0.4" -s minimum_support_area="0.0" -s skin_no_small_gaps_heuristic="False" -s max_skin_angle_for_expansion="90" -s machine_nozzle_tip_outer_diameter="1" -s skin_material_flow="100" -s retraction_count_max="90" -s machine_extruder_start_code="" -s z_seam_y="215" -s support_bottom_distance="0" -s acceleration_wall="1000" -s cross_infill_density_image="" -s center_object="False" -s cool_fan_speed="0" -s machine_steps_per_mm_y="50" -s cool_min_speed="10" -s machine_min_cool_heat_time_window="50.0" -s roofing_angles="[ ]" -s z_seam_corner="z_seam_corner_weighted" -s support_tree_branch_diameter="2" -s skirt_gap="3" -s support_zag_skip_count="5" -s wipe_pause="0" -s infill_overlap_mm="0.04" -s raft_base_speed="37.5" -s material_surface_energy="100" -s raft_interface_fan_speed="0" -s acceleration_print="1000" -s support_bottom_line_distance="0.4" -s jerk_support_interface="20" -s retraction_hop_after_extruder_switch="True" -s material_flush_purge_speed="0.5" -s raft_base_jerk="20" -s jerk_print="20" -s acceleration_support_bottom="1000" -s command_line_settings="0" -s mold_angle="40" -s dual="0" -s retraction_hop="1" -s raft_interface_speed="37.5" -s wall_line_width_0="0.4" -s bridge_skin_support_threshold="50" -s cooling="0" -s retract_at_layer_change="False" -s retraction_hop_enabled="True" -s acceleration_roofing="1000" -s zig_zaggify_support="False" -s raft_base_thickness="0.36" -s layer_0_z_overlap="0.15" -s infill_randomize_start_location="False" -s speed_layer_0="25" -s top_skin_expand_distance="1.2000000000000002" -s material_flush_purge_length="60" -s machine_nozzle_offset_y="0" -s line_width="0.4" -s support_tower_roof_angle="65" -s z_seam_position="back" -s speed="0" -s acceleration_ironing="1000" -s speed_infill="150" -s small_feature_max_length="0.0" -s acceleration_skirt_brim="1000" -s raft_interface_line_width="0.8" -s meshfix_extensive_stitching="False" -s wall_overhang_angle="90" -s material_print_temperature="250" -s speed_support_roof="66.66666666666667" -s conical_overhang_angle="50" -s jerk_support="20" -s material_end_of_filament_purge_speed="0.5" -s support_bottom_stair_step_min_slope="10.0" -s material_linear_advance_factor="0.08" -s support_roof_enable="True" -s support_bottom_line_width="0.4" -s raft_surface_speed="50.0" -s ironing_only_highest_layer="False" -s mesh_position_x="0" -s gradual_infill_steps="0" -s magic_fuzzy_skin_point_density="1.25" -s support_bottom_stair_step_width="5.0" -s support_bottom_material_flow="100" -s travel_compensate_overlapping_walls_x_enabled="True" -s raft_base_line_spacing="1.6" -s material_crystallinity="False" -s xy_offset_layer_0="0" -s meshfix_union_all_remove_holes="False" -s bridge_wall_speed="25.0" -s z_seam_type="sharpest_corner" -s retraction_prime_speed="35" -s jerk_support_infill="20" -s support_use_towers="True" -s raft_interface_line_spacing="1.0" -s infill="0" -s bridge_enable_more_layers="True" -s switch_extruder_retraction_speeds="20" -s raft_base_fan_speed="0" -s wipe_retraction_speed="35" -s extruder_prime_pos_x="0" -s meshfix_union_all="True" -s support_tower_diameter="3.0" -s raft_interface_acceleration="1000" -s support_brim_line_count="20" -s retraction_extrusion_window="1.4" -s material_flow="100" -s filter_out_tiny_gaps="True" -s raft_interface_jerk="20" -s meshfix_maximum_resolution="0.5" -s retraction_enable="True" -s infill_sparse_density="10" -s machine_extruder_end_code="" -s jerk_prime_tower="20" -s machine_extruder_end_pos_y="0" -s raft_speed="50.0" -s support_roof_pattern="concentric" -s skin_angles="[ ]" -s support_interface_angles="[ ]" -s cool_fan_speed_max="0" -s brim_width="8.0" -s wall_thickness="0.8" -s min_skin_width_for_expansion="6.123233995736766e-17" -s ironing_pattern="zigzag" -s raft_surface_layers="2" -s wall_0_wipe_dist="0.2" -g -e0 -l "0" -s extruder_nr="0"
 2020-12-29 09:27:51,848 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._onSlicingFinishedMessage [710]: Slicing took 1.4184236526489258 seconds
 2020-12-29 09:27:51,848 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._onSlicingFinishedMessage [711]: Number of models per buildplate: {0: 1}
 2020-12-29 09:27:51,848 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._onSlicingFinishedMessage [725]: See if there is more to slice...
@@ -818,7 +1188,7 @@
 2020-12-29 09:27:56,567 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
 2020-12-29 09:27:56,570 - DEBUG - [MainThread] LocalFileOutputDevice.LocalFileOutputDevice.requestWrite [148]: Writing to Local File /home/tux/Desktop/CFFFP_bear-lcd-mount-lower.gcode in text mode
 2020-12-29 09:27:56,838 - DEBUG - [Thread-5] UM.FileHandler.WriteFileJob.run [80]: Writing file took 0.04810929298400879 seconds
-2020-12-29 09:27:57,884 - INFO - [MainThread] SliceInfoPlugin.SliceInfo._onRequestFinished [284]: SliceInfo sent successfully
+2020-12-29 09:27:57,885 - INFO - [MainThread] SliceInfoPlugin.SliceInfo._onRequestFinished [284]: SliceInfo sent successfully
 2020-12-29 09:28:06,549 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
 2020-12-29 09:28:53,079 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PreviewStage
 2020-12-29 09:28:53,324 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SimulationView
@@ -827,14 +1197,12 @@
 2020-12-29 09:28:53,375 - DEBUG - [MainThread] STLReader.STLReader._read [104]: Loaded a mesh with 12612 vertices
 2020-12-29 09:28:53,377 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/plugins/plugins/SimulationView/simulationview_composite.shader]...
 2020-12-29 09:28:53,406 - DEBUG - [Thread-6] CuraEngineBackend.ProcessSlicedLayersJob.run [74]: Processing new layer for build plate 0...
-/tmp/.mount_UltimaRycxf6/usr/bin/plugins/plugins/CuraEngineBackend/ProcessSlicedLayersJob.py:143: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
-  line_types = numpy.fromstring(polygon.line_type, dtype = "u1")  # Convert bytearray to numpy array
 2020-12-29 09:28:53,600 - DEBUG - [Thread-6] CuraEngineBackend.ProcessSlicedLayersJob.run [254]: Processing layers took 0.19341373443603516 seconds
 2020-12-29 09:28:53,626 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._onProcessLayersFinished [929]: See if there is more to slice(2)...
 2020-12-29 09:28:53,633 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/color.shader]...
 2020-12-29 09:28:53,641 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/plugins/plugins/SimulationView/layers3d.shader]...
 2020-12-29 09:28:53,675 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/plugins/plugins/SimulationView/layers3d_shadow.shader]...
-2020-12-29 09:28:53,706 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/toolhandle.shader]...
+2020-12-29 09:28:53,707 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/toolhandle.shader]...
 2020-12-29 09:28:53,714 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/color.shader]...
 2020-12-29 09:28:53,717 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [/tmp/.mount_UltimaRycxf6/usr/bin/resources/shaders/striped.shader]...
 2020-12-29 09:29:03,549 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
@@ -843,8 +1211,8 @@
 2020-12-29 09:29:31,227 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:29:31,244 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
 2020-12-29 09:29:33,740 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
-2020-12-29 09:29:33,753 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
-2020-12-29 09:29:33,764 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
+2020-12-29 09:29:33,754 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2020-12-29 09:29:33,765 - DEBUG - [MainThread] cura.Machines.Models.QualityManagementModel._update [306]: Updating QualityManagementModel.
 2020-12-29 09:29:34,157 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
 2020-12-29 09:29:34,454 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
 2020-12-29 09:29:34,457 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.

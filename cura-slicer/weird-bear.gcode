@@ -43,10 +43,10 @@ M400 ;
 G28 ; home
 G29 ; mesh bed leveling
 
-G0 Y-1 F2500.0 ; go outside print area
+G0 Z2 F420.0 ; Lower Z
+G0 X250 Y-1 F2500.0 ; go outside print area
 M400 ;
-G0 Z0.3 F420.0 ; Lower Z
-M400 ;
+G0 Z0.3 F420.0 ;
 G92 E0.0 ; reset extruder distance position
 G1 X190.0 E9.0 F1000.0 ; intro line
 G1 X130.0 E21.5 F1000.0 ; intro line
@@ -60,12 +60,16 @@ G92 E0.0 ; reset extruder distance position
 ; --------------------------------------------------
 
 ; ------------------- STOP GCODE -------------------
-G4 ; wait
+M400 ; wait
+G91 ; relative
+G1 E-2 F300 ; retract
+G0 Z5 F420
 M221 S100
 M104 S0 ; turn off temperature
 M140 S0 ; turn off heatbed
 M107 ; turn off fan
 M400 ;
+G90 ;
 G0 X0 Y215 F3000 ; home X axis
 M300 S440 P300 ; play sound
 M300 S0 P100 ; mute

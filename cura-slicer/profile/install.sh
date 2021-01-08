@@ -6,6 +6,6 @@ cd "$WDIR"
 echo "Removing current config..."
 rm -rf ~/.local/share/cura
 echo "Installing profiles..."
-cp -r ./cura ~/.local/share/cura
+cp -r ./cura ~/.local/share/cura/
 echo "Done"
 exit 0

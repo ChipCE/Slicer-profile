@@ -78,4 +78,4 @@ class KlipperPostProcessing(Script):
 # START_PRINT BED_TEMP={material_bed_temperature_layer_0} EXTRUDER_TEMP={material_print_temperature_layer_0} AREA_START=%MINX%,%MINY% AREA_END=%MAXX%,%MAXY%
 
 # layer progress format
-# SET_GCODE_PROGRESS TOTAL_LAYER=37 CURRENT_LAYER=0 PROGRESS=4 REMAIN=0:5
+# DISPLAY_GCODE_PROGRESS TOTAL_LAYER=37 CURRENT_LAYER=0 PROGRESS=4 REMAIN=0:5

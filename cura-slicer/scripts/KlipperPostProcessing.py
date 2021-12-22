@@ -33,14 +33,16 @@ class KlipperPostProcessing(Script):
                 if result is not None:
                     minMaxXY[k] = result.group(1)
             # search for set print area macro
-            areaStartGcode = re.search(".*%(MINX|MAXX|MINY|MAXY)%.*", layerData)
+            areaStartGcode = re.search(
+                ".*%(MINX|MAXX|MINY|MAXY)%.*", layerData)
             # replace print area template
             if areaStartGcode is not None:
                 if not startGcodeLineData:
                     startGcodeLineData = layerData
                 for k, v in minMaxXY.items():
                     pattern3 = re.compile('%' + k + '%')
-                    startGcodeLineData = re.sub(pattern3, v, startGcodeLineData)
+                    startGcodeLineData = re.sub(
+                        pattern3, v, startGcodeLineData)
                 data[layerNumber] = startGcodeLineData
 
             # get total layer count
@@ -64,18 +66,21 @@ class KlipperPostProcessing(Script):
                 result = re.search(r";TIME_ELAPSED:(\d*\.?\d*)", layerData)
                 if result is not None:
                     timeElapsed = float(result.group(1))
-                    gcodePercentProgress = int(timeElapsed / gcodeTotalPrintTime * 100)
-                    gcodeRemainPrintTime = str(int((gcodeTotalPrintTime - timeElapsed)/3600)) + ":" + str(int((gcodeTotalPrintTime - timeElapsed) // 60 % 60))
+                    gcodePercentProgress = int(
+                        timeElapsed / gcodeTotalPrintTime * 100)
+                    gcodeRemainPrintTime = str(int((gcodeTotalPrintTime - timeElapsed)/3600)) + ":" + str(
+                        int((gcodeTotalPrintTime - timeElapsed) // 60 % 60))
 
             # insert progress code
             if currentLayer and gcodeRemainPrintTime and gcodePercentProgress:
-                data[layerNumber] = "DISPLAY_GCODE_PROGRESS TOTAL_LAYER=" + str(totalLayerCount) + " CURRENT_LAYER=" + str(currentLayer) + " PROGRESS=" + str(gcodePercentProgress) + " REMAIN=" + str(gcodeRemainPrintTime) + "\n" + layerData
-        
+                data[layerNumber] = "DISPLAY_GCODE_PROGRESS TOTAL_LAYER=" + str(totalLayerCount) + " CURRENT_LAYER=" + str(
+                    currentLayer) + " PROGRESS=" + str(gcodePercentProgress) + " REMAIN=" + str(gcodeRemainPrintTime) + "\n" + layerData
+
         return data
 
 
 # start g-code format
-# START_PRINT BED_TEMP={material_bed_temperature_layer_0} EXTRUDER_TEMP={material_print_temperature_layer_0} AREA_START=%MINX%,%MINY% AREA_END=%MAXX%,%MAXY%
+# START_PRINT EXTRUDER_TEMP={material_print_temperature_layer_0} BED_TEMP={material_bed_temperature_layer_0} AREA_START=%MINX%,%MINY% AREA_END=%MAXX%,%MAXY%
 
 # layer progress format
-# DISPLAY_GCODE_PROGRESS TOTAL_LAYER=37 CURRENT_LAYER=0 PROGRESS=4 REMAIN=0:5
+# SET_GCODE_PROGRESS TOTAL_LAYER=37 CURRENT_LAYER=0 PROGRESS=4 REMAIN=0:5

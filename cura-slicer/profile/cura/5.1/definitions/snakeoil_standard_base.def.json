@@ -1,5 +1,5 @@
 {
-    "name": "SnakeOilXY Base",
+    "name": "SnakeOil Standard Base",
     "version": 2,
     "inherits": "fdmprinter",
     "metadata": 
@@ -11,7 +11,7 @@
         "first_start_actions": ["MachineSettingsAction"],
         "preferred_quality_type": "normal",
         "has_machine_quality": true,
-        "machine_extruder_trains": { "0": "snakeoilxy_extruder_0" },
+        "machine_extruder_trains": { "0": "snakeoil_standard_extruder_0" },
         "preferred_material": "generic_abs",
         "exclude_materials": [
             "ultimaker_abs_black",
@@ -67,7 +67,7 @@
     },
     "overrides":
     {
-        "machine_name":                                 { "default_value": "SNAKEOILXY" },
+        "machine_name":                                 { "default_value": "SNAKEOIL STANDARD" },
         "machine_width":                                { "default_value": 180 },
         "machine_depth":                                { "default_value": 180 },
         "machine_height":                               { "default_value": 180 },
@@ -91,7 +91,7 @@
         "machine_head_with_fans_polygon":               { "default_value": [ [-35, 65], [-35, -50], [35, -50], [35, 65] ] },
         "machine_max_feedrate_z":                       { "default_value": 40 },
         "machine_max_feedrate_e":                       { "default_value": 120 },
-        "machine_gcode_flavor":                         { "default_value": "RepRap (RepRap)" },
+        "machine_gcode_flavor":                         { "default_value": "RepRap (Marlin/Sprinter)" },
         "machine_start_gcode":                          { "default_value": "START_PRINT EXTRUDER_TEMP={material_print_temperature_layer_0} BED_TEMP={material_bed_temperature_layer_0} AREA_START=%MINX%,%MINY% AREA_END=%MAXX%,%MAXY% FILAMENT_TYPE={material_type}" },
         "machine_end_gcode":                            { "default_value": "END_PRINT" },
         "adhesion_type":                                { "default_value": "skirt" },

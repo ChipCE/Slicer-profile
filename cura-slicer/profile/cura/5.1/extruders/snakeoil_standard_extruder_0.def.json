@@ -4,7 +4,7 @@
     "inherits": "fdmextruder",
     "metadata":
     {
-        "machine": "snakeoilxy_base",
+        "machine": "snakeoil_standard_base",
         "position": "0"
     },
 

@@ -3,6 +3,7 @@ import re  # To perform the search and replace.
 from ..Script import Script
 
 class KlipperPrintArea(Script):
+    
     def getSettingDataString(self):
         return """{
             "name": "Klipper print area mesh",

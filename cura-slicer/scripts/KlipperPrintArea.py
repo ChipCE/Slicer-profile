@@ -2,9 +2,7 @@
 import re  # To perform the search and replace.
 from ..Script import Script
 
-
 class KlipperPrintArea(Script):
-
     def getSettingDataString(self):
         return """{
             "name": "Klipper print area mesh",
@@ -15,12 +13,9 @@ class KlipperPrintArea(Script):
         }"""
 
     def execute(self, data):
-
         minMaxXY = {'MINX': 0, 'MINY': 0, 'MAXX': 0, 'MAXY': 0}
         startGcodeLineData = ''
-
         for layerNumber, layerData in enumerate(data):
-
             # search for print area boundary
             for k, v in minMaxXY.items():
                 result = re.search(str(k)+":(\d*\.?\d*)", layerData)
@@ -38,7 +33,6 @@ class KlipperPrintArea(Script):
                     startGcodeLineData = re.sub(
                         pattern3, v, startGcodeLineData)
                 data[layerNumber] = startGcodeLineData
-
         return data
 
 
